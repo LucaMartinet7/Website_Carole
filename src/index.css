@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@import 'tailwindcss';
+
+:root {
+  --night: #09080f;
+  --deep: #110f1e;
+  --mid: #1c1830;
+  --gold: #c9a96e;
+  --gold2: #e8d5a3;
+  --cream: #f5efe6;
+  --muted: #a89f96;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+#root {
+  font-family: 'Raleway', sans-serif;
+  background: var(--night);
+  color: var(--cream);
+  overflow-x: hidden;
+  background: #09080f;
+}
+#root {
+  min-height: 100svh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes breathe {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.6;
+  }
+
+  50% {
+    transform: translate(-50%, -50%) scale(1.15);
+    opacity: 1;
+  }
+}
+
+@keyframes scrollPulse {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scaleY(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scaleY(1.1);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
