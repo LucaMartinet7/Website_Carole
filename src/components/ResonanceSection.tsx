@@ -15,8 +15,8 @@ export function ResonanceSection() {
           }
           description={
             <>
-              Si l'une de ces réalités résonne en vous, le Reiki peut vous apporter un soutien
-              profond et durable.
+              Si l'une de ces réalités résonne en vous, je peux vous apporter un soutien et une
+              transformation profonde et durable.
             </>
           }
         />
