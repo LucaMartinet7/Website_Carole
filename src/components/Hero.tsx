@@ -20,7 +20,7 @@ export function Hero() {
           et votre élan de vie
         </h1>
         <p className="mx-auto mb-12 max-w-[520px] text-[0.88rem] font-light leading-[1.8] tracking-[0.08em] text-[var(--muted)] opacity-0 [animation:fadeUp_0.9s_0.6s_forwards]">
-          Séances de Reiki individuelles, formations et réflexologie faciale.
+          Séances de Reiki individuelles, initiations, formations et ThetaHealing.
           <br />À Ornex, Genève, ou à distance — en français et en anglais.
         </p>
         <div className="flex flex-wrap justify-center gap-5 opacity-0 [animation:fadeUp_0.9s_0.8s_forwards]">
