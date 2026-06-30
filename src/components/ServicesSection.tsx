@@ -10,7 +10,7 @@ export function ServicesSection() {
           label="Ce que je propose"
           title={
             <>
-              Trois chemins vers <em>votre transformation</em>
+              Un accompagnement <em>sur mesure</em>
             </>
           }
           description={
