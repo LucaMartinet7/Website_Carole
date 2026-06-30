@@ -2,9 +2,6 @@ import { aboutBadges, contact, locations } from '../content/siteContent'
 import { Reveal } from './Reveal'
 import { SectionHeading } from './SectionHeading'
 
-const aboutImageUrl =
-  'https://static.wixstatic.com/media/574625_1ff956beb8884a3d92f5e77d23e876da~mv2.jpg/v1/fill/w_400,h_550,al_c,q_85,enc_avif,quality_auto/photopro.jpg'
-
 export function AboutSection() {
   return (
     <section
@@ -12,24 +9,7 @@ export function AboutSection() {
       className="relative z-10 bg-[linear-gradient(to_bottom,var(--deep),var(--mid))]"
     >
       <div className="mx-auto max-w-[1140px] px-8 py-24">
-        <div className="grid items-center gap-20 lg:grid-cols-[1fr_1.15fr]">
-          <Reveal className="relative">
-            <div className="pointer-events-none absolute inset-[-12px_12px_12px_-12px] border border-[rgba(201,169,110,0.2)]" />
-            <img
-              className="block aspect-[3/4] w-full object-cover object-top grayscale-[20%] contrast-[1.05]"
-              src={aboutImageUrl}
-              alt="Carole Martinet, Maître Reiki"
-            />
-            <div className="absolute bottom-[-1.5rem] right-[-1.5rem] bg-[var(--gold)] px-6 py-4 text-center text-[var(--night)]">
-              <strong className="block text-[1.8rem] font-semibold leading-none [font-family:'Cormorant_Garamond',serif]">
-                2014
-              </strong>
-              <span className="text-[0.62rem] font-medium uppercase tracking-[0.18em]">
-                Maître Reiki
-              </span>
-            </div>
-          </Reveal>
-
+        <div className="mx-auto max-w-[760px]">
           <div>
             <SectionHeading
               align="left"

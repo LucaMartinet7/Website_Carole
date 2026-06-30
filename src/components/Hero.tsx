@@ -1,5 +1,8 @@
 import { contact } from '../content/siteContent'
 
+const heroPortraitUrl =
+  'https://static.wixstatic.com/media/574625_1ff956beb8884a3d92f5e77d23e876da~mv2.jpg/v1/fill/w_1600,h_1829,al_t,q_95,usm_1.20_1.00_0.01,enc_avif,quality_auto/photopro.jpg'
+
 export function Hero() {
   return (
     <section
@@ -9,6 +12,13 @@ export function Hero() {
       <div className="pointer-events-none absolute left-1/2 top-1/2 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(107,76,140,0.35)_0%,transparent_70%)] [animation:breathe_7s_ease-in-out_infinite]" />
       <div className="pointer-events-none absolute bottom-[10%] left-1/2 h-[400px] w-[900px] -translate-x-1/2 bg-[radial-gradient(ellipse,rgba(201,169,110,0.07)_0%,transparent_65%)]" />
       <div className="relative z-10">
+        <div className="mx-auto mb-10 w-full max-w-[300px] overflow-hidden rounded-3xl border border-[rgba(201,169,110,0.25)] opacity-0 shadow-[0_8px_40px_rgba(0,0,0,0.4)] [animation:fadeUp_0.9s_0.1s_forwards]">
+          <img
+            className="block aspect-[7/8] w-full object-cover object-top contrast-[1.03]"
+            src={heroPortraitUrl}
+            alt="Carole Martinet, Maître Reiki"
+          />
+        </div>
         <p className="mb-7 text-[0.68rem] font-medium uppercase tracking-[0.35em] text-[var(--gold)] opacity-0 [animation:fadeUp_0.9s_0.2s_forwards]">
           Thérapeute Énergétique · Maître Reiki depuis 2014
         </p>
