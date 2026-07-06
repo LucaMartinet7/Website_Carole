@@ -1,7 +1,6 @@
 import { contact } from '../content/siteContent'
 
-const heroPortraitUrl =
-  'https://static.wixstatic.com/media/574625_1ff956beb8884a3d92f5e77d23e876da~mv2.jpg/v1/fill/w_1600,h_1829,al_t,q_95,usm_1.20_1.00_0.01,enc_avif,quality_auto/photopro.jpg'
+const heroPortraitUrl = '/portrait.jpeg'
 
 export function Hero() {
   return (
@@ -14,7 +13,7 @@ export function Hero() {
       <div className="relative z-10">
         <div className="mx-auto mb-10 w-full max-w-[240px] overflow-hidden rounded-3xl border border-[rgba(201,169,110,0.25)] opacity-0 shadow-[0_8px_40px_rgba(0,0,0,0.4)] [animation:fadeUp_0.9s_0.1s_forwards]">
           <img
-            className="block aspect-[7/8] w-full object-cover object-top contrast-[1.03]"
+            className="block aspect-[3/4] w-full object-cover object-[center_38%] brightness-[0.97] contrast-[1.12] saturate-[1.12]"
             src={heroPortraitUrl}
             alt="Carole Martinet, Maître Reiki"
           />
