@@ -9,25 +9,25 @@ export const resonanceCards = [
     icon: '🌊',
     title: 'Stress & Épuisement',
     description:
-      'Vous vous sentez débordé(e), fatigué(e) de manière chronique, incapable de vous déconnecter vraiment.',
+      'Vous vous sentez débordé(e), tendu(e), épuisé(e), sans parvenir à relâcher la pression ni à vous ressourcer vraiment.',
   },
   {
     icon: '🔒',
     title: 'Blocages émotionnels',
     description:
-      'Des schémas répétitifs vous freinent — peur, colère, tristesse — sans que vous parveniez à les dépasser seul(e).',
+      'Peur, colère ou tristesse reviennent en boucle, sans que vous parveniez à les apaiser seul(e).',
   },
   {
     icon: '💫',
     title: 'Manque de confiance',
     description:
-      'Vous aspirez à avancer dans votre vie personnelle ou professionnelle mais quelque chose vous retient.',
+      'Vous aspirez à oser davantage dans votre vie personnelle ou professionnelle, mais un doute intérieur vous fait hésiter à franchir le pas.',
   },
   {
     icon: '🧬',
     title: 'Héritages invisibles',
     description:
-      'Sans le savoir, nous portons les mémoires de nos lignées familiales, les schémas de notre éducation, d’anciens traumatismes, parfois des vies antérieures ou parallèles — autant d’empreintes de l’invisible qui nous retiennent.',
+      'Sans le savoir, vous portez les mémoires de vos lignées familiales, l’empreinte de votre éducation, d’anciens traumatismes, parfois des vies antérieures ou parallèles.',
   },
 ] as const
 
