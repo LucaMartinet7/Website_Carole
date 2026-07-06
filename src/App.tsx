@@ -1,28 +1,31 @@
-import { AboutSection } from './components/AboutSection'
-import { CtaSection } from './components/CtaSection'
+import { useEffect } from 'react'
+import { Route, Routes, useLocation } from 'react-router-dom'
 import { Footer } from './components/Footer'
-import { Hero } from './components/Hero'
 import { Navigation } from './components/Navigation'
-import { QuoteSection } from './components/QuoteSection'
-import { ResonanceSection } from './components/ResonanceSection'
-import { ServicesSection } from './components/ServicesSection'
 import { StarfieldCanvas } from './components/StarfieldCanvas'
-import { TestimonialsSection } from './components/TestimonialsSection'
+import { HomePage } from './pages/HomePage'
+import { SeanceIndividuelle } from './pages/SeanceIndividuelle'
+
+function ScrollToTop() {
+  const { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
+  return null
+}
 
 function App() {
   return (
     <div className="relative min-h-screen overflow-x-hidden bg-[var(--night)] text-[var(--cream)]">
+      <ScrollToTop />
       <StarfieldCanvas />
       <Navigation />
-      <main className="relative z-10">
-        <Hero />
-        <ResonanceSection />
-        <ServicesSection />
-        <AboutSection />
-        <QuoteSection />
-        <TestimonialsSection />
-        <CtaSection />
-      </main>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/seance-individuelle" element={<SeanceIndividuelle />} />
+      </Routes>
       <Footer />
     </div>
   )

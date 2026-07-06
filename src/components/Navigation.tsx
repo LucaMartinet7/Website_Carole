@@ -23,7 +23,7 @@ export function Navigation() {
     >
       <a
         className="whitespace-nowrap text-[1.35rem] font-normal uppercase tracking-[0.15em] text-[var(--gold2)] [font-family:'Cormorant_Garamond',serif]"
-        href="#hero"
+        href="/#hero"
       >
         Carole Martinet
       </a>

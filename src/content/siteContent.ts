@@ -1,48 +1,52 @@
 export const navigationLinks = [
-  { label: 'Soins', href: '#services' },
-  { label: 'À propos', href: '#about' },
-  { label: 'Témoignages', href: '#testimonials' },
+  { label: 'Soins', href: '/#services' },
+  { label: 'À propos', href: '/#about' },
+  { label: 'Témoignages', href: '/#testimonials' },
 ] as const
 
 export const resonanceCards = [
   {
     icon: '🌊',
     title: 'Stress & Épuisement',
-    description:
-      'Vous vous sentez débordé(e), tendu(e), épuisé(e), sans parvenir à relâcher la pression ni à vous ressourcer vraiment.',
+    description: 'débordé(e), tendu(e), épuisé(e), sans parvenir à relâcher la pression.',
   },
   {
     icon: '🔒',
     title: 'Blocages émotionnels',
-    description:
-      'Peur, colère ou tristesse reviennent en boucle, sans que vous parveniez à les apaiser seul(e).',
+    description: 'peur, colère ou tristesse qui reviennent en boucle.',
   },
   {
     icon: '💫',
     title: 'Manque de confiance',
-    description:
-      'Vous aspirez à oser davantage dans votre vie personnelle ou professionnelle, mais un doute intérieur vous fait hésiter à franchir le pas.',
+    description: 'oser avancer malgré le doute intérieur.',
   },
   {
     icon: '🧬',
     title: 'Héritages invisibles',
-    description:
-      'Sans le savoir, vous portez les mémoires de vos lignées familiales, l’empreinte de votre éducation, d’anciens traumatismes, parfois des vies antérieures ou parallèles.',
+    description: 'mémoires familiales, éducation, traumatismes, vies antérieures ou parallèles.',
   },
 ] as const
 
 export const services = [
   {
     number: '01',
-    title: 'Séance Reiki',
+    title: 'Séance individuelle',
     description:
       'Une technique douce et non invasive pour libérer les tensions, rééquilibrer votre énergie et retrouver un calme profond. En présentiel ou à distance.',
-    href: 'https://www.carolemartinet.com/soins',
+    href: '/seance-individuelle',
     cta: 'En savoir plus',
   },
   {
     number: '02',
-    title: 'Formation Reiki',
+    title: 'Initiation Reiki',
+    description:
+      'Une découverte du Reiki en groupe, pour vous familiariser avec les énergies, ressentir leurs bienfaits et faire vos premiers pas en douceur. Idéale lors d’ateliers et d’événements bien-être.',
+    href: 'https://www.carolemartinet.com/copie-de-seance',
+    cta: 'En savoir plus',
+  },
+  {
+    number: '03',
+    title: 'Formations Reiki',
     description:
       'Degrés 1 à 4, en petits groupes pour un enseignement personnalisé. Apprenez à pratiquer le Reiki pour vous-même et vos proches, avec un suivi après chaque niveau.',
     href: 'https://www.carolemartinet.com/copie-de-seance',
@@ -120,6 +124,40 @@ export const contact = {
   phone: '+33678531946',
   phoneDisplay: '+33 6 78 53 19 46',
   email: 'martinetcarole1@gmail.com',
+} as const
+
+export const seancePage = {
+  intro:
+    'Un accompagnement sur mesure pour favoriser une détente profonde, dissiper le stress et revitaliser votre énergie.',
+  deroulement:
+    'Chaque séance débute par un échange qui permet de définir ensemble vos priorités et vos besoins. J’accompagne avec empathie les personnes confrontées à la fatigue chronique, au stress persistant, au besoin de reconnexion intérieure ou au désir de changement. Les séances se déroulent en français ou en anglais, fortes de plus de vingt ans d’expérience internationale.',
+  explorer: {
+    text: 'Ensemble, nous explorons vos pensées, vos émotions et vos comportements afin de libérer les blocages conscients et inconscients — y compris les schémas émotionnels et les charges négatives, parfois liés à des vies antérieures.',
+    objectifs: [
+      'Relâcher les émotions limitantes',
+      'Renforcer la confiance en soi',
+      'Raviver la motivation pour un avenir aligné avec vos aspirations',
+    ],
+  },
+  reiki: {
+    text: 'Le Reiki est une pratique énergétique japonaise, douce et sans danger, qui agit par imposition des mains. Il favorise la libération du stress, de la rumination mentale, des somatisations, des états dépressifs, de l’insomnie et du burn-out.',
+    bienfaits: [
+      'Relaxation profonde et réduction du stress',
+      'Harmonisation du corps et de l’esprit',
+      'Atténuation des douleurs physiques',
+      'Amélioration de la qualité du sommeil',
+      'Diminution de la fatigue et des états dépressifs',
+      'Renforcement du système immunitaire',
+      'Regain d’énergie et de motivation',
+    ],
+  },
+  pratique: {
+    lieux:
+      'En présentiel à Ornex (01) ou à Genève, et à distance partout dans le monde.',
+    recommandation:
+      'Un cycle de 3 séances espacées de 15 jours est conseillé, suivi d’une séance mensuelle si besoin.',
+  },
+  avis: 'Le Reiki est un complément à la médecine traditionnelle et ne remplace en aucun cas un traitement médical.',
 } as const
 
 export const aboutStory = [
