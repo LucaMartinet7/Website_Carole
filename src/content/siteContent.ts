@@ -24,10 +24,10 @@ export const resonanceCards = [
       'Vous aspirez à avancer dans votre vie personnelle ou professionnelle mais quelque chose vous retient.',
   },
   {
-    icon: '🌿',
-    title: 'Quête de bien-être',
+    icon: '🧬',
+    title: 'Héritages invisibles',
     description:
-      'Vous sentez l’appel d’une détente plus profonde, d’une harmonie corps-esprit que les approches classiques n’ont pas comblée.',
+      'Sans le savoir, nous portons les mémoires de nos lignées familiales, les schémas de notre éducation, d’anciens traumatismes, parfois des vies antérieures ou parallèles — autant d’empreintes de l’invisible qui nous retiennent.',
   },
 ] as const
 
