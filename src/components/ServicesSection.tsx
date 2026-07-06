@@ -21,7 +21,7 @@ export function ServicesSection() {
           }
         />
         <Reveal delayMs={300}>
-          <div className="grid border border-[rgba(201,169,110,0.15)] md:grid-cols-3">
+          <div className="grid border border-[rgba(201,169,110,0.15)] md:grid-cols-2">
             {services.map((service) => (
               <a
                 key={service.number}

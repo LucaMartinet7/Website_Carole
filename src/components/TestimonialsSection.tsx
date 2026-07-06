@@ -15,8 +15,7 @@ export function TestimonialsSection() {
           }
           description={
             <>
-              Des retours sincères de personnes accompagnées avec le Reiki et la réflexologie
-              faciale.
+              Des retours sincères de personnes accompagnées avec le Reiki.
             </>
           }
         />

@@ -48,14 +48,6 @@ export const services = [
     href: 'https://www.carolemartinet.com/copie-de-seance',
     cta: 'Voir les formations',
   },
-  {
-    number: '03',
-    title: 'Réflexologie Faciale',
-    description:
-      'Une approche complémentaire qui agit sur l’ensemble du corps à travers les points réflexes du visage, pour une détente aussi profonde que globale.',
-    href: 'https://www.carolemartinet.com/copie-de-seance-1',
-    cta: 'Découvrir',
-  },
 ] as const
 
 export const aboutBadges = [
