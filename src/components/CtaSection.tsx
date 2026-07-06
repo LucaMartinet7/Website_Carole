@@ -22,7 +22,7 @@ export function CtaSection() {
           description={
             <>
               Chaque chemin vers le bien-être commence par un premier pas. Contactez-moi pour
-              échanger de vos besoins ou réserver directement votre séance.
+              échanger sur vos besoins ou réserver directement votre séance.
             </>
           }
         />
