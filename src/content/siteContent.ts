@@ -173,16 +173,16 @@ export const expertise = {
     'Je me spécialise dans le retour à soi. Je vous aide à vous déconnecter des tensions, libérer ce qui vous retient et créer la vie qui vous ressemble.',
   points: [
     {
-      title: 'Comprendre et gérer le stress',
-      text: 'Le stress chronique peut engendrer anxiété, fatigue, douleurs et troubles divers. Je vous aide à apaiser ces tensions et à retrouver une sérénité intérieure.',
+      title: 'Libération',
+      text: 'Se délester des tensions, des émotions et des blocages qui pèsent — parfois hérités de votre passé, de votre famille ou de vies antérieures — pour libérer les peurs et les croyances qui vous limitent.',
     },
     {
-      title: 'Une transformation profonde et durable',
-      text: 'Mes séances permettent de libérer les blocages énergétiques, qu’ils soient liés à votre passé, à votre héritage familial ou à des vies antérieures. Ensemble, nous libérons les peurs et les croyances limitantes et réinitialisons vos schémas de pensée, pour retrouver votre essence profonde et votre plein potentiel.',
+      title: 'Équilibre',
+      text: 'Retrouver l’harmonie du corps et de l’esprit, apaiser le stress et l’anxiété, et renouer avec une sérénité profonde et durable.',
     },
     {
-      title: 'Un accompagnement pas à pas',
-      text: 'Chaque soin est une étape vers une transformation intérieure, vous permettant de reprendre le contrôle de votre bien-être et de votre évolution.',
+      title: 'Cheminement',
+      text: 'Avancer à votre rythme, pas à pas, vers votre essence profonde et votre plein potentiel. Chaque soin est une étape de votre évolution.',
     },
   ],
 } as const

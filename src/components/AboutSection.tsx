@@ -57,7 +57,7 @@ export function AboutSection() {
           <Reveal delayMs={200}>
             <div className="mt-16">
               <h3 className="text-[1.6rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
-                Mon expertise : <em>équilibre et transformation</em>
+                Mon expertise : <em>libération, équilibre, cheminement</em>
               </h3>
               <p className="mt-4 text-[0.87rem] font-light leading-[1.9] text-[var(--muted)]">
                 {expertise.intro}
