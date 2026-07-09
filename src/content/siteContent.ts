@@ -170,7 +170,7 @@ export const aboutStory = [
 
 export const expertise = {
   intro:
-    'Je me spécialise dans la réduction du stress, la gestion de l’anxiété, la libération émotionnelle et la transformation personnelle.',
+    'Je me spécialise dans le retour à soi. Je vous aide à vous déconnecter des tensions, libérer ce qui vous retient et créer la vie qui vous ressemble.',
   points: [
     {
       title: 'Comprendre et gérer le stress',
