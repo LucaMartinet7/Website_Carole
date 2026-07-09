@@ -21,12 +21,10 @@ export function Hero() {
         <p className="mb-7 text-[0.68rem] font-medium uppercase tracking-[0.35em] text-[var(--gold)] opacity-0 [animation:fadeUp_0.9s_0.2s_forwards]">
           Thérapeute Énergétique · Maître Reiki depuis 2014
         </p>
-        <h1 className="mx-auto mb-4 max-w-[820px] text-[clamp(2.8rem,7vw,5.8rem)] font-light leading-[1.05] tracking-[-0.01em] text-[var(--cream)] opacity-0 [font-family:'Cormorant_Garamond',serif] [animation:fadeUp_0.9s_0.4s_forwards]">
-          Retrouvez votre
+        <h1 className="mx-auto mb-4 max-w-[820px] text-[clamp(2.4rem,6vw,5rem)] font-light leading-[1.05] tracking-[-0.01em] text-[var(--cream)] opacity-0 [font-family:'Cormorant_Garamond',serif] [animation:fadeUp_0.9s_0.4s_forwards]">
+          Retrouvez votre <em>équilibre</em>
           <br />
-          <em>équilibre intérieur</em>
-          <br />
-          et votre élan de vie
+          et avancez vers ce qui est juste pour{' '}vous
         </h1>
         <p className="mx-auto mb-12 max-w-[520px] text-[0.88rem] font-light leading-[1.8] tracking-[0.08em] text-[var(--muted)] opacity-0 [animation:fadeUp_0.9s_0.6s_forwards]">
           Séances de Reiki individuelles, initiations, formations.
