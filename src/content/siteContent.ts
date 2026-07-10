@@ -161,11 +161,11 @@ export const seancePage = {
 } as const
 
 export const aboutStory = [
-  'Mon chemin vers le bien-être a débuté dès l’enfance, avec la découverte des bienfaits des médecines complémentaires. Là où la médecine traditionnelle ne suffisait pas à soulager plusieurs de mes proches, nous avons commencé à y associer des soins non conventionnels.',
-  'Très tôt, j’ai aussi pris conscience de ma sensibilité énergétique, ressentant les énergies qui nous entourent et la présence d’un monde subtil. Affinée par des soins, des stages et des initiations, cette sensibilité a nourri ma passion pour le bien-être énergétique et le développement personnel.',
-  'Après des études en école de commerce et une carrière dans la mode, j’ai vécu aux États-Unis, en Côte d’Ivoire et au Royaume-Uni. Durant ces vingt années à l’étranger, j’ai continué à pratiquer les soins énergétiques, pour mes proches comme pour moi-même.',
-  'En 2010, ma reconversion professionnelle m’a conduite à me former au Reiki Usui Ryoho, la forme japonaise traditionnelle du Reiki. J’ai eu l’honneur d’étudier auprès de la professeure japonaise Tomoyo Nozaki et suis devenue Maître Reiki à Londres en 2014. Cette expérience a approfondi ma connaissance du Reiki et favorisé mon développement intérieur.',
-  'Mon travail s’étend également aux thérapies comportementales et cognitives, notamment aux techniques de libération émotionnelle. J’ai suivi la formation TERET en 2009, développée par Alexander Pregizer, et continue d’approfondir ce domaine. Plus récemment, j’ai exploré les Annales Akashiques avec Emily Nicolle, renforçant ma confiance en mes perceptions énergétiques.',
+  'Mon chemin vers le bien-être a commencé dès l’enfance, en découvrant les approches complémentaires. Là où la médecine classique ne suffisait pas à soulager mes proches, j’ai découvert combien des méthodes énergétiques et émotionnelles pouvaient apaiser et transformer notre être en profondeur. Cette conviction ne m’a jamais quittée.',
+  'Très tôt, j’ai perçu ce que l’on ne voit pas toujours : les énergies qui nous entourent, la présence d’un monde subtil. Affinée au fil des soins, des stages et des initiations, cette sensibilité est devenue le cœur de ma pratique — et ma façon de vous accueillir, avec écoute et sans jugement.',
+  'Après des études de commerce et une carrière dans la mode, j’ai vécu vingt ans à l’étranger — aux États-Unis, en Côte d’Ivoire et au Royaume-Uni. Ces années, riches de rencontres, m’ont appris la valeur de l’ancrage. Maman, je sais combien il est précieux de retrouver son équilibre pour prendre soin des autres comme de soi.',
+  'En 2010, j’ai choisi de faire de cette vocation mon métier en me formant au Reiki Usui Ryoho, la forme japonaise traditionnelle. J’ai eu l’honneur d’étudier auprès de la Maître japonaise Tomoyo Nozaki et suis devenue Maître Reiki à Londres en 2014 — un cheminement qui a transformé ma pratique autant que ma vie.',
+  'Aujourd’hui, mon travail s’enrichit d’autres approches, notamment les techniques de libération émotionnelle (formation TERET, 2009) et les Annales Akashiques, explorées avec Emily Nicolle. Autant d’outils pour vous aider à vous libérer de ce qui vous retient et à avancer, à votre rythme, vers ce qui est juste pour vous.',
 ] as const
 
 export const expertise = {
