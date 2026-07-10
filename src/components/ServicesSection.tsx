@@ -43,7 +43,7 @@ export function ServicesSection() {
           description={
             <>
               Beaucoup viennent pour se libérer de blocages profonds, ou simplement pour découvrir
-              le Reiki — souvent sans savoir par où commencer. Je vous accueille là où vous en êtes.
+              le Reiki, souvent sans savoir par où commencer. Je vous accueille là où vous en êtes.
               Les formations Reiki, elles, s'adressent à celles et ceux qui souhaitent gagner en
               autonomie et approfondir leur pratique du Reiki, à tous les niveaux.
             </>

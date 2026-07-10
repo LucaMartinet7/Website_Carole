@@ -27,9 +27,8 @@ export function AboutSection() {
             }
             description={
               <>
-                Maître Reiki depuis 2014, maman et thérapeute énergétique, je vous accompagne vers
-                un mieux-être durable, au croisement des soins énergétiques et du développement
-                personnel.
+                Maître Reiki depuis 2014, je vous accompagne vers un mieux-être durable, en alliant
+                soins énergétiques et développement personnel.
               </>
             }
           />

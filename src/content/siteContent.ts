@@ -132,7 +132,7 @@ export const seancePage = {
   deroulement:
     'Chaque séance débute par un échange qui permet de définir ensemble vos priorités et vos besoins. J’accompagne avec empathie les personnes confrontées à la fatigue chronique, au stress persistant, au besoin de reconnexion intérieure ou au désir de changement. Les séances se déroulent en français ou en anglais, fortes de plus de vingt ans d’expérience internationale.',
   explorer: {
-    text: 'Ensemble, nous explorons vos pensées, vos émotions et vos comportements afin de libérer les blocages conscients et inconscients — y compris les schémas émotionnels et les charges négatives, parfois liés à des vies antérieures.',
+    text: 'Ensemble, nous explorons vos pensées, vos émotions et vos comportements afin de libérer les blocages conscients et inconscients, y compris les schémas émotionnels et les charges négatives, parfois liés à des vies antérieures.',
     objectifs: [
       'Relâcher les émotions limitantes',
       'Renforcer la confiance en soi',
@@ -162,10 +162,11 @@ export const seancePage = {
 
 export const aboutStory = [
   'Mon chemin vers le bien-être a commencé dès l’enfance, en découvrant les approches complémentaires. Là où la médecine classique ne suffisait pas à soulager mes proches, j’ai découvert combien des méthodes énergétiques et émotionnelles pouvaient apaiser et transformer notre être en profondeur. Cette conviction ne m’a jamais quittée.',
-  'Très tôt, j’ai perçu ce que l’on ne voit pas toujours : les énergies qui nous entourent, la présence d’un monde subtil. Affinée au fil des soins, des stages et des initiations, cette sensibilité est devenue le cœur de ma pratique — et ma façon de vous accueillir, avec écoute et sans jugement.',
-  'Après des études de commerce et une carrière dans la mode, j’ai vécu vingt ans à l’étranger — aux États-Unis, en Côte d’Ivoire et au Royaume-Uni. Ces années, riches de rencontres, m’ont appris la valeur de l’ancrage. Maman, je sais combien il est précieux de retrouver son équilibre pour prendre soin des autres comme de soi.',
-  'En 2010, j’ai choisi de faire de cette vocation mon métier en me formant au Reiki Usui Ryoho, la forme japonaise traditionnelle. J’ai eu l’honneur d’étudier auprès de la Maître japonaise Tomoyo Nozaki et suis devenue Maître Reiki à Londres en 2014 — un cheminement qui a transformé ma pratique autant que ma vie.',
-  'Aujourd’hui, mon travail s’enrichit d’autres approches, notamment les techniques de libération émotionnelle (formation TERET, 2009) et les Annales Akashiques, explorées avec Emily Nicolle. Autant d’outils pour vous aider à vous libérer de ce qui vous retient et à avancer, à votre rythme, vers ce qui est juste pour vous.',
+  'Très tôt, j’ai perçu ce que l’on ne voit pas toujours, ces énergies qui nous entourent et la présence d’un monde subtil. Affinée au fil des soins, des stages et des initiations, cette sensibilité est devenue le cœur de ma pratique, et ma façon de vous accueillir, avec écoute et sans jugement.',
+  'Après des études de commerce et une carrière dans la mode, j’ai vécu vingt ans à l’étranger, aux États-Unis, en Côte d’Ivoire et au Royaume-Uni. Des années riches de rencontres, qui m’ont appris la valeur de l’ancrage et de l’écoute.',
+  'En 2010, j’ai choisi de faire de cette vocation mon métier en me formant au Reiki Usui Ryoho, la forme japonaise traditionnelle. J’ai eu l’honneur d’étudier auprès de la Maître japonaise Tomoyo Nozaki et suis devenue Maître Reiki à Londres en 2014. Ce cheminement a transformé ma pratique autant que ma vie.',
+  'J’ai aussi pris le temps d’élever mes enfants, aujourd’hui de jeunes adultes. Cette étape accomplie, je me consacre désormais pleinement à mon métier et aux personnes que j’accompagne.',
+  'Ma pratique s’enrichit d’autres approches, notamment les techniques de libération émotionnelle (formation TERET, 2009) et les Annales Akashiques, explorées avec Emily Nicolle. Autant d’outils pour vous aider à vous libérer de ce qui vous retient et à avancer, à votre rythme, vers ce qui est juste pour vous.',
 ] as const
 
 export const expertise = {
@@ -174,7 +175,7 @@ export const expertise = {
   points: [
     {
       title: 'Libération',
-      text: 'Se délester des tensions, des émotions et des blocages qui pèsent — parfois hérités de votre passé, de votre famille ou de vies antérieures — pour libérer les peurs et les croyances qui vous limitent.',
+      text: 'Se délester des tensions, des émotions et des blocages qui pèsent, parfois hérités de votre passé, de votre famille ou de vies antérieures, pour libérer les peurs et les croyances qui vous limitent.',
     },
     {
       title: 'Équilibre',
