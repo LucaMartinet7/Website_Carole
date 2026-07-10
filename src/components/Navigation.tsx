@@ -17,12 +17,12 @@ export function Navigation() {
 
   return (
     <nav
-      className={`fixed left-0 right-0 top-0 z-50 flex items-center justify-between gap-6 bg-gradient-to-b from-[rgba(9,8,15,0.95)] to-transparent px-6 py-5 backdrop-blur-[4px] transition-colors md:px-12 ${
+      className={`fixed left-0 right-0 top-0 z-50 flex items-center justify-between gap-3 bg-gradient-to-b from-[rgba(9,8,15,0.95)] to-transparent px-4 py-5 backdrop-blur-[4px] transition-colors md:gap-6 md:px-12 ${
         scrolled ? 'bg-[rgba(9,8,15,0.97)]' : ''
       }`}
     >
       <a
-        className="whitespace-nowrap text-[1.35rem] font-normal uppercase tracking-[0.15em] text-[var(--gold2)] [font-family:'Cormorant_Garamond',serif]"
+        className="whitespace-nowrap text-[1rem] font-normal uppercase tracking-[0.1em] text-[var(--gold2)] [font-family:'Cormorant_Garamond',serif] md:text-[1.35rem] md:tracking-[0.15em]"
         href="/#hero"
       >
         Carole Martinet
@@ -40,7 +40,7 @@ export function Navigation() {
         ))}
       </ul>
       <a
-        className="inline-flex items-center justify-center bg-[var(--gold)] px-5 py-2 text-[0.7rem] font-medium uppercase tracking-[0.18em] text-[var(--night)] transition-transform hover:-translate-y-px hover:bg-[var(--gold2)]"
+        className="inline-flex shrink-0 items-center justify-center whitespace-nowrap bg-[var(--gold)] px-3 py-2 text-[0.58rem] font-medium uppercase tracking-[0.1em] text-[var(--night)] transition-transform hover:-translate-y-px hover:bg-[var(--gold2)] md:px-5 md:text-[0.7rem] md:tracking-[0.18em]"
         href={`tel:${contact.phone}`}
       >
         Prendre rendez-vous

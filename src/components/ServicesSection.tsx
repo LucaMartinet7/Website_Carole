@@ -37,13 +37,15 @@ export function ServicesSection() {
           label="Ce que je propose"
           title={
             <>
-              Un accompagnement <em>sur mesure</em>
+              Se libérer, découvrir, <em>apprendre</em>
             </>
           }
           description={
             <>
-              Chaque soin est adapté à votre réalité du moment. Ensemble, nous définissons
-              l'accompagnement le plus juste pour vous.
+              Beaucoup viennent pour se libérer de blocages profonds, ou simplement pour découvrir
+              le Reiki — souvent sans savoir par où commencer. Je vous accueille là où vous en êtes.
+              Les formations Reiki, elles, s'adressent à celles et ceux qui souhaitent gagner en
+              autonomie et approfondir leur pratique du Reiki, à tous les niveaux.
             </>
           }
         />
