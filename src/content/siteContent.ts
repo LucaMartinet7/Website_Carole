@@ -161,12 +161,11 @@ export const seancePage = {
 } as const
 
 export const aboutStory = [
-  'Mon chemin vers le bien-être a commencé dès l’enfance, en découvrant les approches complémentaires. Là où la médecine classique ne suffisait pas à soulager mes proches, j’ai découvert combien des méthodes énergétiques et émotionnelles pouvaient apaiser et transformer notre être en profondeur. Cette conviction ne m’a jamais quittée.',
-  'Très tôt, j’ai perçu ce que l’on ne voit pas toujours, ces énergies qui nous entourent et la présence d’un monde subtil. Affinée au fil des soins, des stages et des initiations, cette sensibilité est devenue le cœur de ma pratique, et ma façon de vous accueillir, avec écoute et sans jugement.',
-  'Après des études de commerce et une carrière dans la mode, j’ai vécu vingt ans à l’étranger, aux États-Unis, en Côte d’Ivoire et au Royaume-Uni. Des années riches de rencontres, qui m’ont appris la valeur de l’ancrage et de l’écoute.',
-  'En 2010, j’ai choisi de faire de cette vocation mon métier en me formant au Reiki Usui Ryoho, la forme japonaise traditionnelle. J’ai eu l’honneur d’étudier auprès de la Maître japonaise Tomoyo Nozaki et suis devenue Maître Reiki à Londres en 2014. Ce cheminement a transformé ma pratique autant que ma vie.',
-  'J’ai aussi pris le temps d’élever mes enfants, aujourd’hui de jeunes adultes. Cette étape accomplie, je me consacre désormais pleinement à mon métier et aux personnes que j’accompagne.',
-  'Ma pratique s’enrichit d’autres approches, notamment les techniques de libération émotionnelle (formation TERET, 2009) et les Annales Akashiques, explorées avec Emily Nicolle. Autant d’outils pour vous aider à vous libérer de ce qui vous retient et à avancer, à votre rythme, vers ce qui est juste pour vous.',
+  'Dès l’enfance, j’ai découvert le pouvoir des approches complémentaires. Là où la médecine classique ne suffisait pas à soulager mes proches, des méthodes énergétiques et émotionnelles apportaient un véritable apaisement. Cette conviction ne m’a jamais quittée.',
+  'Très jeune, j’ai aussi ressenti les énergies qui nous entourent et la présence d’un monde subtil. Nourrie par des soins, des stages et des initiations, cette sensibilité est aujourd’hui au cœur de ma pratique. C’est elle qui me permet de vous accueillir avec écoute et sans jugement.',
+  'J’ai ensuite vécu vingt ans à l’étranger, aux États-Unis, en Côte d’Ivoire et au Royaume-Uni. J’y ai terminé mes études, travaillé dans la mode, puis tout arrêté pour prendre le temps d’élever mes enfants. Des années riches de rencontres et de don de soi, qui m’ont appris la valeur de l’ancrage et de l’écoute.',
+  'En 2010, j’ai décidé de faire de cette vocation mon métier. Je me suis formée au Reiki Usui Ryoho, sa forme traditionnelle, auprès de la Maître japonaise Tomoyo Nozaki, et je suis devenue Maître Reiki à Londres en 2014. Ce cheminement a transformé ma pratique autant que ma vie.',
+  'Aujourd’hui, ma pratique s’enrichit d’autres approches, comme les techniques de libération émotionnelle (TERET) et les Annales Akashiques. Autant d’outils pour vous aider à vous libérer de ce qui vous retient et à avancer, à votre rythme, vers ce qui est juste pour vous.',
 ] as const
 
 export const expertise = {
