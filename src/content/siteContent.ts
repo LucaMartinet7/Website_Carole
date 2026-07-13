@@ -68,7 +68,7 @@ export const locations = [
   },
   {
     title: 'Genève',
-    detail: 'Cabinet secondaire',
+    detail: 'Centre Aliotis, quartier de Rive',
   },
   {
     title: 'À distance',
@@ -128,34 +128,34 @@ export const contact = {
 
 export const seancePage = {
   intro:
-    'Un accompagnement sur mesure pour favoriser une détente profonde, dissiper le stress et revitaliser votre énergie.',
+    'Un temps rien que pour vous, pour vous détendre en profondeur, relâcher le stress et retrouver votre énergie.',
   deroulement:
-    'Chaque séance débute par un échange qui permet de définir ensemble vos priorités et vos besoins. J’accompagne avec empathie les personnes confrontées à la fatigue chronique, au stress persistant, au besoin de reconnexion intérieure ou au désir de changement. Les séances se déroulent en français ou en anglais, fortes de plus de vingt ans d’expérience internationale.',
+    'Chaque séance commence par un échange, pour cerner ensemble vos besoins et vos priorités. J’accueille avec douceur celles et ceux qui traversent la fatigue, un stress installé, un besoin de se reconnecter à soi ou une envie de changement. Les séances se déroulent en français ou en anglais, fortes de plus de vingt ans d’expérience à l’international.',
   explorer: {
-    text: 'Ensemble, nous explorons vos pensées, vos émotions et vos comportements afin de libérer les blocages conscients et inconscients, y compris les schémas émotionnels et les charges négatives, parfois liés à des vies antérieures.',
+    text: 'Ensemble, nous mettons en lumière ce qui vous freine, consciemment ou non. Peu à peu, nous libérons les blocages, les schémas émotionnels et les charges anciennes, parfois hérités de votre histoire ou de vies antérieures.',
     objectifs: [
-      'Relâcher les émotions limitantes',
-      'Renforcer la confiance en soi',
-      'Raviver la motivation pour un avenir aligné avec vos aspirations',
+      'Relâcher les émotions qui pèsent',
+      'Retrouver confiance en vous',
+      'Raviver votre élan pour avancer vers ce qui compte',
     ],
   },
   reiki: {
-    text: 'Le Reiki est une pratique énergétique japonaise, douce et sans danger, qui agit par imposition des mains. Il favorise la libération du stress, de la rumination mentale, des somatisations, des états dépressifs, de l’insomnie et du burn-out.',
+    text: 'Le Reiki est une pratique énergétique japonaise, douce et sans danger, qui agit par un léger toucher des mains. Il aide à relâcher le stress, à apaiser le mental et à retrouver calme et sérénité.',
     bienfaits: [
-      'Relaxation profonde et réduction du stress',
-      'Harmonisation du corps et de l’esprit',
-      'Atténuation des douleurs physiques',
-      'Amélioration de la qualité du sommeil',
-      'Diminution de la fatigue et des états dépressifs',
-      'Renforcement du système immunitaire',
+      'Détente profonde et baisse du stress',
+      'Harmonie du corps et de l’esprit',
+      'Soulagement des tensions physiques',
+      'Un sommeil plus réparateur',
+      'Moins de fatigue, plus de sérénité',
+      'Système immunitaire soutenu',
       'Regain d’énergie et de motivation',
     ],
   },
   pratique: {
     lieux:
-      'En présentiel à Ornex (01) ou à Genève, et à distance partout dans le monde.',
+      'En présentiel à Ornex (01) ou à Genève (Centre Aliotis, quartier de Rive), et à distance partout dans le monde.',
     recommandation:
-      'Un cycle de 3 séances espacées de 15 jours est conseillé, suivi d’une séance mensuelle si besoin.',
+      'Un cycle de 3 séances à 15 jours d’intervalle, puis une séance par mois si vous le souhaitez.',
   },
   avis: 'Le Reiki est un complément à la médecine traditionnelle et ne remplace en aucun cas un traitement médical.',
 } as const
