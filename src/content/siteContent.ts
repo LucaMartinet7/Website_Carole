@@ -41,7 +41,7 @@ export const services = [
     title: 'Initiation Reiki',
     description:
       'Une découverte du Reiki en groupe, pour vous familiariser avec les énergies, ressentir leurs bienfaits et faire vos premiers pas en douceur. Idéale lors d’ateliers et d’événements bien-être.',
-    href: 'https://www.carolemartinet.com/copie-de-seance',
+    href: '/initiation-reiki',
     cta: 'En savoir plus',
   },
   {
@@ -124,6 +124,25 @@ export const contact = {
   phone: '+33678531946',
   phoneDisplay: '+33 6 78 53 19 46',
   email: 'martinetcarole1@gmail.com',
+} as const
+
+export const initiationPage = {
+  intro:
+    'Un moment convivial pour découvrir le Reiki, ressentir les énergies et faire vos premiers pas, en toute simplicité.',
+  atouts: ['Ouvert à tous', 'Sans expérience', 'En petit groupe', '≈ 1 heure'],
+  presentation:
+    'L’initiation découverte est un temps en groupe, ouvert à tous, pour s’initier en douceur au Reiki. Aucune expérience n’est nécessaire. Vous n’avez rien à préparer ni rien à croire, simplement à être présent à vous-même. Je vous guide pas à pas pour ressentir l’énergie qui vous entoure, l’énergie du Reiki.',
+  vivre: [
+    'Comprendre ce qu’est le Reiki, simplement',
+    'Ressentir le Reiki',
+    'Vivre un premier soin en douceur',
+    'Un moment de détente et de partage',
+  ],
+  deroule:
+    'Pendant environ une heure, en petit groupe, vous découvrez le Reiki de façon simple et rassurante. Après une courte présentation, je vous guide dans une relaxation profonde, puis un soin d’harmonisation en groupe, au cours duquel je pose les mains sur chacun, si vous le souhaitez. Vous ressentez l’énergie du Reiki, votre corps se détend et le mental s’apaise, tandis que votre équilibre énergétique se rétablit peu à peu. Vous repartez avec de premiers outils simples pour vous reconnecter à votre énergie au quotidien.',
+  pourQui:
+    'Pour les curieux, les débutants, celles et ceux qui souhaitent découvrir le Reiki avant d’aller plus loin, ou simplement vivre une belle parenthèse de bien-être en groupe.',
+  ou: 'Je propose ces initiations lors de festivals et d’événements bien-être, comme le Festival de Yoga et de Bien-être de Ferney-Voltaire, ainsi que pour les entreprises et les associations. Bientôt, je vous accueillerai aussi à mon cabinet d’Ornex.',
 } as const
 
 export const seancePage = {
