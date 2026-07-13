@@ -89,7 +89,18 @@ export function SeanceIndividuelle() {
             </h3>
             <p className="mt-4 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
               <strong className="font-medium text-[var(--cream)]">Où&nbsp;:</strong>{' '}
-              {seancePage.pratique.lieux}
+              {seancePage.pratique.lieux
+                .split('séance à distance')
+                .flatMap((part, index, parts) =>
+                  index < parts.length - 1
+                    ? [
+                        part,
+                        <span key={index} className="font-medium italic text-[var(--gold2)]">
+                          séance à distance
+                        </span>,
+                      ]
+                    : [part],
+                )}
             </p>
             <p className="mt-2 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
               <strong className="font-medium text-[var(--cream)]">Rythme conseillé&nbsp;:</strong>{' '}

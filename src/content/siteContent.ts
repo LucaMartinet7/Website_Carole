@@ -155,7 +155,7 @@ export const seancePage = {
   },
   pratique: {
     lieux:
-      'En présentiel à Ornex (01) ou à Genève (Centre Aliotis, quartier de Rive), et à distance partout dans le monde.',
+      'En cabinet à Ornex (01) ou à Genève (Centre Aliotis, quartier de Rive). Et partout dans le monde en séance à distance, aussi puissante qu’en cabinet, sans bouger de chez vous.',
     recommandation:
       'Un cycle de 3 séances à 15 jours d’intervalle, puis une séance par mois si vous le souhaitez.',
   },
