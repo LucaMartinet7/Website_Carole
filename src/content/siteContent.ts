@@ -140,11 +140,10 @@ export const seancePage = {
     ],
   },
   reiki: {
-    text: 'Le Reiki est une pratique énergétique japonaise, douce et sans danger, qui agit par un léger toucher des mains. Il aide à relâcher le stress, à apaiser le mental et à retrouver calme et sérénité.',
+    text: 'Le Reiki est une pratique énergétique japonaise, douce et sans danger, qui agit par un léger toucher des mains.\nIl aide à relâcher le stress, à apaiser le mental et à retrouver calme et sérénité.',
     bienfaits: [
       'Détente profonde et baisse du stress',
       'Harmonie du corps et de l’esprit',
-      'Soulagement des tensions physiques',
       'Un sommeil plus réparateur',
       'Moins de fatigue, plus de sérénité',
       'Système immunitaire soutenu',

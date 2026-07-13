@@ -66,7 +66,7 @@ export function SeanceIndividuelle() {
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               Le Reiki, une <em>approche globale</em>
             </h3>
-            <p className="mt-4 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
+            <p className="mt-4 whitespace-pre-line text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
               {seancePage.reiki.text}
             </p>
             <div className="mt-6 grid gap-x-8 gap-y-3 sm:grid-cols-2">
