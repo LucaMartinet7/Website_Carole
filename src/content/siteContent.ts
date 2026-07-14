@@ -49,7 +49,7 @@ export const services = [
     title: 'Formations Reiki',
     description:
       'Degrés 1 à 4, en petits groupes pour un enseignement personnalisé. Apprenez à pratiquer le Reiki pour vous-même et vos proches, avec un suivi après chaque niveau.',
-    href: 'https://www.carolemartinet.com/copie-de-seance',
+    href: '/formations-reiki',
     cta: 'Voir les formations',
   },
 ] as const
@@ -143,6 +143,35 @@ export const initiationPage = {
   pourQui:
     'Pour les curieux, les débutants, celles et ceux qui souhaitent découvrir le Reiki avant d’aller plus loin, ou simplement vivre une belle parenthèse de bien-être en groupe.',
   ou: 'Je propose ces initiations lors de festivals et d’événements bien-être, comme le Festival de Yoga et de Bien-être de Ferney-Voltaire, ainsi que pour les entreprises et les associations.\nBientôt, je vous accueillerai aussi à mon cabinet d’Ornex.\nUn devis personnalisé est établi selon vos besoins, la prestation souhaitée et le lieu.',
+} as const
+
+export const formationsPage = {
+  intro:
+    'Apprenez à pratiquer le Reiki et gagnez en autonomie, à votre rythme, dans la tradition japonaise de l’Usui Reiki Ryoho.',
+  presentation:
+    'Que vous souhaitiez prendre soin de vous, de vos proches, ou vous engager plus profondément dans la voie du Reiki, je vous accompagne pas à pas. Mes formations s’inscrivent dans la tradition originelle de l’Usui Reiki Ryoho, que j’ai reçue de la Maître japonaise Tomoyo Nozaki.',
+  niveaux: [
+    {
+      title: 'Niveau 1 · Shoden',
+      text: 'L’initiation. Vous vous ouvrez à l’énergie du Reiki et apprenez à vous soigner vous-même.',
+    },
+    {
+      title: 'Niveau 2 · Chuden',
+      text: 'L’approfondissement. Vous découvrez les symboles et le soin à distance, pour accompagner aussi vos proches.',
+    },
+    {
+      title: 'Niveaux 3 & 4',
+      text: 'Pour celles et ceux qui souhaitent aller plus loin dans la pratique et, s’ils le souhaitent, dans la transmission du Reiki.',
+    },
+  ],
+  approche: [
+    'En petits groupes, pour un enseignement personnalisé',
+    'En français ou en anglais',
+    'Un suivi après chaque niveau',
+    'À votre rythme, selon votre cheminement',
+  ],
+  pratique:
+    'Contactez-moi pour connaître les prochaines dates et construire ensemble votre parcours. Un programme et un devis personnalisés sont établis selon votre niveau et vos objectifs.',
 } as const
 
 export const seancePage = {

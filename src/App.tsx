@@ -3,6 +3,7 @@ import { Route, Routes, useLocation } from 'react-router-dom'
 import { Footer } from './components/Footer'
 import { Navigation } from './components/Navigation'
 import { StarfieldCanvas } from './components/StarfieldCanvas'
+import { FormationsReiki } from './pages/FormationsReiki'
 import { HomePage } from './pages/HomePage'
 import { InitiationReiki } from './pages/InitiationReiki'
 import { SeanceIndividuelle } from './pages/SeanceIndividuelle'
@@ -33,6 +34,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/seance-individuelle" element={<SeanceIndividuelle />} />
         <Route path="/initiation-reiki" element={<InitiationReiki />} />
+        <Route path="/formations-reiki" element={<FormationsReiki />} />
       </Routes>
       <Footer />
     </div>
