@@ -98,7 +98,7 @@ export function InitiationReiki() {
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               Où me rencontrer
             </h3>
-            <p className="mt-4 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
+            <p className="mt-4 whitespace-pre-line text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
               {initiationPage.ou}
             </p>
             <div className="mt-6 flex flex-wrap gap-x-6 gap-y-3 text-[0.85rem] tracking-[0.06em] text-[var(--gold2)]">

@@ -142,7 +142,7 @@ export const initiationPage = {
     'Pendant environ une heure, en petit groupe, vous découvrez le Reiki de façon simple et rassurante. Après une courte présentation, je vous guide dans une relaxation profonde, puis un soin d’harmonisation en groupe, au cours duquel je pose les mains sur chacun, si vous le souhaitez. Vous ressentez l’énergie du Reiki, votre corps se détend et le mental s’apaise, tandis que votre équilibre énergétique se rétablit peu à peu. Vous repartez avec de premiers outils simples pour vous reconnecter à votre énergie au quotidien.',
   pourQui:
     'Pour les curieux, les débutants, celles et ceux qui souhaitent découvrir le Reiki avant d’aller plus loin, ou simplement vivre une belle parenthèse de bien-être en groupe.',
-  ou: 'Je propose ces initiations lors de festivals et d’événements bien-être, comme le Festival de Yoga et de Bien-être de Ferney-Voltaire, ainsi que pour les entreprises et les associations. Bientôt, je vous accueillerai aussi à mon cabinet d’Ornex.',
+  ou: 'Je propose ces initiations lors de festivals et d’événements bien-être, comme le Festival de Yoga et de Bien-être de Ferney-Voltaire, ainsi que pour les entreprises et les associations.\nBientôt, je vous accueillerai aussi à mon cabinet d’Ornex.\nUn devis personnalisé est établi selon vos besoins, la prestation souhaitée et le lieu.',
 } as const
 
 export const seancePage = {
