@@ -8,11 +8,17 @@ import { InitiationReiki } from './pages/InitiationReiki'
 import { SeanceIndividuelle } from './pages/SeanceIndividuelle'
 
 function ScrollToTop() {
-  const { pathname } = useLocation()
+  const { pathname, hash } = useLocation()
 
   useEffect(() => {
+    if (hash) {
+      const id = window.setTimeout(() => {
+        document.querySelector(hash)?.scrollIntoView({ block: 'start' })
+      }, 60)
+      return () => window.clearTimeout(id)
+    }
     window.scrollTo(0, 0)
-  }, [pathname])
+  }, [pathname, hash])
 
   return null
 }

@@ -1,4 +1,4 @@
-import { footerLinks, socialLinks } from '../content/siteContent'
+import { navigationLinks, socialLinks } from '../content/siteContent'
 
 export function Footer() {
   return (
@@ -8,7 +8,7 @@ export function Footer() {
           Carole Martinet · Reiki
         </div>
         <ul className="m-0 flex list-none flex-wrap justify-center gap-x-10 gap-y-4 p-0">
-          {footerLinks.map((link) => (
+          {navigationLinks.map((link) => (
             <li key={link.href}>
               <a
                 className="text-[0.65rem] font-normal uppercase tracking-[0.2em] text-[var(--muted)] no-underline transition-colors hover:text-[var(--gold)]"
