@@ -4,7 +4,7 @@ import { Reveal } from './Reveal'
 import { SectionHeading } from './SectionHeading'
 
 const cardClassName =
-  "group relative block border-b border-[rgba(201,169,110,0.15)] p-10 transition-colors duration-300 last:border-b-0 md:border-b-0 md:border-r md:last:border-r-0 hover:bg-[rgba(201,169,110,0.03)]"
+  'group relative block border border-[rgba(201,169,110,0.15)] p-10 transition-colors duration-300 hover:bg-[rgba(201,169,110,0.03)]'
 
 function ServiceCardContent({
   service,
@@ -50,7 +50,7 @@ export function ServicesSection() {
           }
         />
         <Reveal delayMs={300}>
-          <div className="grid border border-[rgba(201,169,110,0.15)] md:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-3">
             {services.map((service) =>
               service.href.startsWith('/') ? (
                 <Link key={service.number} className={cardClassName} to={service.href}>
