@@ -152,26 +152,59 @@ export const formationsPage = {
     'Que vous souhaitiez prendre soin de vous, de vos proches, ou vous engager plus profondément dans la voie du Reiki, je vous accompagne pas à pas. Mes formations s’inscrivent dans la tradition originelle de l’Usui Reiki Ryoho, que j’ai reçue de la Maître japonaise Tomoyo Nozaki.',
   niveaux: [
     {
-      title: 'Niveau 1 · Shoden',
-      text: 'L’initiation. Vous vous ouvrez à l’énergie du Reiki et apprenez à vous soigner vous-même.',
+      title: 'Degré 1 · Shoden',
+      resume:
+        'L’initiation. Vous vous ouvrez à l’énergie du Reiki et apprenez à prendre soin de vous au quotidien.',
+      contenu: [
+        'L’histoire et les grands principes du Reiki',
+        'L’auto-traitement, jour après jour',
+        'Le soin des proches, avec des gestes simples et clairs',
+        'Le nettoyage et la protection énergétiques',
+        'Quatre initiations pendant la formation',
+      ],
+      infos: [
+        'Sur 2 jours, en présentiel à Ornex, en tout petit groupe de 4 personnes maximum',
+        'Un accompagnement de 21 jours de pratique guidée, puis des rencontres mensuelles pendant un an',
+        'Manuel, certificat d’initiation et accès au groupe de pratique',
+      ],
+      prix: '350 €',
     },
     {
-      title: 'Niveau 2 · Chuden',
-      text: 'L’approfondissement. Vous découvrez les symboles et le soin à distance, pour accompagner aussi vos proches.',
+      title: 'Degré 2 · Chuden',
+      resume:
+        'L’approfondissement. Vous accédez aux symboles et au soin à distance, pour accompagner aussi les autres.',
+      contenu: [
+        'Les trois symboles sacrés de l’Usui Reiki et leurs usages',
+        'Le soin à distance',
+        'Le travail sur le plan émotionnel et mental',
+        'Des harmonisations plus avancées',
+        'La protection et l’ancrage',
+      ],
+      infos: [
+        'Sur 2 jours, en présentiel à Ornex, en tout petit groupe de 4 personnes maximum',
+        'Le Degré 1 est un prérequis',
+        'Un groupe de pratique et des rencontres mensuelles pendant un an',
+        'Manuel, certificat de Degré 2 et accès au groupe de pratique',
+      ],
+      prix: '500 €',
     },
     {
-      title: 'Niveaux 3 & 4',
-      text: 'Pour celles et ceux qui souhaitent aller plus loin dans la pratique et, s’ils le souhaitent, dans la transmission du Reiki.',
+      title: 'Degrés 3 & 4',
+      resume:
+        'Pour aller plus loin dans la pratique et, si vous le souhaitez, dans la transmission du Reiki. Proposés individuellement, après un échange pour définir ensemble votre parcours.',
+      contenu: [],
+      infos: [],
+      prix: 'Sur devis',
     },
   ],
   approche: [
-    'En petits groupes, pour un enseignement personnalisé',
     'En français ou en anglais',
-    'Un suivi après chaque niveau',
+    'Dans la bienveillance, sans jugement',
     'À votre rythme, selon votre cheminement',
+    'Paiement possible en plusieurs fois',
   ],
   pratique:
-    'Contactez-moi pour connaître les prochaines dates et construire ensemble votre parcours. Un programme et un devis personnalisés sont établis selon votre niveau et vos objectifs.',
+    'Contactez-moi pour connaître les prochaines dates et construire ensemble votre parcours.',
 } as const
 
 export const seancePage = {
@@ -242,23 +275,23 @@ export const trainingGroups = [
     heading: 'Formations Reiki — Maître Reiki Praticienne Enseignante',
     items: [
       {
-        title: 'Reiki IV : Shinpiden (Niveau 4) — Enseignant',
+        title: 'Reiki IV : Shinpiden (Degré 4) — Enseignant',
         date: 'Septembre 2014',
         detail: 'The Energy Space International · Maître Reiki Tomoyo Nozaki · Londres, Royaume-Uni',
       },
       {
-        title: 'Reiki III : Okuden (Niveau 3) — Enseignement intérieur',
+        title: 'Reiki III : Okuden (Degré 3) — Enseignement intérieur',
         date: 'Janvier 2014',
         detail: 'The Energy Space International · Maître Reiki Tomoyo Nozaki · Londres, Royaume-Uni',
       },
       {
-        title: 'Reiki II : Chuden (Niveau 2) — Professionnel',
+        title: 'Reiki II : Chuden (Degré 2) — Professionnel',
         date: 'Novembre 2010',
         detail:
           'The London School of Usui Reiki Ryoho · Maître Reiki Allison Brice · Londres, Royaume-Uni',
       },
       {
-        title: 'Reiki I : Shoden (Niveau 1) — Initiation',
+        title: 'Reiki I : Shoden (Degré 1) — Initiation',
         date: 'Avril 2010',
         detail:
           'The London School of Usui Reiki Ryoho · Maître Reiki Allison Brice · Londres, Royaume-Uni',

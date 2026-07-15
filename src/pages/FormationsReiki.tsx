@@ -40,18 +40,47 @@ export function FormationsReiki() {
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               Le parcours de <em>formation</em>
             </h3>
-            <ul className="mt-6 flex flex-col gap-5">
+            <div className="mt-6 flex flex-col gap-9">
               {formationsPage.niveaux.map((niveau) => (
-                <li key={niveau.title} className="border-l border-[rgba(201,169,110,0.3)] pl-5">
-                  <strong className="block text-[0.85rem] font-medium tracking-[0.02em] text-[var(--cream)]">
-                    {niveau.title}
-                  </strong>
-                  <span className="mt-1 block text-[0.85rem] font-light leading-[1.8] text-[var(--muted)]">
-                    {niveau.text}
-                  </span>
-                </li>
+                <div key={niveau.title} className="border-l border-[rgba(201,169,110,0.3)] pl-5">
+                  <div className="flex flex-wrap items-baseline justify-between gap-x-4">
+                    <strong className="text-[1.05rem] font-medium tracking-[0.02em] text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
+                      {niveau.title}
+                    </strong>
+                    <span className="text-[0.9rem] font-medium tracking-[0.05em] text-[var(--gold2)]">
+                      {niveau.prix}
+                    </span>
+                  </div>
+                  <p className="mt-2 text-[0.85rem] font-light leading-[1.8] text-[var(--muted)]">
+                    {niveau.resume}
+                  </p>
+                  {niveau.contenu.length > 0 && (
+                    <ul className="mt-4 flex flex-col gap-2">
+                      {niveau.contenu.map((item) => (
+                        <li key={item} className="flex items-start gap-3">
+                          <span className="mt-[0.5rem] h-[5px] w-[5px] shrink-0 rounded-full bg-[var(--gold)]" />
+                          <span className="text-[0.83rem] font-light leading-[1.7] text-[var(--cream)]">
+                            {item}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                  {niveau.infos.length > 0 && (
+                    <ul className="mt-4 flex flex-col gap-1.5">
+                      {niveau.infos.map((info) => (
+                        <li
+                          key={info}
+                          className="text-[0.78rem] font-light leading-[1.6] text-[rgba(168,159,150,0.75)]"
+                        >
+                          {info}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
         </Reveal>
 
