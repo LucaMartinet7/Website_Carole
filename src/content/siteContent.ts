@@ -165,7 +165,7 @@ export const formationsPage = {
       infos: [
         'Sur 2 jours, en présentiel à Ornex, en tout petit groupe de 4 personnes maximum',
         '21 jours de pratique guidée, un groupe WhatsApp pour échanger vos ressentis et vos questions, puis des rencontres de partage Reiki pour progresser ensemble.',
-        'Manuel, certificat d’initiation et accès au groupe de pratique',
+        'Manuel et certificat d’initiation',
       ],
       prix: '350 €',
     },
@@ -183,8 +183,8 @@ export const formationsPage = {
       infos: [
         'Sur 2 jours, en présentiel à Ornex, en tout petit groupe de 4 personnes maximum',
         'Le Degré 1 est un prérequis',
-        'Un groupe de pratique et des rencontres de partage Reiki pour continuer à pratiquer ensemble',
-        'Manuel, certificat de Degré 2 et accès au groupe de pratique',
+        'Des rencontres de partage Reiki pour progresser ensemble',
+        'Manuel et certificat de Degré 2',
       ],
       prix: '500 €',
     },
