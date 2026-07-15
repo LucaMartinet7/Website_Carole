@@ -50,7 +50,7 @@ export function ServicesSection() {
           }
         />
         <Reveal delayMs={300}>
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="mt-14 grid gap-6 md:grid-cols-3">
             {services.map((service) =>
               service.href.startsWith('/') ? (
                 <Link key={service.number} className={cardClassName} to={service.href}>
