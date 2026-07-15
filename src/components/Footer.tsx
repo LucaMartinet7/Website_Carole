@@ -2,7 +2,7 @@ import { navigationLinks, socialLinks } from '../content/siteContent'
 
 export function Footer() {
   return (
-    <footer className="relative z-10 bg-[#060509] px-8 py-12 text-center">
+    <footer className="relative z-10 bg-[#2a241d] px-8 py-12 text-center">
       <div className="mx-auto flex max-w-[1140px] flex-col items-center gap-7">
         <div className="text-[1.1rem] font-normal uppercase tracking-[0.2em] text-[var(--gold2)] [font-family:'Cormorant_Garamond',serif]">
           Carole Martinet · Reiki

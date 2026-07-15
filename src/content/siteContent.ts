@@ -237,6 +237,15 @@ export const seancePage = {
       'Plus de clarté pour faire vos choix',
     ],
   },
+  tarifs: {
+    intro: 'Chaque séance dure environ une heure.',
+    lignes: [
+      { lieu: 'À Ornex (01)', prix: '80 €' },
+      { lieu: 'À Genève', prix: '120 CHF' },
+      { lieu: 'À distance (téléphone ou WhatsApp)', prix: '80 €' },
+    ],
+    note: 'Règlement en espèces au cabinet, ou par PayPal, Revolut ou virement.',
+  },
   pratique: {
     lieux:
       'En cabinet à Ornex (01) ou à Genève (Centre Aliotis, quartier de Rive). Et partout dans le monde en séance à distance, aussi puissante qu’en cabinet, sans bouger de chez vous.',

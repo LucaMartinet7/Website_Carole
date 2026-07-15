@@ -21,13 +21,13 @@ export function TestimonialsSection() {
         />
         <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {testimonials.map((testimonial, index) => (
-            <Reveal key={testimonial.name} delayMs={100 * (index + 1)}>
-              <article className="border border-[rgba(201,169,110,0.1)] bg-[linear-gradient(145deg,rgba(17,15,30,0.9),rgba(9,8,15,0.95))] p-10 transition-transform duration-300 hover:-translate-y-1 hover:border-[rgba(201,169,110,0.28)]">
+            <Reveal key={testimonial.name} className="h-full" delayMs={100 * (index + 1)}>
+              <article className="flex h-full flex-col border border-[rgba(201,169,110,0.1)] bg-[linear-gradient(145deg,rgba(64,54,44,0.9),rgba(51,45,38,0.95))] p-10 transition-transform duration-300 hover:-translate-y-1 hover:border-[rgba(201,169,110,0.28)]">
                 <div className="mb-5 text-[0.9rem] tracking-[0.1em] text-[var(--gold)]">★★★★★</div>
                 <p className="mb-7 text-[1.1rem] leading-[1.7] text-[var(--cream)] [font-family:'Cormorant_Garamond',serif] italic">
                   “{testimonial.text}”
                 </p>
-                <div className="flex items-center gap-4">
+                <div className="mt-auto flex items-center gap-4">
                   <div className="grid h-[38px] w-[38px] shrink-0 place-items-center rounded-full bg-[linear-gradient(135deg,var(--gold),#8b6b3d)] text-[var(--night)] [font-family:'Cormorant_Garamond',serif] text-[1rem] font-medium">
                     {testimonial.initials}
                   </div>

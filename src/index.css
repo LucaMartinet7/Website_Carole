@@ -13,9 +13,9 @@ html {
 @import 'tailwindcss';
 
 :root {
-  --night: #09080f;
-  --deep: #110f1e;
-  --mid: #1c1830;
+  --night: #332d26;
+  --deep: #40342d;
+  --mid: #564635;
   --gold: #c9a96e;
   --gold2: #e8d5a3;
   --cream: #f5efe6;
@@ -32,7 +32,7 @@ body,
   background: var(--night);
   color: var(--cream);
   overflow-x: hidden;
-  background: #09080f;
+  background: #332d26;
 }
 #root {
   min-height: 100svh;

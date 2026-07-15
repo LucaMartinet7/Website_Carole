@@ -23,7 +23,7 @@ export function ResonanceSection() {
         <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {resonanceCards.map((card, index) => (
             <Reveal key={card.title} className="h-full" delayMs={100 * (index + 1)}>
-              <article className="group relative flex h-full flex-col overflow-hidden border border-[rgba(201,169,110,0.12)] bg-[linear-gradient(135deg,rgba(28,24,48,0.6),rgba(17,15,30,0.8))] p-8 transition-transform duration-300 hover:-translate-y-1 hover:border-[rgba(201,169,110,0.35)]">
+              <article className="group relative flex h-full flex-col overflow-hidden border border-[rgba(201,169,110,0.12)] bg-[linear-gradient(135deg,rgba(86,71,55,0.6),rgba(64,54,44,0.8))] p-8 transition-transform duration-300 hover:-translate-y-1 hover:border-[rgba(201,169,110,0.35)]">
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(201,169,110,0.06)_0%,transparent_60%)] opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
                 <span className="relative z-10 mb-4 block text-[1.4rem]">{card.icon}</span>
                 <h3 className="relative z-10 mb-3 text-[1.25rem] font-normal text-[var(--gold2)] [font-family:'Cormorant_Garamond',serif]">

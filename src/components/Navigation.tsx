@@ -17,8 +17,8 @@ export function Navigation() {
 
   return (
     <nav
-      className={`fixed left-0 right-0 top-0 z-50 flex items-center justify-between gap-3 bg-gradient-to-b from-[rgba(9,8,15,0.95)] to-transparent px-4 py-5 backdrop-blur-[4px] transition-colors md:gap-6 md:px-12 ${
-        scrolled ? 'bg-[rgba(9,8,15,0.97)]' : ''
+      className={`fixed left-0 right-0 top-0 z-50 flex items-center justify-between gap-3 bg-gradient-to-b from-[rgba(51,45,38,0.95)] to-transparent px-4 py-5 backdrop-blur-[4px] transition-colors md:gap-6 md:px-12 ${
+        scrolled ? 'bg-[rgba(51,45,38,0.97)]' : ''
       }`}
     >
       <a

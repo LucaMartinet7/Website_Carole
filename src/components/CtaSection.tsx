@@ -6,7 +6,7 @@ export function CtaSection() {
   return (
     <section
       id="cta"
-      className="relative z-10 overflow-hidden bg-[linear-gradient(135deg,#1a1428,#0f0d1a,#1c1830)] text-center"
+      className="relative z-10 overflow-hidden bg-[linear-gradient(135deg,#4e4030,#3b3228,#564635)] text-center"
     >
       <div className="pointer-events-none absolute left-1/2 top-1/2 h-[700px] w-[700px] -translate-x-1/2 -translate-y-1/2 bg-[radial-gradient(circle,rgba(201,169,110,0.1)_0%,transparent_60%)]" />
       <div className="relative z-10 mx-auto max-w-[640px] px-8 py-24">

@@ -85,6 +85,35 @@ export function SeanceIndividuelle() {
         <Reveal delayMs={200}>
           <div className="mt-12 border-t border-[rgba(201,169,110,0.2)] pt-8">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
+              Tarifs
+            </h3>
+            <p className="mt-4 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
+              {seancePage.tarifs.intro}
+            </p>
+            <ul className="mt-5 flex flex-col gap-3">
+              {seancePage.tarifs.lignes.map((ligne) => (
+                <li
+                  key={ligne.lieu}
+                  className="flex flex-wrap items-baseline justify-between gap-x-4 border-b border-[rgba(201,169,110,0.15)] pb-3"
+                >
+                  <span className="text-[0.88rem] font-light text-[var(--cream)]">
+                    {ligne.lieu}
+                  </span>
+                  <span className="text-[0.9rem] font-medium tracking-[0.05em] text-[var(--gold2)]">
+                    {ligne.prix}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-4 text-[0.78rem] font-light leading-[1.7] text-[rgba(168,159,150,0.75)]">
+              {seancePage.tarifs.note}
+            </p>
+          </div>
+        </Reveal>
+
+        <Reveal delayMs={200}>
+          <div className="mt-12 border-t border-[rgba(201,169,110,0.2)] pt-8">
+            <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               En pratique
             </h3>
             <p className="mt-4 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
