@@ -164,7 +164,7 @@ export const formationsPage = {
       ],
       infos: [
         'Sur 2 jours, en présentiel à Ornex, en tout petit groupe de 4 personnes maximum',
-        'Un accompagnement de 21 jours de pratique guidée, puis des rencontres de partage Reiki pour continuer à pratiquer ensemble',
+        '21 jours de pratique guidée, un groupe WhatsApp pour échanger vos ressentis et vos questions, puis des rencontres de partage Reiki pour progresser ensemble.',
         'Manuel, certificat d’initiation et accès au groupe de pratique',
       ],
       prix: '350 €',
