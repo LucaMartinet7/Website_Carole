@@ -5,7 +5,7 @@ import { SectionHeading } from './SectionHeading'
 export function FaqSection() {
   return (
     <section id="faq" className="relative z-10 bg-[var(--deep)]">
-      <div className="mx-auto max-w-[820px] px-8 pb-24 pt-8">
+      <div className="mx-auto max-w-[820px] px-8 pb-24 pt-12">
         <SectionHeading
           label="Questions fréquentes"
           title={

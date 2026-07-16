@@ -5,7 +5,7 @@ import { SectionHeading } from './SectionHeading'
 export function TestimonialsSection() {
   return (
     <section id="testimonials" className="relative z-10 bg-[var(--deep)]">
-      <div className="mx-auto max-w-[1140px] px-8 pb-12 pt-24">
+      <div className="mx-auto max-w-[1140px] px-8 pb-16 pt-24">
         <SectionHeading
           label="Ils témoignent"
           title={
@@ -45,14 +45,15 @@ export function TestimonialsSection() {
           ))}
         </div>
         <Reveal delayMs={200}>
-          <div className="mt-10 text-center">
+          <div className="mt-12 text-center">
             <a
-              className="inline-flex items-center gap-2 text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--gold)] transition-colors hover:text-[var(--gold2)]"
+              className="inline-flex items-center gap-3 border border-[rgba(201,169,110,0.4)] px-7 py-4 text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--gold)] transition-transform hover:-translate-y-0.5 hover:border-[var(--gold)] hover:bg-[rgba(201,169,110,0.06)]"
               href={contact.googleReviews}
               target="_blank"
               rel="noreferrer"
             >
-              ★ Voir tous mes avis Google
+              <span className="text-[0.9rem] tracking-[0.15em] text-[var(--gold2)]">★★★★★</span>
+              Voir mes avis Google
             </a>
           </div>
         </Reveal>
