@@ -5,7 +5,7 @@ import { SectionHeading } from './SectionHeading'
 export function TestimonialsSection() {
   return (
     <section id="testimonials" className="relative z-10 bg-[var(--deep)]">
-      <div className="mx-auto max-w-[1140px] px-8 py-24">
+      <div className="mx-auto max-w-[1140px] px-8 pb-12 pt-24">
         <SectionHeading
           label="Ils témoignent"
           title={
