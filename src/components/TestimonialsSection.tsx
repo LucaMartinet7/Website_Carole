@@ -1,4 +1,4 @@
-import { testimonials } from '../content/siteContent'
+import { contact, testimonials } from '../content/siteContent'
 import { Reveal } from './Reveal'
 import { SectionHeading } from './SectionHeading'
 
@@ -44,6 +44,18 @@ export function TestimonialsSection() {
             </Reveal>
           ))}
         </div>
+        <Reveal delayMs={200}>
+          <div className="mt-10 text-center">
+            <a
+              className="inline-flex items-center gap-2 text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--gold)] transition-colors hover:text-[var(--gold2)]"
+              href={contact.googleReviews}
+              target="_blank"
+              rel="noreferrer"
+            >
+              ★ Voir tous mes avis Google
+            </a>
+          </div>
+        </Reveal>
       </div>
     </section>
   )

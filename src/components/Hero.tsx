@@ -8,7 +8,7 @@ export function Hero() {
       className="relative grid min-h-screen place-items-center overflow-hidden px-5 py-32 text-center md:px-8"
       id="hero"
     >
-      <div className="pointer-events-none absolute left-1/2 top-1/2 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(107,76,140,0.35)_0%,transparent_70%)] [animation:breathe_7s_ease-in-out_infinite]" />
+      <div className="pointer-events-none absolute left-1/2 top-1/2 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(120,85,45,0.32)_0%,transparent_70%)] [animation:breathe_7s_ease-in-out_infinite]" />
       <div className="pointer-events-none absolute bottom-[10%] left-1/2 h-[400px] w-[900px] -translate-x-1/2 bg-[radial-gradient(ellipse,rgba(201,169,110,0.07)_0%,transparent_65%)]" />
       <div className="relative z-10">
         <div className="mx-auto mb-10 w-full max-w-[240px] overflow-hidden rounded-3xl border border-[rgba(201,169,110,0.25)] opacity-0 shadow-[0_8px_40px_rgba(0,0,0,0.4)] [animation:fadeUp_0.9s_0.1s_forwards]">
@@ -33,9 +33,9 @@ export function Hero() {
         <div className="flex flex-wrap justify-center gap-5 opacity-0 [animation:fadeUp_0.9s_0.8s_forwards]">
           <a
             className="inline-flex items-center justify-center bg-[var(--gold)] px-10 py-4 text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--night)] transition-transform hover:-translate-y-0.5 hover:bg-[var(--gold2)] hover:shadow-[0_8px_40px_rgba(201,169,110,0.3)]"
-            href={`tel:${contact.phone}`}
+            href={`mailto:${contact.email}?subject=Demande%20de%20rendez-vous`}
           >
-            Réserver une séance
+            Réserver par email
           </a>
           <a
             className="inline-flex items-center justify-center border border-[rgba(201,169,110,0.4)] px-10 py-4 text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--gold)] transition-transform hover:-translate-y-0.5 hover:border-[var(--gold)] hover:bg-[rgba(201,169,110,0.06)]"

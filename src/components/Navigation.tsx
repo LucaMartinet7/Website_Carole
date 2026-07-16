@@ -41,7 +41,7 @@ export function Navigation() {
       </ul>
       <a
         className="inline-flex shrink-0 items-center justify-center whitespace-nowrap bg-[var(--gold)] px-3 py-2 text-[0.58rem] font-medium uppercase tracking-[0.1em] text-[var(--night)] transition-transform hover:-translate-y-px hover:bg-[var(--gold2)] md:px-5 md:text-[0.7rem] md:tracking-[0.18em]"
-        href={`tel:${contact.phone}`}
+        href={`mailto:${contact.email}?subject=Demande%20de%20rendez-vous`}
       >
         Prendre rendez-vous
       </a>

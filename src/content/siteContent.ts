@@ -110,7 +110,7 @@ export const socialLinks = [
   { label: 'Facebook', href: 'https://www.facebook.com/carolemartinet1/', shortLabel: 'f' },
   {
     label: 'Instagram',
-    href: 'https://www.instagram.com/stories/carolemartinet_reiki/',
+    href: 'https://www.instagram.com/carolemartinet_reiki/',
     shortLabel: 'in',
   },
   {
@@ -124,7 +124,42 @@ export const contact = {
   phone: '+33678531946',
   phoneDisplay: '+33 6 78 53 19 46',
   email: 'martinetcarole1@gmail.com',
+  instagram: 'https://www.instagram.com/carolemartinet_reiki/',
+  googleReviews: 'https://www.google.com/search?q=Carole+Martinet+Reiki+Ornex',
 } as const
+
+export const faq = [
+  {
+    question: 'Le Reiki à distance, est-ce aussi efficace qu’en cabinet ?',
+    answer:
+      'Oui. L’énergie n’a pas de frontière : à distance, confortablement installé chez vous, vous ressentez les mêmes bienfaits qu’en présentiel. C’est une solution idéale où que vous viviez.',
+  },
+  {
+    question: 'Faut-il y croire pour que ça fonctionne ?',
+    answer:
+      'Non, il n’y a rien à croire. Le Reiki agit que vous soyez convaincu ou simplement curieux. Il suffit d’être présent à vous-même et de vous laisser accueillir.',
+  },
+  {
+    question: 'Combien de séances sont nécessaires ?',
+    answer:
+      'Chaque personne est unique. Un cycle de 3 séances espacées de 15 jours est souvent conseillé pour amorcer un vrai changement, puis une séance par mois si vous le souhaitez.',
+  },
+  {
+    question: 'Comment se passe une première séance ?',
+    answer:
+      'Elle commence toujours par un échange, pour cerner ensemble vos besoins. Vous restez habillé, allongé confortablement, pendant que je pose les mains ou travaille à quelques centimètres du corps. Une séance dure environ une heure.',
+  },
+  {
+    question: 'Le Reiki remplace-t-il un traitement médical ?',
+    answer:
+      'Non. Le Reiki est un complément à la médecine traditionnelle et ne remplace en aucun cas un avis ou un traitement médical.',
+  },
+  {
+    question: 'Où ont lieu les séances ?',
+    answer:
+      'En cabinet à Ornex (01) ou à Genève (Centre Aliotis, quartier de Rive), et à distance partout dans le monde, en français ou en anglais.',
+  },
+] as const
 
 export const initiationPage = {
   intro:
