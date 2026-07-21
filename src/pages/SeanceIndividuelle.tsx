@@ -40,20 +40,6 @@ export function SeanceIndividuelle() {
           </div>
         </Reveal>
 
-        <Reveal delayMs={180}>
-          <figure className="mt-10 overflow-hidden rounded-2xl border border-[rgba(201,169,110,0.2)] shadow-[0_8px_40px_rgba(0,0,0,0.35)]">
-            <img
-              src="/photos/cabinet-ornex.jpg"
-              alt="Le cabinet de Reiki de Carole Martinet à Ornex"
-              loading="lazy"
-              className="block aspect-[4/3] w-full object-cover"
-            />
-            <figcaption className="bg-[rgba(51,45,38,0.6)] px-5 py-3 text-center text-[0.7rem] font-light italic tracking-[0.06em] text-[var(--muted)]">
-              Un espace calme et chaleureux, à Ornex
-            </figcaption>
-          </figure>
-        </Reveal>
-
         <Reveal delayMs={200}>
           <div className="mt-12">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
