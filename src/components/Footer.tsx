@@ -45,7 +45,8 @@ export function Footer() {
           ))}
         </div>
         <p className="max-w-3xl text-center text-[0.62rem] font-light tracking-[0.15em] text-[rgba(168,159,150,0.4)]">
-          ©2026 Carole Martinet · SIRET 91010645900019 · Médiation SNPER · Tous droits réservés
+          ©2026 Carole Martinet · SIRET 91010645900019 · Membre du SNPER · Médiation MED CONSO DEV ·
+          Tous droits réservés
         </p>
       </div>
     </footer>

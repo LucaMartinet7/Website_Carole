@@ -71,19 +71,54 @@ export function StarfieldCanvas() {
       animationFrame = window.requestAnimationFrame(draw)
     }
 
+    const prefersReducedMotion = window.matchMedia(
+      '(prefers-reduced-motion: reduce)',
+    ).matches
+
+    const drawStatic = () => {
+      context.clearRect(0, 0, width, height)
+      for (const star of stars) {
+        context.beginPath()
+        context.arc(star.x, star.y, star.radius, 0, Math.PI * 2)
+        context.fillStyle = 'rgba(201,169,110,0.45)'
+        context.fill()
+      }
+    }
+
     resizeCanvas()
     initStars()
-    draw()
+
+    if (prefersReducedMotion) {
+      drawStatic()
+    } else {
+      draw()
+    }
 
     const handleResize = () => {
       resizeCanvas()
       initStars()
+      if (prefersReducedMotion) {
+        drawStatic()
+      }
+    }
+
+    // Pause the animation when the tab is hidden to save battery.
+    const handleVisibility = () => {
+      if (prefersReducedMotion) {
+        return
+      }
+      window.cancelAnimationFrame(animationFrame)
+      if (!document.hidden) {
+        draw()
+      }
     }
 
     window.addEventListener('resize', handleResize)
+    document.addEventListener('visibilitychange', handleVisibility)
 
     return () => {
       window.removeEventListener('resize', handleResize)
+      document.removeEventListener('visibilitychange', handleVisibility)
       window.cancelAnimationFrame(animationFrame)
     }
   }, [])

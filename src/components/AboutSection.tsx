@@ -33,6 +33,17 @@ export function AboutSection() {
             }
           />
 
+          <Reveal className="mx-auto mb-10 mt-2 w-[220px] max-w-full overflow-hidden rounded-2xl border border-[rgba(201,169,110,0.25)] shadow-[0_8px_40px_rgba(0,0,0,0.35)] sm:float-right sm:mb-4 sm:ml-8 sm:mt-0">
+            <img
+              src="/photos/about-portrait.jpg"
+              alt="Portrait de Carole Martinet, Maître Reiki"
+              loading="lazy"
+              width={220}
+              height={293}
+              className="block h-auto w-full object-cover"
+            />
+          </Reveal>
+
           {aboutStory.map((paragraph, index) => (
             <Reveal key={index} delayMs={150 + index * 60}>
               <p className="mb-5 text-[0.87rem] font-light leading-[1.9] text-[var(--muted)]">
@@ -78,6 +89,20 @@ export function AboutSection() {
                 ))}
               </div>
             </div>
+          </Reveal>
+
+          <Reveal delayMs={150}>
+            <figure className="mt-16 overflow-hidden rounded-2xl border border-[rgba(201,169,110,0.2)] shadow-[0_8px_40px_rgba(0,0,0,0.35)]">
+              <img
+                src="/photos/reiki-soin.jpg"
+                alt="Carole Martinet lors d’une séance de Reiki"
+                loading="lazy"
+                className="block aspect-[4/3] w-full object-cover"
+              />
+              <figcaption className="bg-[rgba(51,45,38,0.6)] px-5 py-3 text-center text-[0.7rem] font-light italic tracking-[0.06em] text-[var(--muted)]">
+                Une séance de Reiki, au cabinet d’Ornex
+              </figcaption>
+            </figure>
           </Reveal>
 
           <Reveal delayMs={200}>
