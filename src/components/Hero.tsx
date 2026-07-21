@@ -9,7 +9,7 @@ export function Hero() {
       <div className="pointer-events-none absolute left-1/2 top-1/2 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(120,85,45,0.32)_0%,transparent_70%)] [animation:breathe_7s_ease-in-out_infinite]" />
       <div className="pointer-events-none absolute bottom-[10%] left-1/2 h-[400px] w-[900px] -translate-x-1/2 bg-[radial-gradient(ellipse,rgba(201,169,110,0.07)_0%,transparent_65%)]" />
 
-      <div className="relative z-10 mx-auto grid w-full max-w-[1120px] items-center gap-12 lg:grid-cols-[1fr_360px] lg:gap-20">
+      <div className="relative z-10 mx-auto grid w-full max-w-[1080px] items-center gap-12 lg:grid-cols-[1fr_260px] lg:gap-20">
         <div className="order-2 text-center lg:order-1 lg:text-left">
           <p className="mb-7 text-[0.68rem] font-medium uppercase tracking-[0.35em] text-[var(--gold)] opacity-0 [animation:fadeUp_0.9s_0.2s_forwards]">
             Thérapeute Énergétique · Maître Reiki depuis 2014
@@ -37,18 +37,17 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="order-1 mx-auto w-full max-w-[300px] opacity-0 [animation:fadeUp_0.9s_0.1s_forwards] lg:order-2 lg:mx-0 lg:max-w-none">
+        <div className="order-1 mx-auto w-[220px] max-w-full opacity-0 [animation:fadeUp_0.9s_0.1s_forwards] lg:order-2 lg:mx-0">
           <div className="relative">
-            <div className="pointer-events-none absolute -inset-6 rounded-[2rem] bg-[radial-gradient(circle,rgba(201,169,110,0.18)_0%,transparent_70%)]" />
-            <div className="relative overflow-hidden rounded-[1.75rem] border border-[rgba(201,169,110,0.3)] shadow-[0_20px_60px_rgba(0,0,0,0.45)]">
+            <div className="pointer-events-none absolute -inset-5 rounded-[2rem] bg-[radial-gradient(circle,rgba(201,169,110,0.18)_0%,transparent_70%)]" />
+            <div className="relative overflow-hidden rounded-2xl border border-[rgba(201,169,110,0.3)] shadow-[0_12px_45px_rgba(0,0,0,0.4)]">
               <img
-                className="block aspect-[4/5] w-full object-cover object-[center_28%] brightness-[1.02] contrast-[1.05]"
+                className="block h-auto w-full object-cover"
                 src="/photos/about-portrait.jpg"
                 alt="Carole Martinet, thérapeute énergétique et Maître Reiki"
-                width={340}
-                height={425}
+                width={220}
+                height={476}
               />
-              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-[linear-gradient(to_top,rgba(51,45,38,0.55),transparent)]" />
             </div>
           </div>
         </div>
