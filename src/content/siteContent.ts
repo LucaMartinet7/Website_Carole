@@ -290,6 +290,67 @@ export const seancePage = {
   avis: 'Le Reiki est un complément à la médecine traditionnelle et ne remplace en aucun cas un traitement médical.',
 } as const
 
+export const legalPage = {
+  updated: 'Juillet 2026',
+  intro:
+    'Cette page regroupe les informations légales du site ainsi que la politique de protection de vos données personnelles, conformément à la réglementation française et au Règlement général sur la protection des données (RGPD).',
+  sections: [
+    {
+      heading: 'Éditeur du site',
+      paragraphs: [
+        'Le site est édité par Carole Martinet, entrepreneur individuel (micro-entreprise), praticienne et enseignante de Reiki.',
+        'Adresse : 171 rue des Eycherolles, 01210 Ornex, France.',
+        'Téléphone : +33 6 78 53 19 46 — Email : martinetcarole1@gmail.com',
+        'SIRET : 91010645900019.',
+        'Directrice de la publication : Carole Martinet.',
+      ],
+    },
+    {
+      heading: 'Hébergement',
+      paragraphs: [
+        'Le site est hébergé par GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis (service GitHub Pages) — https://github.com.',
+        'Cette information sera mise à jour si le site venait à changer d’hébergeur.',
+      ],
+    },
+    {
+      heading: 'Activité et cadre professionnel',
+      paragraphs: [
+        'Carole Martinet propose des séances, initiations et formations de Reiki, en complément de la médecine traditionnelle. Ces prestations de bien-être ne constituent en aucun cas un acte médical, un diagnostic ou un traitement, et ne remplacent pas un avis ou un suivi médical.',
+        'Responsabilité civile professionnelle souscrite auprès du Crédit Mutuel.',
+        'Membre du SNPER (Syndicat National des Praticiens et Enseignants du Reiki).',
+      ],
+    },
+    {
+      heading: 'Propriété intellectuelle',
+      paragraphs: [
+        'L’ensemble des contenus du site (textes, photographies, illustrations, logo, mise en page) est la propriété de Carole Martinet, sauf mention contraire. Toute reproduction, représentation ou utilisation, totale ou partielle, sans autorisation écrite préalable, est interdite.',
+      ],
+    },
+    {
+      heading: 'Données personnelles (RGPD)',
+      paragraphs: [
+        'Responsable de traitement : Carole Martinet (coordonnées ci-dessus).',
+        'Ce site est un site vitrine : il ne comporte pas de formulaire en ligne et ne collecte aucune donnée personnelle de façon automatique. La prise de contact et la réservation se font uniquement par téléphone, par email ou via les réseaux sociaux, à votre initiative.',
+        'Lorsque vous nous contactez, les informations que vous transmettez (nom, coordonnées, contenu de votre message) sont utilisées uniquement pour répondre à votre demande et organiser un éventuel rendez-vous. La base légale est votre consentement et les démarches préalables à la prestation. Ces informations sont conservées le temps nécessaire au suivi de votre demande, puis au maximum 3 ans après notre dernier échange, et ne sont ni cédées ni revendues à des tiers.',
+        'Conformément au RGPD, vous disposez d’un droit d’accès, de rectification, d’effacement, d’opposition, de limitation et de portabilité de vos données. Pour l’exercer, écrivez à martinetcarole1@gmail.com. Vous pouvez également introduire une réclamation auprès de la CNIL (www.cnil.fr).',
+      ],
+    },
+    {
+      heading: 'Cookies et services tiers',
+      paragraphs: [
+        'Le site n’utilise aucun cookie publicitaire ni outil de suivi (pas de mesure d’audience, pas de traceur).',
+        'Les polices d’écriture sont chargées depuis les serveurs de Google Fonts (Google Ireland Limited), ce qui peut transmettre votre adresse IP à Google lors de l’affichage des pages. Aucun profil n’est établi à des fins publicitaires par le site.',
+      ],
+    },
+    {
+      heading: 'Médiation de la consommation',
+      paragraphs: [
+        'Conformément au Code de la consommation, en cas de litige non résolu à l’amiable, vous pouvez recourir gratuitement au médiateur de la consommation : Médiation Consommation Développement (MED CONSO DEV) — www.medconsodev.eu.',
+      ],
+    },
+  ],
+} as const
+
 export const aboutStory = [
   'Dès l’enfance, j’ai découvert le pouvoir des approches complémentaires. Là où la médecine classique ne suffisait pas à soulager mes proches, des méthodes énergétiques et émotionnelles apportaient un véritable apaisement. Cette conviction ne m’a jamais quittée.',
   'Très jeune, j’ai aussi ressenti les énergies qui nous entourent et la présence d’un monde subtil. Nourrie par des soins, des stages et des initiations, cette sensibilité est aujourd’hui au cœur de ma pratique. C’est elle qui me permet de vous accueillir avec écoute et sans jugement.',

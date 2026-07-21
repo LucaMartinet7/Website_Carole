@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { navigationLinks, socialLinks } from '../content/siteContent'
 
 export function Footer() {
@@ -20,6 +21,14 @@ export function Footer() {
               </a>
             </li>
           ))}
+          <li>
+            <Link
+              className="text-[0.65rem] font-normal uppercase tracking-[0.2em] text-[var(--muted)] no-underline transition-colors hover:text-[var(--gold)]"
+              to="/mentions-legales"
+            >
+              Mentions légales
+            </Link>
+          </li>
         </ul>
         <div className="flex gap-3">
           {socialLinks.map((link) => (
