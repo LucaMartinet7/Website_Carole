@@ -4,7 +4,7 @@ import { Reveal } from './Reveal'
 import { SectionHeading } from './SectionHeading'
 
 const cardClassName =
-  'group relative block border border-[rgba(201,169,110,0.15)] p-10 transition-colors duration-300 hover:bg-[rgba(201,169,110,0.03)]'
+  'group relative flex h-full flex-col border border-[rgba(201,169,110,0.15)] p-10 transition-colors duration-300 hover:bg-[rgba(201,169,110,0.03)]'
 
 function ServiceCardContent({
   service,
@@ -22,7 +22,7 @@ function ServiceCardContent({
       <p className="mb-6 text-[0.9rem] font-normal leading-[1.75] text-[var(--muted)]">
         {service.description}
       </p>
-      <span className="inline-flex items-center gap-2 text-[0.65rem] font-medium uppercase tracking-[0.25em] text-[var(--gold)] after:content-['→'] after:transition-transform group-hover:after:translate-x-1">
+      <span className="mt-auto inline-flex items-center gap-2 text-[0.65rem] font-medium uppercase tracking-[0.25em] text-[var(--gold)] after:content-['→'] after:transition-transform group-hover:after:translate-x-1">
         {service.cta}
       </span>
     </>

@@ -27,7 +27,7 @@ export function CtaSection() {
           }
         />
         <Reveal delayMs={300}>
-          <div className="flex flex-wrap justify-center gap-5">
+          <div className="mt-12 flex flex-wrap justify-center gap-5">
             <a
               className="inline-flex items-center justify-center bg-[var(--gold)] px-10 py-4 text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--night)] transition-transform hover:-translate-y-0.5 hover:bg-[var(--gold2)] hover:shadow-[0_8px_40px_rgba(201,169,110,0.3)]"
               href={`mailto:${contact.email}?subject=Demande%20de%20rendez-vous`}

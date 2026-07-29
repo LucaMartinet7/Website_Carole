@@ -32,7 +32,7 @@ export function SectionHeading({
       </Reveal>
       <Reveal className={align === 'left' ? 'text-left' : ''} delayMs={200}>
         <p
-          className={`mx-auto max-w-[600px] text-[0.98rem] font-normal leading-[1.85] text-[var(--muted)] ${align === 'left' ? 'mx-0 text-left' : 'text-center'}`}
+          className={`max-w-[600px] text-[0.98rem] font-normal leading-[1.85] text-[var(--muted)] ${align === 'left' ? 'text-left' : 'mx-auto text-center'}`}
         >
           {description}
         </p>
