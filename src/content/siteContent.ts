@@ -275,9 +275,9 @@ export const seancePage = {
   tarifs: {
     intro: 'Chaque séance dure environ une heure.',
     lignes: [
-      { lieu: 'À Ornex (01)', prix: '80 €' },
+      { lieu: 'À Ornex (01)', prix: '70 €' },
       { lieu: 'À Genève', prix: '120 CHF' },
-      { lieu: 'À distance (téléphone ou WhatsApp)', prix: '80 €' },
+      { lieu: 'À distance (téléphone ou WhatsApp)', prix: '70 €' },
     ],
     note: 'Règlement en espèces au cabinet, ou par PayPal, Revolut ou virement.',
   },
