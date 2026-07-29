@@ -91,17 +91,35 @@ export function AboutSection() {
             </div>
           </Reveal>
 
-          <Reveal delayMs={150} className="mx-auto mt-16 max-w-[300px] overflow-hidden rounded-2xl border border-[rgba(201,169,110,0.2)] shadow-[0_8px_40px_rgba(0,0,0,0.35)]">
-            <figure>
-              <img
-                src="/photos/reiki-soin.jpg"
-                alt="Carole Martinet, les mains posées lors d’une séance de Reiki"
-                loading="lazy"
-                className="block aspect-[3/4] w-full object-cover object-center transition-transform duration-[1200ms] ease-out hover:scale-[1.05]"
+          <Reveal delayMs={150} className="mx-auto mt-20 w-full max-w-[320px]">
+            <figure className="relative">
+              <span
+                aria-hidden="true"
+                className="pointer-events-none absolute -left-4 -top-4 h-24 w-24 rounded-tl-2xl border-l border-t border-[rgba(201,169,110,0.5)]"
               />
-              <figcaption className="bg-[rgba(51,45,38,0.6)] px-5 py-3 text-center text-[0.7rem] font-light italic tracking-[0.06em] text-[var(--muted)]">
-                Une séance de Reiki, au cabinet d’Ornex
-              </figcaption>
+              <span
+                aria-hidden="true"
+                className="pointer-events-none absolute -bottom-4 -right-4 h-24 w-24 rounded-br-2xl border-b border-r border-[rgba(201,169,110,0.5)]"
+              />
+              <div className="relative overflow-hidden rounded-2xl border border-[rgba(201,169,110,0.25)] shadow-[0_16px_50px_rgba(0,0,0,0.45)]">
+                <img
+                  src="/photos/reiki-soin.jpg"
+                  alt="Carole Martinet, les mains posées lors d’une séance de Reiki"
+                  loading="lazy"
+                  className="block aspect-[3/4] w-full object-cover object-center [filter:sepia(0.16)_saturate(0.92)_contrast(1.04)_brightness(0.98)]"
+                />
+                <span
+                  aria-hidden="true"
+                  className="pointer-events-none absolute inset-0 bg-[rgba(120,85,45,0.16)] mix-blend-multiply"
+                />
+                <span
+                  aria-hidden="true"
+                  className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_top,rgba(51,45,38,0.75),transparent_45%)]"
+                />
+                <figcaption className="absolute inset-x-0 bottom-0 px-5 pb-4 pt-8 text-center text-[0.72rem] font-light italic tracking-[0.06em] text-[var(--gold2)]">
+                  Une séance de Reiki, au cabinet d’Ornex
+                </figcaption>
+              </div>
             </figure>
           </Reveal>
 

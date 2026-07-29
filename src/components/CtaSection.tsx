@@ -1,4 +1,6 @@
 import { contact } from '../content/siteContent'
+import { ContactForm } from './ContactForm'
+import { Divider } from './Divider'
 import { Reveal } from './Reveal'
 import { SectionHeading } from './SectionHeading'
 
@@ -55,6 +57,18 @@ export function CtaSection() {
           >
             Suivez-moi sur Instagram @carolemartinet_reiki
           </a>
+        </Reveal>
+
+        <Reveal delayMs={200}>
+          <Divider className="mt-16" />
+          <p className="mt-14 mb-2 text-[0.68rem] font-medium uppercase tracking-[0.22em] text-[var(--gold)]">
+            Ou écrivez-moi un message
+          </p>
+          <p className="mb-9 text-[0.85rem] font-normal leading-[1.7] text-[var(--muted)]">
+            Une question, une envie d’en savoir plus ? Laissez-moi un mot, je vous réponds
+            personnellement.
+          </p>
+          <ContactForm />
         </Reveal>
       </div>
     </section>

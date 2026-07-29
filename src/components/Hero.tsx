@@ -42,7 +42,7 @@ export function Hero() {
             <div className="pointer-events-none absolute -inset-5 rounded-[2rem] bg-[radial-gradient(circle,rgba(201,169,110,0.18)_0%,transparent_70%)]" />
             <div className="relative overflow-hidden rounded-2xl border border-[rgba(201,169,110,0.3)] shadow-[0_12px_45px_rgba(0,0,0,0.4)]">
               <img
-                className="block h-auto w-full object-cover transition-transform duration-[1200ms] ease-out hover:scale-[1.05]"
+                className="block h-auto w-full object-cover"
                 src="/photos/about-portrait.jpg"
                 alt="Carole Martinet, thérapeute énergétique et Maître Reiki"
                 width={220}
