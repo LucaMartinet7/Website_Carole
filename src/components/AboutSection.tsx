@@ -80,7 +80,7 @@ export function AboutSection() {
             </div>
           </Reveal>
 
-          <Reveal delayMs={150} className="mx-auto mt-16 max-w-[440px] overflow-hidden rounded-2xl border border-[rgba(201,169,110,0.2)] shadow-[0_8px_40px_rgba(0,0,0,0.35)]">
+          <Reveal delayMs={150} className="mx-auto mt-16 max-w-[300px] overflow-hidden rounded-2xl border border-[rgba(201,169,110,0.2)] shadow-[0_8px_40px_rgba(0,0,0,0.35)]">
             <figure>
               <img
                 src="/photos/reiki-soin.jpg"
