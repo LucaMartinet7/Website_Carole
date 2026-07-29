@@ -30,7 +30,7 @@ export function FaqSection() {
                     +
                   </span>
                 </summary>
-                <p className="pb-5 pr-8 text-[0.85rem] font-light leading-[1.8] text-[var(--muted)]">
+                <p className="pb-5 pr-8 text-[0.93rem] font-normal leading-[1.8] text-[var(--muted)]">
                   {item.answer}
                 </p>
               </details>

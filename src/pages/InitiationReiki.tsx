@@ -47,7 +47,7 @@ export function InitiationReiki() {
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               Une initiation accessible à <em>tous</em>
             </h3>
-            <p className="mt-4 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
+            <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {initiationPage.presentation}
             </p>
           </div>
@@ -58,7 +58,7 @@ export function InitiationReiki() {
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               Comment se déroule une <em>initiation</em>
             </h3>
-            <p className="mt-4 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
+            <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {initiationPage.deroule}
             </p>
           </div>
@@ -73,7 +73,7 @@ export function InitiationReiki() {
               {initiationPage.vivre.map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <span className="mt-[0.5rem] h-[6px] w-[6px] shrink-0 rounded-full bg-[var(--gold)]" />
-                  <span className="text-[0.88rem] font-light leading-[1.8] text-[var(--cream)]">
+                  <span className="text-[0.93rem] font-normal leading-[1.75] text-[var(--cream)]">
                     {item}
                   </span>
                 </li>
@@ -87,7 +87,7 @@ export function InitiationReiki() {
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               Pour qui&nbsp;?
             </h3>
-            <p className="mt-4 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
+            <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {initiationPage.pourQui}
             </p>
           </div>
@@ -98,7 +98,7 @@ export function InitiationReiki() {
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               Où me rencontrer
             </h3>
-            <p className="mt-4 whitespace-pre-line text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
+            <p className="mt-4 whitespace-pre-line text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {initiationPage.ou}
             </p>
             <div className="mt-6 flex flex-wrap gap-x-6 gap-y-3 text-[0.85rem] tracking-[0.06em] text-[var(--gold2)]">
@@ -109,7 +109,7 @@ export function InitiationReiki() {
         </Reveal>
 
         <Reveal delayMs={250}>
-          <p className="mt-14 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
+          <p className="mt-14 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
             Envie de découvrir le Reiki, ou d’organiser une initiation pour votre groupe&nbsp;? Écrivez-moi
             ou appelez-moi, je vous répondrai avec plaisir. Venez comme vous êtes, en toute simplicité.
           </p>

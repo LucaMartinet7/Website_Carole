@@ -35,7 +35,7 @@ export function AboutSection() {
 
           {aboutStory.map((paragraph, index) => (
             <Reveal key={index} delayMs={150 + index * 60}>
-              <p className="mb-5 text-[0.87rem] font-light leading-[1.9] text-[var(--muted)]">
+              <p className="mb-5 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
                 {paragraph}
               </p>
             </Reveal>
@@ -59,7 +59,7 @@ export function AboutSection() {
               <h3 className="text-[1.6rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
                 Mon expertise : <em>libération, équilibre, cheminement</em>
               </h3>
-              <p className="mt-4 text-[0.87rem] font-light leading-[1.9] text-[var(--muted)]">
+              <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
                 {expertise.intro}
               </p>
               <div className="mt-8 grid gap-6 sm:grid-cols-3">
@@ -71,7 +71,7 @@ export function AboutSection() {
                     <strong className="block text-[0.82rem] font-medium tracking-[0.03em] text-[var(--cream)]">
                       {point.title}
                     </strong>
-                    <p className="mt-3 text-[0.8rem] font-light leading-[1.8] text-[var(--muted)]">
+                    <p className="mt-3 text-[0.87rem] font-normal leading-[1.75] text-[var(--muted)]">
                       {point.text}
                     </p>
                   </div>

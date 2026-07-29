@@ -29,7 +29,7 @@ export function ResonanceSection() {
                 <h3 className="relative z-10 mb-3 text-[1.25rem] font-normal text-[var(--gold2)] [font-family:'Cormorant_Garamond',serif]">
                   {card.title}
                 </h3>
-                <p className="relative z-10 text-[0.82rem] font-light leading-[1.75] text-[var(--muted)]">
+                <p className="relative z-10 text-[0.9rem] font-normal leading-[1.7] text-[var(--muted)]">
                   {card.description}
                 </p>
               </article>

@@ -30,7 +30,7 @@ export function FormationsReiki() {
         </div>
 
         <Reveal delayMs={150}>
-          <p className="mt-10 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
+          <p className="mt-10 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
             {formationsPage.presentation}
           </p>
         </Reveal>
@@ -51,7 +51,7 @@ export function FormationsReiki() {
                       {niveau.prix}
                     </span>
                   </div>
-                  <p className="mt-2 text-[0.85rem] font-light leading-[1.8] text-[var(--muted)]">
+                  <p className="mt-2 text-[0.9rem] font-normal leading-[1.75] text-[var(--muted)]">
                     {niveau.resume}
                   </p>
                   {niveau.contenu.length > 0 && (
@@ -59,7 +59,7 @@ export function FormationsReiki() {
                       {niveau.contenu.map((item) => (
                         <li key={item} className="flex items-start gap-3">
                           <span className="mt-[0.5rem] h-[5px] w-[5px] shrink-0 rounded-full bg-[var(--gold)]" />
-                          <span className="text-[0.83rem] font-light leading-[1.7] text-[var(--cream)]">
+                          <span className="text-[0.88rem] font-normal leading-[1.7] text-[var(--cream)]">
                             {item}
                           </span>
                         </li>
@@ -93,7 +93,7 @@ export function FormationsReiki() {
               {formationsPage.approche.map((item) => (
                 <div key={item} className="flex items-start gap-3">
                   <span className="mt-[0.5rem] h-[6px] w-[6px] shrink-0 rounded-full bg-[var(--gold)]" />
-                  <span className="text-[0.85rem] font-light leading-[1.7] text-[var(--muted)]">
+                  <span className="text-[0.9rem] font-normal leading-[1.7] text-[var(--muted)]">
                     {item}
                   </span>
                 </div>
@@ -107,7 +107,7 @@ export function FormationsReiki() {
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               S’inscrire
             </h3>
-            <p className="mt-4 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
+            <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {formationsPage.pratique}
             </p>
             <div className="mt-6 flex flex-wrap gap-x-6 gap-y-3 text-[0.85rem] tracking-[0.06em] text-[var(--gold2)]">

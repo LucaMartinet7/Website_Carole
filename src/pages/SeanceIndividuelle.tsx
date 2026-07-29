@@ -34,7 +34,7 @@ export function SeanceIndividuelle() {
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               Le déroulement d’une séance
             </h3>
-            <p className="mt-4 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
+            <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {seancePage.deroulement}
             </p>
           </div>
@@ -45,14 +45,14 @@ export function SeanceIndividuelle() {
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               Explorer et <em>libérer</em>
             </h3>
-            <p className="mt-4 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
+            <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {seancePage.explorer.text}
             </p>
             <ul className="mt-5 flex flex-col gap-3">
               {seancePage.explorer.objectifs.map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <span className="mt-[0.5rem] h-[6px] w-[6px] shrink-0 rounded-full bg-[var(--gold)]" />
-                  <span className="text-[0.88rem] font-light leading-[1.8] text-[var(--cream)]">
+                  <span className="text-[0.93rem] font-normal leading-[1.75] text-[var(--cream)]">
                     {item}
                   </span>
                 </li>
@@ -66,14 +66,14 @@ export function SeanceIndividuelle() {
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               Le Reiki, une <em>approche globale</em>
             </h3>
-            <p className="mt-4 whitespace-pre-line text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
+            <p className="mt-4 whitespace-pre-line text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {seancePage.reiki.text}
             </p>
             <div className="mt-6 grid gap-x-8 gap-y-3 sm:grid-cols-2">
               {seancePage.reiki.bienfaits.map((item) => (
                 <div key={item} className="flex items-start gap-3">
                   <span className="mt-[0.5rem] h-[6px] w-[6px] shrink-0 rounded-full bg-[var(--gold)]" />
-                  <span className="text-[0.85rem] font-light leading-[1.7] text-[var(--muted)]">
+                  <span className="text-[0.9rem] font-normal leading-[1.7] text-[var(--muted)]">
                     {item}
                   </span>
                 </div>
@@ -87,7 +87,7 @@ export function SeanceIndividuelle() {
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               Tarifs
             </h3>
-            <p className="mt-4 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
+            <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {seancePage.tarifs.intro}
             </p>
             <ul className="mt-5 flex flex-col gap-3">
@@ -116,7 +116,7 @@ export function SeanceIndividuelle() {
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               En pratique
             </h3>
-            <p className="mt-4 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
+            <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               <strong className="font-medium text-[var(--cream)]">Où&nbsp;:</strong>{' '}
               {seancePage.pratique.lieux
                 .split('séance à distance')
@@ -131,7 +131,7 @@ export function SeanceIndividuelle() {
                     : [part],
                 )}
             </p>
-            <p className="mt-2 text-[0.9rem] font-light leading-[1.9] text-[var(--muted)]">
+            <p className="mt-2 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               <strong className="font-medium text-[var(--cream)]">Rythme conseillé&nbsp;:</strong>{' '}
               {seancePage.pratique.recommandation}
             </p>

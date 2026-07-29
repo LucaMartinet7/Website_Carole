@@ -19,7 +19,7 @@ function ServiceCardContent({
       <h3 className="mb-3 text-[1.6rem] font-normal text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
         {service.title}
       </h3>
-      <p className="mb-6 text-[0.82rem] font-light leading-[1.8] text-[var(--muted)]">
+      <p className="mb-6 text-[0.9rem] font-normal leading-[1.75] text-[var(--muted)]">
         {service.description}
       </p>
       <span className="inline-flex items-center gap-2 text-[0.65rem] font-medium uppercase tracking-[0.25em] text-[var(--gold)] after:content-['→'] after:transition-transform group-hover:after:translate-x-1">
