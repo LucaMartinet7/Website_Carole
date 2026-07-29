@@ -3,6 +3,7 @@ import { Route, Routes, useLocation } from 'react-router-dom'
 import { Footer } from './components/Footer'
 import { Navigation } from './components/Navigation'
 import { StarfieldCanvas } from './components/StarfieldCanvas'
+import { WhatsAppButton } from './components/WhatsAppButton'
 import { FormationsReiki } from './pages/FormationsReiki'
 import { HomePage } from './pages/HomePage'
 import { InitiationReiki } from './pages/InitiationReiki'
@@ -38,6 +39,7 @@ function App() {
         <Route path="/formations-reiki" element={<FormationsReiki />} />
         <Route path="/mentions-legales" element={<MentionsLegales />} />
       </Routes>
+      <WhatsAppButton />
       <Footer />
     </div>
   )

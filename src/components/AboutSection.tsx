@@ -97,7 +97,7 @@ export function AboutSection() {
                 src="/photos/reiki-soin.jpg"
                 alt="Carole Martinet, les mains posées lors d’une séance de Reiki"
                 loading="lazy"
-                className="block aspect-[3/4] w-full object-cover object-center"
+                className="block aspect-[3/4] w-full object-cover object-center transition-transform duration-[1200ms] ease-out hover:scale-[1.05]"
               />
               <figcaption className="bg-[rgba(51,45,38,0.6)] px-5 py-3 text-center text-[0.7rem] font-light italic tracking-[0.06em] text-[var(--muted)]">
                 Une séance de Reiki, au cabinet d’Ornex
