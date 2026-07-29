@@ -6,6 +6,7 @@ import {
   locations,
   trainingGroups,
 } from '../content/siteContent'
+import { Divider } from './Divider'
 import { Reveal } from './Reveal'
 import { SectionHeading } from './SectionHeading'
 
@@ -35,7 +36,13 @@ export function AboutSection() {
 
           {aboutStory.map((paragraph, index) => (
             <Reveal key={index} delayMs={150 + index * 60}>
-              <p className="mb-5 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
+              <p
+                className={`mb-5 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)] ${
+                  index === 0
+                    ? "mt-9 first-letter:float-left first-letter:mr-3 first-letter:mt-1 first-letter:text-[3.4rem] first-letter:font-normal first-letter:leading-[0.68] first-letter:text-[var(--gold)] first-letter:[font-family:'Cormorant_Garamond',serif]"
+                    : ''
+                }`}
+              >
                 {paragraph}
               </p>
             </Reveal>
@@ -52,6 +59,10 @@ export function AboutSection() {
                 </span>
               ))}
             </div>
+          </Reveal>
+
+          <Reveal>
+            <Divider className="mt-16" />
           </Reveal>
 
           <Reveal delayMs={200}>
@@ -127,6 +138,10 @@ export function AboutSection() {
                 </div>
               ))}
             </div>
+          </Reveal>
+
+          <Reveal>
+            <Divider className="mt-16" />
           </Reveal>
 
           <Reveal delayMs={400}>

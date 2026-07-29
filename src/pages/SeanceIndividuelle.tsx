@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { contact, seancePage } from '../content/siteContent'
+import { Divider } from '../components/Divider'
 import { Reveal } from '../components/Reveal'
 import { SectionHeading } from '../components/SectionHeading'
 
@@ -83,7 +84,8 @@ export function SeanceIndividuelle() {
         </Reveal>
 
         <Reveal delayMs={200}>
-          <div className="mt-12 border-t border-[rgba(201,169,110,0.2)] pt-8">
+          <Divider className="mt-14" />
+          <div className="mt-14">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               Tarifs
             </h3>
@@ -112,7 +114,8 @@ export function SeanceIndividuelle() {
         </Reveal>
 
         <Reveal delayMs={200}>
-          <div className="mt-12 border-t border-[rgba(201,169,110,0.2)] pt-8">
+          <Divider className="mt-14" />
+          <div className="mt-14">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               En pratique
             </h3>

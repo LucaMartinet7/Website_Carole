@@ -17,11 +17,15 @@ export function SectionHeading({
   return (
     <>
       <Reveal className={align === 'left' ? 'text-left' : ''}>
-        <p
-          className={`mb-4 text-[0.62rem] font-medium uppercase tracking-[0.38em] text-[var(--gold)] ${align === 'left' ? 'text-left' : 'text-center'}`}
+        <div
+          className={`mb-5 flex items-center gap-3.5 ${align === 'left' ? 'justify-start' : 'justify-center'}`}
         >
-          {label}
-        </p>
+          <span className="h-px w-7 bg-[var(--gold)] opacity-50" />
+          <p className="text-[0.62rem] font-medium uppercase tracking-[0.38em] text-[var(--gold)]">
+            {label}
+          </p>
+          {align !== 'left' && <span className="h-px w-7 bg-[var(--gold)] opacity-50" />}
+        </div>
       </Reveal>
       <Reveal className={align === 'left' ? 'text-left' : ''} delayMs={100}>
         <h2
