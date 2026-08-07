@@ -163,45 +163,45 @@ export const faq = [
 
 export const initiationPage = {
   intro:
-    'A friendly moment to discover Reiki, feel the energies and take your first steps, in complete simplicity.',
+    'A relaxed, friendly way to discover Reiki, feel the energies and take your first steps.',
   atouts: ['Open to all', 'No experience needed', 'Small group', '≈ 1 hour'],
   presentation:
     'The discovery initiation is a group experience, open to all, to ease your way into Reiki. No experience is needed. There is nothing to prepare and nothing to believe — simply be present with yourself. I guide you step by step to feel the energy around you, the energy of Reiki.',
   vivre: [
-    'Understand what Reiki is, simply',
-    'Feel Reiki',
-    'Experience a first gentle treatment',
-    'A moment of relaxation and sharing',
+    'Understand Reiki, simply',
+    'Feel Reiki for yourself',
+    'Experience a first, gentle treatment',
+    'A moment to relax and share',
   ],
   deroule:
     'For about an hour, in a small group, you discover Reiki in a simple and reassuring way. After a short introduction, I guide you into a deep relaxation, then a group harmonisation treatment during which I place my hands on each person, if you wish. You feel the energy of Reiki, your body relaxes and the mind settles, while your energy balance is gradually restored. You leave with a few simple tools to reconnect with your energy every day.',
   pourQui:
-    'For the curious, for beginners, for those who want to discover Reiki before going further, or simply to enjoy a lovely wellbeing moment together.',
-  ou: 'I offer these initiations at festivals and wellness events, such as the Yoga and Wellbeing Festival in Ferney-Voltaire, as well as for companies and associations.\nSoon, I will also welcome you at my practice in Ornex.\nA personalised quote is drawn up according to your needs, the service requested and the location.',
+    'For the curious, for beginners, for anyone who wants to try Reiki before going further, or simply to share a lovely moment of wellbeing together.',
+  ou: 'I offer these initiations at festivals and wellness events, such as the Yoga and Wellbeing Festival in Ferney-Voltaire, as well as for companies and associations.\nSoon, I will also welcome you at my practice in Ornex.\nI put together a personalised quote based on your needs, the service and the location.',
 } as const
 
 export const formationsPage = {
   intro:
-    'Learn to practise Reiki and gain autonomy, at your own pace, within the Japanese tradition of Usui Reiki Ryoho.',
+    'Learn to practise Reiki and grow more independent, at your own pace, within the Japanese tradition of Usui Reiki Ryoho.',
   presentation:
     'Whether you want to take care of yourself, of your loved ones, or to commit more deeply to the path of Reiki, I guide you step by step. My courses follow the original tradition of Usui Reiki Ryoho, which I received from the Japanese Master Tomoyo Nozaki.',
   niveaux: [
     {
       title: 'Level 1 · Shoden',
       resume:
-        'The initiation. You open to the energy of Reiki and learn to take care of yourself day to day.',
+        'The initiation. You open up to the energy of Reiki and learn to care for yourself day to day.',
       contenu: [
         'The history and key principles of Reiki',
         'Self-treatment, day after day',
-        'Treating loved ones, with simple, clear gestures',
+        'Treating loved ones, with simple, clear techniques',
         'Energetic cleansing and protection',
         'Four attunements during the course',
       ],
       infos: [
         'Over 2 days, in person in Ornex, in a very small group of 4 people maximum',
         '21 days of guided practice',
-        'A WhatsApp group to share your feelings and questions',
-        'Reiki sharing gatherings to progress together',
+        'A WhatsApp group to share how you’re getting on and ask questions',
+        'Reiki sharing circles to grow together',
         'Manual and Level 1 Certificate',
       ],
       prix: '350 €',
@@ -220,8 +220,8 @@ export const formationsPage = {
       infos: [
         'Over 2 days, in person in Ornex, in a very small group of 4 people maximum',
         'Level 1 is a prerequisite',
-        'A WhatsApp group to share your feelings and questions',
-        'Reiki sharing gatherings to progress together',
+        'A WhatsApp group to share how you’re getting on and ask questions',
+        'Reiki sharing circles to grow together',
         'Manual and Level 2 Certificate',
       ],
       prix: '500 €',
@@ -229,7 +229,7 @@ export const formationsPage = {
     {
       title: 'Levels 3 & 4',
       resume:
-        'To go further in your practice and, if you wish, in teaching Reiki. Offered individually, after a conversation to define your path together.',
+        'To go further in your practice and, if you wish, into teaching Reiki. Offered one to one, after a chat to shape your journey together.',
       contenu: [],
       infos: [],
       prix: 'On request',
@@ -242,7 +242,7 @@ export const formationsPage = {
     'Payment possible in instalments',
   ],
   pratique:
-    'Contact me for the next available dates and to build your path together.',
+    'Get in touch for the next available dates, and we’ll shape your journey together.',
 } as const
 
 export const seancePage = {
