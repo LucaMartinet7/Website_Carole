@@ -474,3 +474,136 @@ export const trainingGroups = [
     ],
   },
 ] as const
+
+export const ui = {
+  nav: {
+    cta: 'Prendre rendez-vous',
+    open: 'Ouvrir le menu',
+    close: 'Fermer le menu',
+    langLabel: 'Langue',
+  },
+  hero: {
+    eyebrow: 'Thérapeute Énergétique · Maître Reiki depuis 2014',
+    title: 'Retrouvez votre *équilibre* et avancez vers ce qui est juste pour vous',
+    subtitle1: 'Séances de Reiki individuelles, initiations, formations.',
+    subtitle2: 'À Ornex, Genève, ou à distance, en français et en anglais.',
+    ctaEmail: 'Réserver par email',
+    ctaServices: 'Découvrir les soins',
+    scroll: 'Explorer',
+    portraitAlt: 'Carole Martinet, thérapeute énergétique et Maître Reiki',
+  },
+  resonance: {
+    label: 'Vous vous reconnaissez ?',
+    title: 'Ces situations vous *parlent-elles* ?',
+    description:
+      'Si l’une de ces réalités résonne en vous, je peux vous apporter un soutien et une transformation profonde et durable.',
+  },
+  services: {
+    label: 'Ce que je propose',
+    title: 'Se libérer, découvrir, *apprendre*',
+    description:
+      'Beaucoup viennent pour se libérer de blocages profonds, ou simplement pour découvrir le Reiki, souvent sans savoir par où commencer. Je vous accueille là où vous en êtes. Les formations Reiki, elles, s’adressent à celles et ceux qui souhaitent gagner en autonomie et approfondir leur pratique du Reiki, à tous les niveaux.',
+  },
+  about: {
+    label: 'À propos de Carole',
+    title: 'Un parcours guidé par *la sensibilité et l’énergie*',
+    description:
+      'Maître Reiki depuis 2014, je vous accompagne vers un mieux-être durable, en alliant soins énergétiques et développement personnel.',
+    figcaption: 'Une séance de Reiki, au cabinet d’Ornex',
+    expertiseTitle: 'Mon expertise : *libération, équilibre, cheminement*',
+    formationsTitle: 'Mes *formations*',
+  },
+  quote: {
+    text: 'J’ai décidé d’être heureux parce que c’est bon pour la santé.',
+    author: '— Voltaire',
+  },
+  testimonials: {
+    label: 'Ils témoignent',
+    title: 'Des transformations *vécues*',
+    description: 'Des retours sincères de personnes accompagnées avec le Reiki.',
+    google: 'Voir mes avis Google',
+  },
+  faq: {
+    label: 'Questions fréquentes',
+    title: 'Vous vous *demandez*…',
+    description:
+      'Les réponses aux questions que l’on me pose le plus souvent avant une première séance.',
+  },
+  cta: {
+    label: 'Prêt(e) à commencer ?',
+    title: 'Votre première séance est *une invitation*',
+    description:
+      'Chaque chemin vers le bien-être commence par un premier pas. Contactez-moi pour échanger sur vos besoins ou réserver directement votre séance.',
+    ctaEmail: 'Réserver par email',
+    ctaCall: 'Appeler Carole',
+    instagram: 'Suivez-moi sur Instagram @carolemartinet_reiki',
+    formLabel: 'Ou écrivez-moi un message',
+    formIntro:
+      'Une question, une envie d’en savoir plus ? Laissez-moi un mot, je vous réponds personnellement.',
+  },
+  contactForm: {
+    name: 'Votre nom',
+    namePlaceholder: 'Prénom et nom',
+    email: 'Votre email',
+    emailPlaceholder: 'vous@exemple.com',
+    message: 'Votre message',
+    messagePlaceholder: 'Dites-moi en quelques mots ce qui vous amène…',
+    consentBefore:
+      'J’accepte que les informations transmises via ce formulaire soient utilisées pour répondre à ma demande. Elles ne sont ni cédées ni revendues. Voir la ',
+    consentLink: 'politique de confidentialité',
+    submit: 'Envoyer le message',
+    sending: 'Envoi en cours…',
+    successTitle: 'Merci, votre message est bien parti.',
+    successBody: 'Je vous réponds dès que possible. À très vite !',
+    errorBefore: 'Une erreur est survenue. Réessayez, ou écrivez-moi directement à ',
+    subject: 'Nouveau message depuis carolemartinet.com',
+  },
+  footer: {
+    copyright:
+      '©2026 Carole Martinet · SIRET 91010645900019 · Membre du SNPER · Médiation MED CONSO DEV · Tous droits réservés',
+  },
+  whatsapp: {
+    label: 'Écrivez-moi',
+    aria: 'Contacter Carole sur WhatsApp',
+    prefill: 'Bonjour Carole, je vous contacte depuis votre site au sujet d’une séance de Reiki.',
+  },
+  common: {
+    back: '← Retour à l’accueil',
+    contactMe: 'Me contacter',
+  },
+  seance: {
+    label: 'Séance individuelle',
+    title: 'Un accompagnement *sur mesure*',
+    deroulementTitle: 'Le déroulement d’une séance',
+    explorerTitle: 'Explorer et *libérer*',
+    reikiTitle: 'Le Reiki, une *approche globale*',
+    tarifsTitle: 'Tarifs',
+    pratiqueTitle: 'En pratique',
+    where: 'Où',
+    rythme: 'Rythme conseillé',
+    book: 'Réserver une séance',
+  },
+  initiation: {
+    label: 'Initiation Reiki',
+    title: 'Une découverte du Reiki *en groupe*',
+    accessibleTitle: 'Une initiation accessible à *tous*',
+    derouleTitle: 'Comment se déroule une *initiation*',
+    vivreTitle: 'Ce que vous allez *vivre*',
+    pourQuiTitle: 'Pour qui ?',
+    ouTitle: 'Où me rencontrer',
+    closing:
+      'Envie de découvrir le Reiki, ou d’organiser une initiation pour votre groupe ? Écrivez-moi ou appelez-moi, je vous répondrai avec plaisir. Venez comme vous êtes, en toute simplicité.',
+  },
+  formations: {
+    label: 'Formations Reiki',
+    title: 'Apprendre le Reiki, *à votre rythme*',
+    parcoursTitle: 'Le parcours de *formation*',
+    approcheTitle: 'Mon *approche*',
+    inscrireTitle: 'S’inscrire',
+  },
+  legal: {
+    label: 'Informations légales',
+    title: 'Mentions légales & *confidentialité*',
+    updatedLabel: 'Dernière mise à jour',
+  },
+} as const

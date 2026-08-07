@@ -1,16 +1,13 @@
-import {
-  aboutBadges,
-  aboutStory,
-  contact,
-  expertise,
-  locations,
-  trainingGroups,
-} from '../content/siteContent'
+import { useContent } from '../i18n/useContent'
 import { Divider } from './Divider'
 import { Reveal } from './Reveal'
+import { Rich } from './Rich'
 import { SectionHeading } from './SectionHeading'
 
 export function AboutSection() {
+  const { aboutBadges, aboutStory, contact, expertise, locations, trainingGroups, ui } =
+    useContent()
+
   return (
     <section
       id="about"
@@ -20,18 +17,9 @@ export function AboutSection() {
         <div className="mx-auto max-w-[760px]">
           <SectionHeading
             align="left"
-            label="À propos de Carole"
-            title={
-              <>
-                Un parcours guidé par <em>la sensibilité et l’énergie</em>
-              </>
-            }
-            description={
-              <>
-                Maître Reiki depuis 2014, je vous accompagne vers un mieux-être durable, en alliant
-                soins énergétiques et développement personnel.
-              </>
-            }
+            label={ui.about.label}
+            title={ui.about.title}
+            description={ui.about.description}
           />
 
           {aboutStory.map((paragraph, index) => (
@@ -68,7 +56,7 @@ export function AboutSection() {
           <Reveal delayMs={200}>
             <div className="mt-16">
               <h3 className="text-[1.6rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
-                Mon expertise : <em>libération, équilibre, cheminement</em>
+                <Rich text={ui.about.expertiseTitle} />
               </h3>
               <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
                 {expertise.intro}
@@ -117,7 +105,7 @@ export function AboutSection() {
                   className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_top,rgba(51,45,38,0.75),transparent_45%)]"
                 />
                 <figcaption className="absolute inset-x-0 bottom-0 px-5 pb-4 pt-8 text-center text-[0.72rem] font-light italic tracking-[0.06em] text-[var(--gold2)]">
-                  Une séance de Reiki, au cabinet d’Ornex
+                  {ui.about.figcaption}
                 </figcaption>
               </div>
             </figure>
@@ -126,7 +114,7 @@ export function AboutSection() {
           <Reveal delayMs={200}>
             <div className="mt-16">
               <h3 className="text-[1.6rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
-                Mes <em>formations</em>
+                <Rich text={ui.about.formationsTitle} />
               </h3>
               {trainingGroups.map((group) => (
                 <div key={group.heading} className="mt-8">

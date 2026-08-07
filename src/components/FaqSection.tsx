@@ -1,21 +1,17 @@
-import { faq } from '../content/siteContent'
+import { useContent } from '../i18n/useContent'
 import { Reveal } from './Reveal'
 import { SectionHeading } from './SectionHeading'
 
 export function FaqSection() {
+  const { faq, ui } = useContent()
+
   return (
     <section id="faq" className="relative z-10 bg-[var(--deep)]">
       <div className="mx-auto max-w-[820px] px-8 pb-24 pt-12">
         <SectionHeading
-          label="Questions fréquentes"
-          title={
-            <>
-              Vous vous <em>demandez</em>…
-            </>
-          }
-          description={
-            <>Les réponses aux questions que l'on me pose le plus souvent avant une première séance.</>
-          }
+          label={ui.faq.label}
+          title={ui.faq.title}
+          description={ui.faq.description}
         />
         <Reveal delayMs={200}>
           <div className="mt-10 flex flex-col gap-3">

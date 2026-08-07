@@ -1,10 +1,13 @@
 import { Link } from 'react-router-dom'
-import { contact, formationsPage } from '../content/siteContent'
 import { Divider } from '../components/Divider'
 import { Reveal } from '../components/Reveal'
+import { Rich } from '../components/Rich'
 import { SectionHeading } from '../components/SectionHeading'
+import { useContent } from '../i18n/useContent'
 
 export function FormationsReiki() {
+  const { contact, formationsPage, ui } = useContent()
+
   return (
     <main className="relative z-10 bg-[linear-gradient(to_bottom,var(--night),var(--deep))]">
       <div className="mx-auto max-w-[820px] px-8 pb-24 pt-36">
@@ -13,20 +16,16 @@ export function FormationsReiki() {
             to="/"
             className="text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--gold)] transition-colors hover:text-[var(--gold2)]"
           >
-            ← Retour à l’accueil
+            {ui.common.back}
           </Link>
         </Reveal>
 
         <div className="mt-8">
           <SectionHeading
             align="left"
-            label="Formations Reiki"
-            title={
-              <>
-                Apprendre le Reiki, <em>à votre rythme</em>
-              </>
-            }
-            description={<>{formationsPage.intro}</>}
+            label={ui.formations.label}
+            title={ui.formations.title}
+            description={formationsPage.intro}
           />
         </div>
 
@@ -39,7 +38,7 @@ export function FormationsReiki() {
         <Reveal delayMs={200}>
           <div className="mt-12">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
-              Le parcours de <em>formation</em>
+              <Rich text={ui.formations.parcoursTitle} />
             </h3>
             <div className="mt-6 flex flex-col gap-9">
               {formationsPage.niveaux.map((niveau) => (
@@ -88,7 +87,7 @@ export function FormationsReiki() {
         <Reveal delayMs={200}>
           <div className="mt-12">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
-              Mon <em>approche</em>
+              <Rich text={ui.formations.approcheTitle} />
             </h3>
             <div className="mt-6 grid gap-x-8 gap-y-3 sm:grid-cols-2">
               {formationsPage.approche.map((item) => (
@@ -107,7 +106,7 @@ export function FormationsReiki() {
           <Divider className="mt-14" />
           <div className="mt-14">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
-              S’inscrire
+              <Rich text={ui.formations.inscrireTitle} />
             </h3>
             <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {formationsPage.pratique}
@@ -125,13 +124,13 @@ export function FormationsReiki() {
               className="inline-flex items-center justify-center bg-[var(--gold)] px-9 py-4 text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--night)] transition-transform hover:-translate-y-0.5 hover:bg-[var(--gold2)]"
               href={`tel:${contact.phone}`}
             >
-              Me contacter
+              {ui.common.contactMe}
             </a>
             <Link
               className="text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--gold)] transition-colors hover:text-[var(--gold2)]"
               to="/"
             >
-              ← Retour à l’accueil
+              {ui.common.back}
             </Link>
           </div>
         </Reveal>

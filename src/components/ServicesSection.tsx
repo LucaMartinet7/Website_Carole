@@ -1,16 +1,20 @@
 import { Link } from 'react-router-dom'
-import { services } from '../content/siteContent'
+import { useContent } from '../i18n/useContent'
 import { Reveal } from './Reveal'
 import { SectionHeading } from './SectionHeading'
 
 const cardClassName =
   'group relative flex h-full flex-col border border-[rgba(201,169,110,0.15)] p-10 transition-colors duration-300 hover:bg-[rgba(201,169,110,0.03)]'
 
-function ServiceCardContent({
-  service,
-}: {
-  service: (typeof services)[number]
-}) {
+type Service = {
+  number: string
+  title: string
+  description: string
+  href: string
+  cta: string
+}
+
+function ServiceCardContent({ service }: { service: Service }) {
   return (
     <>
       <span className="mb-2 block text-[4rem] leading-none text-[rgba(201,169,110,0.1)] [font-family:'Cormorant_Garamond',serif]">
@@ -30,24 +34,15 @@ function ServiceCardContent({
 }
 
 export function ServicesSection() {
+  const { services, ui } = useContent()
+
   return (
     <section id="services" className="relative z-10 bg-[var(--night)]">
       <div className="mx-auto max-w-[1140px] px-8 py-24">
         <SectionHeading
-          label="Ce que je propose"
-          title={
-            <>
-              Se libérer, découvrir, <em>apprendre</em>
-            </>
-          }
-          description={
-            <>
-              Beaucoup viennent pour se libérer de blocages profonds, ou simplement pour découvrir
-              le Reiki, souvent sans savoir par où commencer. Je vous accueille là où vous en êtes.
-              Les formations Reiki, elles, s'adressent à celles et ceux qui souhaitent gagner en
-              autonomie et approfondir leur pratique du Reiki, à tous les niveaux.
-            </>
-          }
+          label={ui.services.label}
+          title={ui.services.title}
+          description={ui.services.description}
         />
         <Reveal delayMs={300}>
           <div className="mt-14 grid gap-6 md:grid-cols-3">

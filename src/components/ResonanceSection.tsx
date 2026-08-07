@@ -1,24 +1,17 @@
-import { resonanceCards } from '../content/siteContent'
+import { useContent } from '../i18n/useContent'
 import { Reveal } from './Reveal'
 import { SectionHeading } from './SectionHeading'
 
 export function ResonanceSection() {
+  const { resonanceCards, ui } = useContent()
+
   return (
     <section id="resonance" className="relative z-10 bg-[var(--deep)]">
       <div className="mx-auto max-w-[1140px] px-8 py-24">
         <SectionHeading
-          label="Vous vous reconnaissez ?"
-          title={
-            <>
-              Ces situations vous <em>parlent-elles</em> ?
-            </>
-          }
-          description={
-            <>
-              Si l'une de ces réalités résonne en vous, je peux vous apporter un soutien et une
-              transformation profonde et durable.
-            </>
-          }
+          label={ui.resonance.label}
+          title={ui.resonance.title}
+          description={ui.resonance.description}
         />
         <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {resonanceCards.map((card, index) => (

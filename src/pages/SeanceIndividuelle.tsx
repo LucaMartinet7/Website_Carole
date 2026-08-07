@@ -1,10 +1,13 @@
 import { Link } from 'react-router-dom'
-import { contact, seancePage } from '../content/siteContent'
 import { Divider } from '../components/Divider'
 import { Reveal } from '../components/Reveal'
+import { Rich } from '../components/Rich'
 import { SectionHeading } from '../components/SectionHeading'
+import { useContent } from '../i18n/useContent'
 
 export function SeanceIndividuelle() {
+  const { contact, seancePage, ui } = useContent()
+
   return (
     <main className="relative z-10 bg-[linear-gradient(to_bottom,var(--night),var(--deep))]">
       <div className="mx-auto max-w-[820px] px-8 pb-24 pt-36">
@@ -13,27 +16,23 @@ export function SeanceIndividuelle() {
             to="/"
             className="text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--gold)] transition-colors hover:text-[var(--gold2)]"
           >
-            ← Retour à l’accueil
+            {ui.common.back}
           </Link>
         </Reveal>
 
         <div className="mt-8">
           <SectionHeading
             align="left"
-            label="Séance individuelle"
-            title={
-              <>
-                Un accompagnement <em>sur mesure</em>
-              </>
-            }
-            description={<>{seancePage.intro}</>}
+            label={ui.seance.label}
+            title={ui.seance.title}
+            description={seancePage.intro}
           />
         </div>
 
         <Reveal delayMs={150}>
           <div className="mt-12">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
-              Le déroulement d’une séance
+              <Rich text={ui.seance.deroulementTitle} />
             </h3>
             <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {seancePage.deroulement}
@@ -44,7 +43,7 @@ export function SeanceIndividuelle() {
         <Reveal delayMs={200}>
           <div className="mt-12">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
-              Explorer et <em>libérer</em>
+              <Rich text={ui.seance.explorerTitle} />
             </h3>
             <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {seancePage.explorer.text}
@@ -65,7 +64,7 @@ export function SeanceIndividuelle() {
         <Reveal delayMs={200}>
           <div className="mt-12">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
-              Le Reiki, une <em>approche globale</em>
+              <Rich text={ui.seance.reikiTitle} />
             </h3>
             <p className="mt-4 whitespace-pre-line text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {seancePage.reiki.text}
@@ -87,7 +86,7 @@ export function SeanceIndividuelle() {
           <Divider className="mt-14" />
           <div className="mt-14">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
-              Tarifs
+              <Rich text={ui.seance.tarifsTitle} />
             </h3>
             <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {seancePage.tarifs.intro}
@@ -117,25 +116,14 @@ export function SeanceIndividuelle() {
           <Divider className="mt-14" />
           <div className="mt-14">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
-              En pratique
+              <Rich text={ui.seance.pratiqueTitle} />
             </h3>
             <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
-              <strong className="font-medium text-[var(--cream)]">Où&nbsp;:</strong>{' '}
-              {seancePage.pratique.lieux
-                .split('séance à distance')
-                .flatMap((part, index, parts) =>
-                  index < parts.length - 1
-                    ? [
-                        part,
-                        <span key={index} className="font-medium italic text-[var(--gold2)]">
-                          séance à distance
-                        </span>,
-                      ]
-                    : [part],
-                )}
+              <strong className="font-medium text-[var(--cream)]">{ui.seance.where}&nbsp;:</strong>{' '}
+              {seancePage.pratique.lieux}
             </p>
             <p className="mt-2 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
-              <strong className="font-medium text-[var(--cream)]">Rythme conseillé&nbsp;:</strong>{' '}
+              <strong className="font-medium text-[var(--cream)]">{ui.seance.rythme}&nbsp;:</strong>{' '}
               {seancePage.pratique.recommandation}
             </p>
             <div className="mt-6 flex flex-wrap gap-x-6 gap-y-3 text-[0.85rem] tracking-[0.06em] text-[var(--gold2)]">
@@ -151,13 +139,13 @@ export function SeanceIndividuelle() {
               className="inline-flex items-center justify-center bg-[var(--gold)] px-9 py-4 text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--night)] transition-transform hover:-translate-y-0.5 hover:bg-[var(--gold2)]"
               href={`tel:${contact.phone}`}
             >
-              Réserver une séance
+              {ui.seance.book}
             </a>
             <Link
               className="text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--gold)] transition-colors hover:text-[var(--gold2)]"
               to="/"
             >
-              ← Retour à l’accueil
+              {ui.common.back}
             </Link>
           </div>
         </Reveal>

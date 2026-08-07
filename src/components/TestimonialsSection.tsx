@@ -1,23 +1,17 @@
-import { contact, testimonials } from '../content/siteContent'
+import { useContent } from '../i18n/useContent'
 import { Reveal } from './Reveal'
 import { SectionHeading } from './SectionHeading'
 
 export function TestimonialsSection() {
+  const { contact, testimonials, ui } = useContent()
+
   return (
     <section id="testimonials" className="relative z-10 bg-[var(--deep)]">
       <div className="mx-auto max-w-[1140px] px-8 pb-16 pt-24">
         <SectionHeading
-          label="Ils témoignent"
-          title={
-            <>
-              Des transformations <em>vécues</em>
-            </>
-          }
-          description={
-            <>
-              Des retours sincères de personnes accompagnées avec le Reiki.
-            </>
-          }
+          label={ui.testimonials.label}
+          title={ui.testimonials.title}
+          description={ui.testimonials.description}
         />
         <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {testimonials.map((testimonial, index) => (
@@ -53,7 +47,7 @@ export function TestimonialsSection() {
               rel="noreferrer"
             >
               <span className="text-[0.9rem] tracking-[0.15em] text-[var(--gold2)]">★★★★★</span>
-              Voir mes avis Google
+              {ui.testimonials.google}
             </a>
           </div>
         </Reveal>

@@ -1,10 +1,10 @@
-import type { ReactNode } from 'react'
 import { Reveal } from './Reveal'
+import { Rich } from './Rich'
 
 type SectionHeadingProps = {
   label: string
-  title: ReactNode
-  description: ReactNode
+  title: string
+  description: string
   align?: 'center' | 'left'
 }
 
@@ -31,7 +31,7 @@ export function SectionHeading({
         <h2
           className={`mb-6 text-[clamp(2rem,4.5vw,3.4rem)] font-light leading-[1.15] text-[var(--cream)] [font-family:'Cormorant_Garamond',serif] ${align === 'left' ? 'text-left' : 'text-center'}`}
         >
-          {title}
+          <Rich text={title} />
         </h2>
       </Reveal>
       <Reveal className={align === 'left' ? 'text-left' : ''} delayMs={200}>

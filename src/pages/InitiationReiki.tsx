@@ -1,10 +1,13 @@
 import { Link } from 'react-router-dom'
-import { contact, initiationPage } from '../content/siteContent'
 import { Divider } from '../components/Divider'
 import { Reveal } from '../components/Reveal'
+import { Rich } from '../components/Rich'
 import { SectionHeading } from '../components/SectionHeading'
+import { useContent } from '../i18n/useContent'
 
 export function InitiationReiki() {
+  const { contact, initiationPage, ui } = useContent()
+
   return (
     <main className="relative z-10 bg-[linear-gradient(to_bottom,var(--night),var(--deep))]">
       <div className="mx-auto max-w-[820px] px-8 pb-24 pt-36">
@@ -13,20 +16,16 @@ export function InitiationReiki() {
             to="/"
             className="text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--gold)] transition-colors hover:text-[var(--gold2)]"
           >
-            ← Retour à l’accueil
+            {ui.common.back}
           </Link>
         </Reveal>
 
         <div className="mt-8">
           <SectionHeading
             align="left"
-            label="Initiation Reiki"
-            title={
-              <>
-                Une découverte du Reiki <em>en groupe</em>
-              </>
-            }
-            description={<>{initiationPage.intro}</>}
+            label={ui.initiation.label}
+            title={ui.initiation.title}
+            description={initiationPage.intro}
           />
         </div>
 
@@ -46,7 +45,7 @@ export function InitiationReiki() {
         <Reveal delayMs={150}>
           <div className="mt-12">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
-              Une initiation accessible à <em>tous</em>
+              <Rich text={ui.initiation.accessibleTitle} />
             </h3>
             <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {initiationPage.presentation}
@@ -57,7 +56,7 @@ export function InitiationReiki() {
         <Reveal delayMs={200}>
           <div className="mt-12">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
-              Comment se déroule une <em>initiation</em>
+              <Rich text={ui.initiation.derouleTitle} />
             </h3>
             <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {initiationPage.deroule}
@@ -68,7 +67,7 @@ export function InitiationReiki() {
         <Reveal delayMs={200}>
           <div className="mt-12">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
-              Ce que vous allez <em>vivre</em>
+              <Rich text={ui.initiation.vivreTitle} />
             </h3>
             <ul className="mt-5 flex flex-col gap-3">
               {initiationPage.vivre.map((item) => (
@@ -86,7 +85,7 @@ export function InitiationReiki() {
         <Reveal delayMs={200}>
           <div className="mt-12">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
-              Pour qui&nbsp;?
+              <Rich text={ui.initiation.pourQuiTitle} />
             </h3>
             <p className="mt-4 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {initiationPage.pourQui}
@@ -98,7 +97,7 @@ export function InitiationReiki() {
           <Divider className="mt-14" />
           <div className="mt-14">
             <h3 className="text-[1.5rem] font-light text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
-              Où me rencontrer
+              <Rich text={ui.initiation.ouTitle} />
             </h3>
             <p className="mt-4 whitespace-pre-line text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
               {initiationPage.ou}
@@ -112,21 +111,20 @@ export function InitiationReiki() {
 
         <Reveal delayMs={250}>
           <p className="mt-14 text-[0.95rem] font-normal leading-[1.85] text-[var(--muted)]">
-            Envie de découvrir le Reiki, ou d’organiser une initiation pour votre groupe&nbsp;? Écrivez-moi
-            ou appelez-moi, je vous répondrai avec plaisir. Venez comme vous êtes, en toute simplicité.
+            {ui.initiation.closing}
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-5">
             <a
               className="inline-flex items-center justify-center bg-[var(--gold)] px-9 py-4 text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--night)] transition-transform hover:-translate-y-0.5 hover:bg-[var(--gold2)]"
               href={`tel:${contact.phone}`}
             >
-              Me contacter
+              {ui.common.contactMe}
             </a>
             <Link
               className="text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--gold)] transition-colors hover:text-[var(--gold2)]"
               to="/"
             >
-              ← Retour à l’accueil
+              {ui.common.back}
             </Link>
           </div>
         </Reveal>

@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom'
-import { legalPage } from '../content/siteContent'
 import { Reveal } from '../components/Reveal'
 import { SectionHeading } from '../components/SectionHeading'
+import { useContent } from '../i18n/useContent'
 
 export function MentionsLegales() {
+  const { legalPage, ui } = useContent()
+
   return (
     <main className="relative z-10 bg-[linear-gradient(to_bottom,var(--night),var(--deep))]">
       <div className="mx-auto max-w-[820px] px-8 pb-24 pt-36">
@@ -12,20 +14,16 @@ export function MentionsLegales() {
             to="/"
             className="text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--gold)] transition-colors hover:text-[var(--gold2)]"
           >
-            ← Retour à l’accueil
+            {ui.common.back}
           </Link>
         </Reveal>
 
         <div className="mt-8">
           <SectionHeading
             align="left"
-            label="Informations légales"
-            title={
-              <>
-                Mentions légales &amp; <em>confidentialité</em>
-              </>
-            }
-            description={<>{legalPage.intro}</>}
+            label={ui.legal.label}
+            title={ui.legal.title}
+            description={legalPage.intro}
           />
         </div>
 
@@ -49,7 +47,7 @@ export function MentionsLegales() {
 
         <Reveal delayMs={300}>
           <p className="mt-14 text-[0.72rem] font-light italic leading-[1.7] text-[var(--muted)]">
-            Dernière mise à jour : {legalPage.updated}.
+            {ui.legal.updatedLabel} : {legalPage.updated}.
           </p>
         </Reveal>
 

@@ -1,6 +1,9 @@
+import { useContent } from '../i18n/useContent'
 import { Reveal } from './Reveal'
 
 export function QuoteSection() {
+  const { ui } = useContent()
+
   return (
     <section
       id="quote"
@@ -20,10 +23,10 @@ export function QuoteSection() {
           &quot;
         </span>
         <blockquote className="mb-7 text-[clamp(1.6rem,3.8vw,2.6rem)] font-light leading-[1.4] italic text-[var(--cream)] [font-family:'Cormorant_Garamond',serif] [text-shadow:0_2px_20px_rgba(0,0,0,0.4)]">
-          J'ai décidé d'être heureux parce que c'est bon pour la santé.
+          {ui.quote.text}
         </blockquote>
         <p className="text-[0.65rem] font-medium uppercase tracking-[0.35em] text-[var(--gold2)]">
-          — Voltaire
+          {ui.quote.author}
         </p>
       </Reveal>
     </section>

@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom'
-import { navigationLinks, socialLinks } from '../content/siteContent'
+import { useContent } from '../i18n/useContent'
 
 export function Footer() {
+  const { navigationLinks, socialLinks, ui } = useContent()
+
   return (
     <footer className="relative z-10 bg-[#2a241d] px-8 py-12 text-center">
       <div className="mx-auto flex max-w-[1140px] flex-col items-center gap-7">
@@ -45,8 +47,7 @@ export function Footer() {
           ))}
         </div>
         <p className="max-w-3xl text-center text-[0.62rem] font-light tracking-[0.15em] text-[rgba(168,159,150,0.4)]">
-          ©2026 Carole Martinet · SIRET 91010645900019 · Membre du SNPER · Médiation MED CONSO DEV ·
-          Tous droits réservés
+          {ui.footer.copyright}
         </p>
       </div>
     </footer>

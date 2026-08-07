@@ -1,10 +1,12 @@
-import { contact } from '../content/siteContent'
+import { useContent } from '../i18n/useContent'
 import { ContactForm } from './ContactForm'
 import { Divider } from './Divider'
 import { Reveal } from './Reveal'
 import { SectionHeading } from './SectionHeading'
 
 export function CtaSection() {
+  const { contact, ui } = useContent()
+
   return (
     <section
       id="cta"
@@ -13,20 +15,9 @@ export function CtaSection() {
       <div className="pointer-events-none absolute left-1/2 top-1/2 h-[700px] w-[700px] -translate-x-1/2 -translate-y-1/2 bg-[radial-gradient(circle,rgba(201,169,110,0.1)_0%,transparent_60%)]" />
       <div className="relative z-10 mx-auto max-w-[640px] px-8 py-24">
         <SectionHeading
-          label="Prêt(e) à commencer ?"
-          title={
-            <>
-              Votre première séance
-              <br />
-              est <em>une invitation</em>
-            </>
-          }
-          description={
-            <>
-              Chaque chemin vers le bien-être commence par un premier pas. Contactez-moi pour
-              échanger sur vos besoins ou réserver directement votre séance.
-            </>
-          }
+          label={ui.cta.label}
+          title={ui.cta.title}
+          description={ui.cta.description}
         />
         <Reveal delayMs={300}>
           <div className="mt-12 flex flex-wrap justify-center gap-5">
@@ -34,13 +25,13 @@ export function CtaSection() {
               className="inline-flex items-center justify-center bg-[var(--gold)] px-10 py-4 text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--night)] transition-transform hover:-translate-y-0.5 hover:bg-[var(--gold2)] hover:shadow-[0_8px_40px_rgba(201,169,110,0.3)]"
               href={`mailto:${contact.email}?subject=Demande%20de%20rendez-vous`}
             >
-              Réserver par email
+              {ui.cta.ctaEmail}
             </a>
             <a
               className="inline-flex items-center justify-center border border-[rgba(201,169,110,0.4)] px-10 py-4 text-[0.72rem] font-medium uppercase tracking-[0.2em] text-[var(--gold)] transition-transform hover:-translate-y-0.5 hover:border-[var(--gold)] hover:bg-[rgba(201,169,110,0.06)]"
               href={`tel:${contact.phone}`}
             >
-              Appeler Carole
+              {ui.cta.ctaCall}
             </a>
           </div>
         </Reveal>
@@ -55,18 +46,17 @@ export function CtaSection() {
             target="_blank"
             rel="noreferrer"
           >
-            Suivez-moi sur Instagram @carolemartinet_reiki
+            {ui.cta.instagram}
           </a>
         </Reveal>
 
         <Reveal delayMs={200}>
           <Divider className="mt-16" />
           <p className="mt-14 mb-2 text-[0.68rem] font-medium uppercase tracking-[0.22em] text-[var(--gold)]">
-            Ou écrivez-moi un message
+            {ui.cta.formLabel}
           </p>
           <p className="mb-9 text-[0.85rem] font-normal leading-[1.7] text-[var(--muted)]">
-            Une question, une envie d’en savoir plus ? Laissez-moi un mot, je vous réponds
-            personnellement.
+            {ui.cta.formIntro}
           </p>
           <ContactForm />
         </Reveal>

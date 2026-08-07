@@ -1,17 +1,16 @@
-import { contact } from '../content/siteContent'
-
-const whatsappNumber = contact.phone.replace(/[^0-9]/g, '')
-const prefilledText = encodeURIComponent(
-  'Bonjour Carole, je vous contacte depuis votre site au sujet d’une séance de Reiki.',
-)
+import { useContent } from '../i18n/useContent'
 
 export function WhatsAppButton() {
+  const { contact, ui } = useContent()
+  const whatsappNumber = contact.phone.replace(/[^0-9]/g, '')
+  const prefilledText = encodeURIComponent(ui.whatsapp.prefill)
+
   return (
     <a
       href={`https://wa.me/${whatsappNumber}?text=${prefilledText}`}
       target="_blank"
       rel="noreferrer"
-      aria-label="Contacter Carole sur WhatsApp"
+      aria-label={ui.whatsapp.aria}
       className="group fixed bottom-5 right-5 z-50 flex items-center gap-0 overflow-hidden rounded-full bg-[var(--gold)] pl-[13px] pr-[13px] shadow-[0_6px_24px_rgba(0,0,0,0.35)] transition-all duration-300 hover:bg-[var(--gold2)] hover:shadow-[0_8px_30px_rgba(201,169,110,0.4)] sm:bottom-7 sm:right-7"
     >
       <span className="flex h-[30px] w-[30px] shrink-0 items-center justify-center py-[13px]">
@@ -24,7 +23,7 @@ export function WhatsAppButton() {
         </svg>
       </span>
       <span className="max-w-0 overflow-hidden whitespace-nowrap text-[0.72rem] font-medium uppercase tracking-[0.14em] text-[var(--night)] transition-all duration-300 group-hover:max-w-[160px] group-hover:pl-2 group-hover:pr-1">
-        Écrivez-moi
+        {ui.whatsapp.label}
       </span>
     </a>
   )
