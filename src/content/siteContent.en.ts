@@ -166,7 +166,7 @@ export const initiationPage = {
     'A friendly moment to discover Reiki, feel the energies and take your first steps, in complete simplicity.',
   atouts: ['Open to all', 'No experience needed', 'Small group', '≈ 1 hour'],
   presentation:
-    'The discovery initiation is a group moment, open to all, to gently get started with Reiki. No experience is required. You have nothing to prepare and nothing to believe — simply be present to yourself. I guide you step by step to feel the energy around you, the energy of Reiki.',
+    'The discovery initiation is a group experience, open to all, to ease your way into Reiki. No experience is needed. There is nothing to prepare and nothing to believe — simply be present with yourself. I guide you step by step to feel the energy around you, the energy of Reiki.',
   vivre: [
     'Understand what Reiki is, simply',
     'Feel Reiki',
@@ -251,7 +251,7 @@ export const seancePage = {
   deroulement:
     'Each session begins with a conversation, to identify your needs and priorities together. I gently welcome those going through tiredness, ongoing stress, a need to reconnect with themselves or a desire for change. Sessions take place in French or English, backed by more than twenty years of international experience.',
   explorer: {
-    text: 'Together, we bring to light what is holding you back, consciously or not. Little by little, we release the blocks, emotional patterns and old burdens, sometimes inherited from your story or from past lives.',
+    text: 'Together, we bring to light what is holding you back, consciously or not. Little by little, we release the blocks, emotional patterns and old burdens, sometimes carried over from your own past or from past lives.',
     objectifs: [
       'Release the emotions weighing on you',
       'Regain confidence in yourself',
@@ -293,14 +293,14 @@ export const seancePage = {
 export const aboutStory = [
   'From childhood, I discovered the power of complementary approaches. Where conventional medicine was not enough to relieve my loved ones, energetic and emotional methods brought genuine relief. That conviction has never left me.',
   'Very young, I also sensed the energies around us and the presence of a subtle world. Nourished by treatments, courses and initiations, this sensitivity is today at the heart of my practice. It is what allows me to welcome you with attentiveness and without judgement.',
-  'I then lived twenty years abroad, in the United States, Ivory Coast and the United Kingdom. There I finished my studies, worked in fashion, then stopped everything to take the time to raise my children. Years rich in encounters and giving, which taught me the value of grounding and listening.',
+  'I then spent twenty years abroad, in the United States, Ivory Coast and the United Kingdom. There I finished my studies, worked in fashion, then put it all on hold to take the time to raise my children. Years full of encounters and giving of myself, which taught me the value of staying grounded and truly listening.',
   'In 2010, I decided to make this calling my profession. I trained in Usui Reiki Ryoho, its traditional form, with the Japanese Master Tomoyo Nozaki, and became a Reiki Master in London in 2014. This journey transformed my practice as much as my life.',
-  'Today, my practice is enriched by other approaches, such as emotional release techniques (TERET) and the Akashic Records. So many tools to help you free yourself from what holds you back and move forward, at your own pace, towards what is right for you.',
+  'Today, my practice draws on other approaches too, such as emotional release techniques (TERET) and the Akashic Records — all of them tools to help you let go of what holds you back and move forward, at your own pace, towards what feels right for you.',
 ] as const
 
 export const expertise = {
   intro:
-    'I specialise in the return to self. I help you disconnect from tension, release what holds you back and create the life that suits you.',
+    'I specialise in helping you come back to yourself — stepping away from tension, releasing what holds you back and creating a life that truly fits you.',
   points: [
     {
       title: 'Release',
@@ -488,7 +488,7 @@ export const ui = {
     subtitle1: 'Individual Reiki sessions, initiations, training.',
     subtitle2: 'In Ornex, Geneva, or remotely, in French and English.',
     ctaEmail: 'Book by email',
-    ctaServices: 'Discover the treatments',
+    ctaServices: 'Explore the treatments',
     scroll: 'Explore',
     portraitAlt: 'Carole Martinet, energy therapist and Reiki Master',
   },
@@ -496,13 +496,13 @@ export const ui = {
     label: 'Does this sound like you?',
     title: 'Do these situations *resonate* with you?',
     description:
-      'If one of these realities resonates with you, I can offer you support and a deep, lasting transformation.',
+      'If any of this resonates with you, I can offer you deep, lasting support and real change.',
   },
   services: {
     label: 'What I offer',
     title: 'Release, discover, *learn*',
     description:
-      'Many come to free themselves from deep blocks, or simply to discover Reiki, often without knowing where to start. I welcome you exactly where you are. Reiki training is for those who wish to gain autonomy and deepen their Reiki practice, at every level.',
+      'Many people come to let go of deep-seated blocks, or simply to discover Reiki, often unsure where to begin. I meet you exactly where you are. Reiki training, meanwhile, is for those who want to become more independent and deepen their own practice, at every level.',
   },
   about: {
     label: 'About Carole',
@@ -518,9 +518,9 @@ export const ui = {
     author: '— Voltaire',
   },
   testimonials: {
-    label: 'They share',
-    title: 'Transformations *experienced*',
-    description: 'Sincere feedback from people accompanied with Reiki.',
+    label: 'In their words',
+    title: 'Real *transformations*',
+    description: 'Honest words from people I’ve supported with Reiki.',
     google: 'See my Google reviews',
   },
   faq: {
@@ -591,7 +591,7 @@ export const ui = {
     pourQuiTitle: 'Who is it for?',
     ouTitle: 'Where to meet me',
     closing:
-      'Curious to discover Reiki, or to organise an initiation for your group? Write or call me, I’ll be glad to answer. Come as you are, in complete simplicity.',
+      'Curious to discover Reiki, or thinking of organising an initiation for your group? Drop me a line or give me a call — I’d be glad to help. Come just as you are.',
   },
   formations: {
     label: 'Reiki training',
