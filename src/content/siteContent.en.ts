@@ -130,6 +130,11 @@ export const contact = {
 
 export const faq = [
   {
+    question: 'What is Reiki?',
+    answer:
+      'Reiki (靈氣) is a completely natural energy practice of Japanese origin. Its purpose is to boost the receiver’s life force energy, and with it their overall wellbeing — in the physical body as much as in mental health. Developed in 1922 by Mikao Usui Sensei, it has been passed on around the world and into the West.\n\nIt works on three levels: physical, emotional and mental. This holistic practice is also known for the strong support it brings to personal and spiritual growth, helping each of us reconnect with our inner potential.\n\nReiki energy is a universal frequency that helps rebalance life force energy (Ki) when it is weakened or out of harmony. You might think of Reiki as an “energy enhancer”, nourishing, strengthening and filling in what is lacking. Its ultimate aim is to restore your original inner balance and give the receiver the best possible conditions to activate their natural self-healing abilities.',
+  },
+  {
     question: 'Is distance Reiki as effective as in the practice room?',
     answer:
       'Yes. Energy knows no boundaries: from the comfort of your home, you feel the same benefits as in person. It’s an ideal solution wherever you live.',
@@ -162,8 +167,7 @@ export const faq = [
 ] as const
 
 export const initiationPage = {
-  intro:
-    'A relaxed, friendly way to discover Reiki, feel the energies and take your first steps.',
+  intro: 'A relaxed, friendly way to discover Reiki, feel the energies and take your first steps.',
   atouts: ['Open to all', 'No experience needed', 'Small group', '≈ 1 hour'],
   presentation:
     'The discovery initiation is a group experience, open to all, to ease your way into Reiki. No experience is needed. There is nothing to prepare and nothing to believe — simply be present with yourself. I guide you step by step to feel the energy around you, the energy of Reiki.',
@@ -241,13 +245,11 @@ export const formationsPage = {
     'At your own pace, along your own path',
     'Payment possible in instalments',
   ],
-  pratique:
-    'Get in touch for the next available dates, and we’ll shape your journey together.',
+  pratique: 'Get in touch for the next available dates, and we’ll shape your journey together.',
 } as const
 
 export const seancePage = {
-  intro:
-    'A time just for you, to relax deeply, release stress and recover your energy.',
+  intro: 'A time just for you, to relax deeply, release stress and recover your energy.',
   deroulement:
     'Each session begins with a conversation, to identify your needs and priorities together. I gently welcome those going through tiredness, ongoing stress, a need to reconnect with themselves or a desire for change. Sessions take place in French or English, backed by more than twenty years of international experience.',
   explorer: {
@@ -284,8 +286,7 @@ export const seancePage = {
   pratique: {
     lieux:
       'At the practice in Ornex (01) or in Geneva (Aliotis Center, Rive district). And anywhere in the world with a distance session, as powerful as in person, without leaving home.',
-    recommandation:
-      'A cycle of 3 sessions 15 days apart, then one session a month if you wish.',
+    recommandation: 'A cycle of 3 sessions 15 days apart, then one session a month if you wish.',
   },
   avis: 'Reiki is a complement to conventional medicine and in no way replaces medical treatment.',
 } as const
@@ -324,12 +325,14 @@ export const trainingGroups = [
       {
         title: 'Reiki IV: Shinpiden (Level 4) — Teacher',
         date: 'September 2014',
-        detail: 'The Energy Space International · Reiki Master Tomoyo Nozaki · London, United Kingdom',
+        detail:
+          'The Energy Space International · Reiki Master Tomoyo Nozaki · London, United Kingdom',
       },
       {
         title: 'Reiki III: Okuden (Level 3) — Inner teaching',
         date: 'January 2014',
-        detail: 'The Energy Space International · Reiki Master Tomoyo Nozaki · London, United Kingdom',
+        detail:
+          'The Energy Space International · Reiki Master Tomoyo Nozaki · London, United Kingdom',
       },
       {
         title: 'Reiki II: Chuden (Level 2) — Professional',
@@ -537,8 +540,7 @@ export const ui = {
     ctaCall: 'Call Carole',
     instagram: 'Follow me on Instagram @carolemartinet_reiki',
     formLabel: 'Or write me a message',
-    formIntro:
-      'A question, a wish to know more? Leave me a note, I answer personally.',
+    formIntro: 'A question, a wish to know more? Leave me a note, I answer personally.',
   },
   contactForm: {
     name: 'Your name',

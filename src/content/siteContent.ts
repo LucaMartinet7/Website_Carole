@@ -130,6 +130,11 @@ export const contact = {
 
 export const faq = [
   {
+    question: 'Qu’est-ce que le Reiki ?',
+    answer:
+      'Le Reiki (靈氣) est une méthode énergétique d’origine japonaise, 100 % naturelle, dont l’objectif est de booster l’énergie vitale du receveur et d’améliorer ainsi son bien-être général, aussi bien dans son corps physique que dans sa santé mentale. Développé en 1922 par Mikao Usui Sensei, il s’est transmis à travers le monde entier jusqu’en Occident.\n\nIl agit sur trois niveaux : physique, émotionnel et mental. Cette pratique holistique est également reconnue pour son soutien puissant au développement personnel et spirituel, en aidant chacun à se reconnecter à son potentiel intérieur.\n\nL’énergie Reiki est une fréquence universelle qui contribue à équilibrer l’énergie vitale (le Ki) lorsqu’elle est affaiblie ou désharmonisée. On pourrait comparer le Reiki à un « sublimateur énergétique », qui vient nourrir, renforcer et combler les carences énergétiques. Son objectif ultime est de restaurer l’équilibre intérieur originel et d’offrir au receveur les meilleures conditions pour activer ses capacités naturelles d’auto-guérison.',
+  },
+  {
     question: 'Le Reiki à distance, est-ce aussi efficace qu’en cabinet ?',
     answer:
       'Oui. L’énergie n’a pas de frontière : à distance, confortablement installé chez vous, vous ressentez les mêmes bienfaits qu’en présentiel. C’est une solution idéale où que vous viviez.',
@@ -386,12 +391,14 @@ export const trainingGroups = [
       {
         title: 'Reiki IV : Shinpiden (Degré 4) — Enseignant',
         date: 'Septembre 2014',
-        detail: 'The Energy Space International · Maître Reiki Tomoyo Nozaki · Londres, Royaume-Uni',
+        detail:
+          'The Energy Space International · Maître Reiki Tomoyo Nozaki · Londres, Royaume-Uni',
       },
       {
         title: 'Reiki III : Okuden (Degré 3) — Enseignement intérieur',
         date: 'Janvier 2014',
-        detail: 'The Energy Space International · Maître Reiki Tomoyo Nozaki · Londres, Royaume-Uni',
+        detail:
+          'The Energy Space International · Maître Reiki Tomoyo Nozaki · Londres, Royaume-Uni',
       },
       {
         title: 'Reiki II : Chuden (Degré 2) — Professionnel',

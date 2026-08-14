@@ -26,9 +26,16 @@ export function FaqSection() {
                     +
                   </span>
                 </summary>
-                <p className="pb-5 pr-8 text-[0.93rem] font-normal leading-[1.8] text-[var(--muted)]">
-                  {item.answer}
-                </p>
+                <div className="flex flex-col gap-4 pb-5 pr-8">
+                  {item.answer.split('\n\n').map((paragraph) => (
+                    <p
+                      key={paragraph}
+                      className="text-[0.93rem] font-normal leading-[1.8] text-[var(--muted)]"
+                    >
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
               </details>
             ))}
           </div>
