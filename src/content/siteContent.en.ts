@@ -371,9 +371,9 @@ export const trainingGroups = [
     heading: 'Other training & personal development',
     items: [
       {
-        title: 'ThetaHealing® — Certified Practitioner (Basic DNA and Advanced DNA)',
+        title: 'Advanced DNA ThetaHealing™ Practitioner',
         date: 'September 2026',
-        detail: 'ThetaHealing® method developed by Vianna Stibal',
+        detail: 'Basic DNA and Advanced DNA courses, taught by a certified instructor · ThetaHealing™ method founded by Vianna Stibal',
       },
       {
         title: 'Akashic Records training',
@@ -521,7 +521,7 @@ export const thetaPage = {
     'Lighten the emotions and memories that weigh on you',
     'Feel freer, more aligned and more at peace',
   ],
-  certification: 'Certified ThetaHealing® Practitioner — Basic DNA and Advanced DNA (September 2026).',
+  certification: 'Advanced DNA ThetaHealing™ Practitioner — certified in Basic DNA and Advanced DNA (September 2026).',
   tarifTitle: 'Rate',
   tarif: 'ThetaHealing session: €100 — in person in Ornex or remotely.',
   pratique:

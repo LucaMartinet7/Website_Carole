@@ -437,9 +437,9 @@ export const trainingGroups = [
     heading: 'Autres formations & développement personnel',
     items: [
       {
-        title: 'ThetaHealing® — Praticienne certifiée (ADN de base et ADN avancé)',
+        title: 'Praticienne ThetaHealing™ ADN Avancé (Advanced DNA ThetaHealing™ Practitioner)',
         date: 'Septembre 2026',
-        detail: 'Méthode ThetaHealing® développée par Vianna Stibal',
+        detail: 'Formation ADN de base et ADN avancé, dispensée par une instructrice certifiée · Méthode ThetaHealing™ fondée par Vianna Stibal',
       },
       {
         title: 'Formation Annales Akashiques',
@@ -658,7 +658,7 @@ export const thetaPage = {
     'Alléger les émotions et les mémoires qui pèsent',
     'Vous sentir plus libre, plus aligné(e) et plus serein(e)',
   ],
-  certification: 'Praticienne ThetaHealing® certifiée — ADN de base et ADN avancé (septembre 2026).',
+  certification: 'Advanced DNA ThetaHealing™ Practitioner — Praticienne ThetaHealing™ certifiée, niveaux ADN de base et ADN avancé (septembre 2026).',
   tarifTitle: 'Tarif',
   tarif: 'Séance de ThetaHealing : 100 € — en présentiel à Ornex ou à distance.',
   pratique:
