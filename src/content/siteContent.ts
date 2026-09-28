@@ -511,8 +511,8 @@ export const ui = {
   hero: {
     eyebrow: 'Thérapeute Énergétique · Maître Reiki depuis 2014',
     title: 'Retrouvez votre *équilibre* et avancez vers ce qui est juste pour vous',
-    subtitle1: 'Séances de Reiki individuelles, initiations, formations.',
-    subtitle2: 'À Ornex, Genève, ou à distance, en français et en anglais.',
+    subtitle1: 'Séances de Reiki et de ThetaHealing, pour libérer ce qui vous freine.',
+    subtitle2: 'En cabinet ou à distance, en français et en anglais.',
     ctaEmail: 'Réserver par email',
     ctaServices: 'Découvrir les soins',
     scroll: 'Explorer',

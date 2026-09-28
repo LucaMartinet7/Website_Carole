@@ -539,8 +539,8 @@ export const ui = {
   hero: {
     eyebrow: 'Energy Therapist · Reiki Master since 2014',
     title: 'Find your *balance* and move towards what is right for you',
-    subtitle1: 'Individual Reiki sessions, initiations, training.',
-    subtitle2: 'In Ornex, Geneva, or remotely, in French and English.',
+    subtitle1: 'Reiki and ThetaHealing sessions, to release what holds you back.',
+    subtitle2: 'In person or remotely, in French and English.',
     ctaEmail: 'Book by email',
     ctaServices: 'Explore the treatments',
     scroll: 'Explore',
