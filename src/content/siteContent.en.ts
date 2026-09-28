@@ -38,9 +38,9 @@ export const services = [
   },
   {
     number: '02',
-    title: 'ThetaHealing',
+    title: 'ThetaHealing®',
     description:
-      'What if your blocks came from beliefs you have carried for years? In a state of deep relaxation, ThetaHealing helps you identify these limiting beliefs and transform them, so you can regain confidence, lightness and the freedom to move forward. In person or remotely.',
+      'What if your blocks came from beliefs you have carried for years? In a state of deep relaxation, ThetaHealing® helps you identify these limiting beliefs and transform them, so you can regain confidence, lightness and the freedom to move forward. In person or remotely.',
     href: '/thetahealing',
     cta: 'Learn more',
   },
@@ -371,9 +371,9 @@ export const trainingGroups = [
     heading: 'Other training & personal development',
     items: [
       {
-        title: 'Advanced DNA ThetaHealing™ Practitioner',
+        title: 'Advanced DNA ThetaHealing® Practitioner',
         date: 'September 2026',
-        detail: 'Basic DNA and Advanced DNA courses, taught by a certified instructor · ThetaHealing™ method founded by Vianna Stibal',
+        detail: 'Basic DNA and Advanced DNA courses, taught by a certified instructor · ThetaHealing® method founded by Vianna Stibal',
       },
       {
         title: 'Akashic Records training',
@@ -505,15 +505,15 @@ export const reikiPage = {
 } as const
 
 export const thetaPage = {
-  label: 'ThetaHealing',
+  label: 'ThetaHealing®',
   title: 'Transform what *holds you back*',
   intro:
-    'ThetaHealing is a meditative method that helps you identify and transform the limiting beliefs, fears and emotional blocks that hold you back.',
-  whatTitle: 'What is *ThetaHealing*?',
-  what: 'Developed in the 1990s by Vianna Stibal, ThetaHealing draws on the “theta” state, a brainwave associated with deep relaxation, meditation and intuition. In this state, it becomes easier to reach the beliefs we carry, often since childhood or passed down through our family history, and to replace them with feelings that are truer and freer.',
+    'ThetaHealing® is a meditative method that helps you identify and transform the limiting beliefs, fears and emotional blocks that hold you back.',
+  whatTitle: 'What is *ThetaHealing®*?',
+  what: 'Developed in the 1990s by Vianna Stibal, ThetaHealing® draws on the “theta” state, a brainwave associated with deep relaxation, meditation and intuition. In this state, it becomes easier to reach the beliefs we carry, often since childhood or passed down through our family history, and to replace them with feelings that are truer and freer.',
   howTitle: 'How a *session* unfolds',
   how: 'The session begins with a conversation to understand what you would like to work on. I then guide you into a state of deep relaxation. Together, we explore the beliefs and emotions linked to your situation, then transform them step by step. The session ends with a moment to share what you felt.',
-  benefitsTitle: 'What ThetaHealing can *bring you*',
+  benefitsTitle: 'What ThetaHealing® can *bring you*',
   benefits: [
     'Finally understand what is holding you back, often without your knowing',
     'Release fears and patterns that keep repeating',
@@ -521,12 +521,12 @@ export const thetaPage = {
     'Lighten the emotions and memories that weigh on you',
     'Feel freer, more aligned and more at peace',
   ],
-  certification: 'Advanced DNA ThetaHealing™ Practitioner — certified in Basic DNA and Advanced DNA (September 2026).',
+  certification: 'Advanced DNA ThetaHealing® Practitioner — certified in Basic DNA and Advanced DNA (September 2026).',
   tarifTitle: 'Rate',
-  tarif: 'ThetaHealing session: €100 — in person in Ornex or remotely.',
+  tarif: 'ThetaHealing® session: €100 — in person in Ornex or remotely.',
   pratique:
     'At the practice in Ornex or remotely, in French or English. Get in touch to find out more and book an appointment.',
-  avis: 'ThetaHealing is a complement to conventional medicine and never replaces medical advice or treatment.',
+  avis: 'ThetaHealing® is a complement to conventional medicine and never replaces medical advice or treatment.',
 } as const
 
 export const ui = {
@@ -537,9 +537,9 @@ export const ui = {
     langLabel: 'Language',
   },
   hero: {
-    eyebrow: 'Reiki Master since 2014 · ThetaHealing™ Practitioner',
+    eyebrow: 'Reiki Master since 2014 · ThetaHealing® Practitioner',
     title: 'Find your *balance* and move towards what is right for you',
-    subtitle1: 'Reiki and ThetaHealing sessions, to release what holds you back.',
+    subtitle1: 'Reiki and ThetaHealing® sessions, to release what holds you back.',
     subtitle2: 'In person or remotely, in French and English.',
     ctaEmail: 'Book by email',
     ctaServices: 'Explore the treatments',
@@ -556,7 +556,7 @@ export const ui = {
     label: 'What I offer',
     title: 'Release, discover, *find peace*',
     description:
-      'Many people come to let go of deep-seated blocks, or simply to discover energy release, often unsure where to begin. With Reiki and ThetaHealing, I meet you exactly where you are.',
+      'Many people come to let go of deep-seated blocks, or simply to discover energy release, often unsure where to begin. With Reiki and ThetaHealing®, I meet you exactly where you are.',
   },
   about: {
     label: 'About Carole',

@@ -38,9 +38,9 @@ export const services = [
   },
   {
     number: '02',
-    title: 'ThetaHealing',
+    title: 'ThetaHealing®',
     description:
-      'Et si vos blocages venaient de croyances ancrées en vous depuis longtemps ? En état de relaxation profonde, le ThetaHealing permet d’identifier ces croyances limitantes et de les transformer, pour retrouver confiance, légèreté et la liberté d’avancer. En présentiel ou à distance.',
+      'Et si vos blocages venaient de croyances ancrées en vous depuis longtemps ? En état de relaxation profonde, le ThetaHealing® permet d’identifier ces croyances limitantes et de les transformer, pour retrouver confiance, légèreté et la liberté d’avancer. En présentiel ou à distance.',
     href: '/thetahealing',
     cta: 'En savoir plus',
   },
@@ -437,9 +437,9 @@ export const trainingGroups = [
     heading: 'Autres formations & développement personnel',
     items: [
       {
-        title: 'Praticienne ThetaHealing™ ADN Avancé (Advanced DNA ThetaHealing™ Practitioner)',
+        title: 'Praticienne ThetaHealing® ADN Avancé (Advanced DNA ThetaHealing® Practitioner)',
         date: 'Septembre 2026',
-        detail: 'Formation ADN de base et ADN avancé, dispensée par une instructrice certifiée · Méthode ThetaHealing™ fondée par Vianna Stibal',
+        detail: 'Formation ADN de base et ADN avancé, dispensée par une instructrice certifiée · Méthode ThetaHealing® fondée par Vianna Stibal',
       },
       {
         title: 'Formation Annales Akashiques',
@@ -509,9 +509,9 @@ export const ui = {
     langLabel: 'Langue',
   },
   hero: {
-    eyebrow: 'Maître Reiki depuis 2014 · Praticienne ThetaHealing™',
+    eyebrow: 'Maître Reiki depuis 2014 · Praticienne ThetaHealing®',
     title: 'Retrouvez votre *équilibre* et avancez vers ce qui est juste pour vous',
-    subtitle1: 'Séances de Reiki et de ThetaHealing, pour libérer ce qui vous freine.',
+    subtitle1: 'Séances de Reiki et de ThetaHealing®, pour libérer ce qui vous freine.',
     subtitle2: 'En cabinet ou à distance, en français et en anglais.',
     ctaEmail: 'Réserver par email',
     ctaServices: 'Découvrir les soins',
@@ -528,7 +528,7 @@ export const ui = {
     label: 'Ce que je propose',
     title: 'Se libérer, découvrir, *s’apaiser*',
     description:
-      'Beaucoup viennent pour se libérer de blocages profonds, ou simplement pour découvrir la libération énergétique, souvent sans savoir par où commencer. Avec le Reiki et le ThetaHealing, je vous accueille là où vous en êtes.',
+      'Beaucoup viennent pour se libérer de blocages profonds, ou simplement pour découvrir la libération énergétique, souvent sans savoir par où commencer. Avec le Reiki et le ThetaHealing®, je vous accueille là où vous en êtes.',
   },
   about: {
     label: 'À propos de Carole',
@@ -642,15 +642,15 @@ export const reikiPage = {
 } as const
 
 export const thetaPage = {
-  label: 'ThetaHealing',
+  label: 'ThetaHealing®',
   title: 'Transformer ce qui vous *retient*',
   intro:
-    'Le ThetaHealing est une méthode méditative qui vous aide à identifier et à transformer les croyances limitantes, les peurs et les blocages émotionnels qui freinent votre élan.',
-  whatTitle: 'Qu’est-ce que le *ThetaHealing* ?',
-  what: 'Développé dans les années 1990 par Vianna Stibal, le ThetaHealing s’appuie sur l’état « thêta », une onde cérébrale associée à la relaxation profonde, à la méditation et à l’intuition. Dans cet état, il devient plus facile d’accéder aux croyances inscrites en nous, souvent depuis l’enfance ou héritées de notre histoire familiale, et de les remplacer par des ressentis plus justes et plus libres.',
+    'Le ThetaHealing® est une méthode méditative qui vous aide à identifier et à transformer les croyances limitantes, les peurs et les blocages émotionnels qui freinent votre élan.',
+  whatTitle: 'Qu’est-ce que le *ThetaHealing®* ?',
+  what: 'Développé dans les années 1990 par Vianna Stibal, le ThetaHealing® s’appuie sur l’état « thêta », une onde cérébrale associée à la relaxation profonde, à la méditation et à l’intuition. Dans cet état, il devient plus facile d’accéder aux croyances inscrites en nous, souvent depuis l’enfance ou héritées de notre histoire familiale, et de les remplacer par des ressentis plus justes et plus libres.',
   howTitle: 'Comment se déroule une *séance*',
   how: 'La séance commence par un échange pour cerner ce que vous souhaitez travailler. Je vous guide ensuite dans un état de détente profonde. Ensemble, nous explorons les croyances et les émotions liées à votre situation, puis nous les transformons pas à pas. La séance se termine par un temps de partage sur ce que vous avez ressenti.',
-  benefitsTitle: 'Ce que le ThetaHealing peut vous *apporter*',
+  benefitsTitle: 'Ce que le ThetaHealing® peut vous *apporter*',
   benefits: [
     'Comprendre enfin ce qui vous bloque, souvent sans le savoir',
     'Libérer les peurs et les schémas qui se répètent',
@@ -658,11 +658,11 @@ export const thetaPage = {
     'Alléger les émotions et les mémoires qui pèsent',
     'Vous sentir plus libre, plus aligné(e) et plus serein(e)',
   ],
-  certification: 'Advanced DNA ThetaHealing™ Practitioner — Praticienne ThetaHealing™ certifiée, niveaux ADN de base et ADN avancé (septembre 2026).',
+  certification: 'Advanced DNA ThetaHealing® Practitioner — Praticienne ThetaHealing® certifiée, niveaux ADN de base et ADN avancé (septembre 2026).',
   tarifTitle: 'Tarif',
-  tarif: 'Séance de ThetaHealing : 100 € — en présentiel à Ornex ou à distance.',
+  tarif: 'Séance de ThetaHealing® : 100 € — en présentiel à Ornex ou à distance.',
   pratique:
     'En cabinet à Ornex ou à distance, en français ou en anglais. Contactez-moi pour en savoir plus et convenir d’un rendez-vous.',
-  avis: 'Le ThetaHealing est un complément à la médecine traditionnelle et ne remplace en aucun cas un avis ou un traitement médical.',
+  avis: 'Le ThetaHealing® est un complément à la médecine traditionnelle et ne remplace en aucun cas un avis ou un traitement médical.',
 } as const
 
