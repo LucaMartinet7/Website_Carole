@@ -554,7 +554,7 @@ export const ui = {
   },
   services: {
     label: 'What I offer',
-    title: 'Release, discover, *learn*',
+    title: 'Release, discover, *find peace*',
     description:
       'Many people come to let go of deep-seated blocks, or simply to discover energy release, often unsure where to begin. With Reiki and ThetaHealing, I meet you exactly where you are.',
   },

@@ -526,7 +526,7 @@ export const ui = {
   },
   services: {
     label: 'Ce que je propose',
-    title: 'Se libérer, découvrir, *apprendre*',
+    title: 'Se libérer, découvrir, *s’apaiser*',
     description:
       'Beaucoup viennent pour se libérer de blocages profonds, ou simplement pour découvrir la libération énergétique, souvent sans savoir par où commencer. Avec le Reiki et le ThetaHealing, je vous accueille là où vous en êtes.',
   },
