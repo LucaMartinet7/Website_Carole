@@ -30,6 +30,25 @@ export const resonanceCards = [
 export const services = [
   {
     number: '01',
+    title: 'Reiki',
+    description:
+      'Une technique douce et non invasive pour libérer les tensions, rééquilibrer votre énergie et retrouver un calme profond. En présentiel ou à distance.',
+    href: '/reiki',
+    cta: 'En savoir plus',
+  },
+  {
+    number: '02',
+    title: 'ThetaHealing',
+    description:
+      'Une méthode méditative qui vous amène dans un état de relaxation profonde pour identifier et transformer les croyances limitantes, les peurs et les blocages émotionnels. En présentiel ou à distance.',
+    href: '/thetahealing',
+    cta: 'En savoir plus',
+  },
+] as const
+
+export const reikiOffers = [
+  {
+    number: '01',
     title: 'Séance individuelle',
     description:
       'Une technique douce et non invasive pour libérer les tensions, rééquilibrer votre énergie et retrouver un calme profond. En présentiel ou à distance.',
@@ -614,3 +633,25 @@ export const ui = {
     updatedLabel: 'Dernière mise à jour',
   },
 } as const
+
+export const reikiPage = {
+  label: 'Reiki',
+  title: 'Le Reiki, *sous toutes ses formes*',
+  intro:
+    'Une technique douce et non invasive pour libérer les tensions, rééquilibrer votre énergie et retrouver un calme profond. Je vous propose trois façons de vivre le Reiki : en séance individuelle, en initiation de groupe ou en formation.',
+} as const
+
+export const thetaPage = {
+  label: 'ThetaHealing',
+  title: 'Transformer ce qui vous *retient*',
+  intro:
+    'Le ThetaHealing est une méthode méditative qui vous aide à identifier et à transformer les croyances limitantes, les peurs et les blocages émotionnels qui freinent votre élan.',
+  whatTitle: 'Qu’est-ce que le *ThetaHealing* ?',
+  what: 'Développé dans les années 1990 par Vianna Stibal, le ThetaHealing s’appuie sur l’état « thêta », une onde cérébrale associée à la relaxation profonde, à la méditation et à l’intuition. Dans cet état, il devient plus facile d’accéder aux croyances inscrites en nous, souvent depuis l’enfance ou héritées de notre histoire familiale, et de les remplacer par des ressentis plus justes et plus libres.',
+  howTitle: 'Comment se déroule une *séance*',
+  how: 'La séance commence par un échange pour cerner ce que vous souhaitez travailler. Je vous guide ensuite dans un état de détente profonde. Ensemble, nous explorons les croyances et les émotions liées à votre situation, puis nous les transformons pas à pas. La séance se termine par un temps de partage sur ce que vous avez ressenti.',
+  pratique:
+    'En cabinet à Ornex ou à distance, en français ou en anglais. Contactez-moi pour en savoir plus et convenir d’un rendez-vous.',
+  avis: 'Le ThetaHealing est un complément à la médecine traditionnelle et ne remplace en aucun cas un avis ou un traitement médical.',
+} as const
+

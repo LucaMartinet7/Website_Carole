@@ -8,7 +8,9 @@ import { FormationsReiki } from './pages/FormationsReiki'
 import { HomePage } from './pages/HomePage'
 import { InitiationReiki } from './pages/InitiationReiki'
 import { MentionsLegales } from './pages/MentionsLegales'
+import { ReikiPage } from './pages/ReikiPage'
 import { SeanceIndividuelle } from './pages/SeanceIndividuelle'
+import { ThetaHealing } from './pages/ThetaHealing'
 
 function ScrollToTop() {
   const { pathname, hash } = useLocation()
@@ -34,6 +36,8 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/reiki" element={<ReikiPage />} />
+        <Route path="/thetahealing" element={<ThetaHealing />} />
         <Route path="/seance-individuelle" element={<SeanceIndividuelle />} />
         <Route path="/initiation-reiki" element={<InitiationReiki />} />
         <Route path="/formations-reiki" element={<FormationsReiki />} />

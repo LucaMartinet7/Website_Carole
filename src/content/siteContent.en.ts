@@ -30,6 +30,25 @@ export const resonanceCards = [
 export const services = [
   {
     number: '01',
+    title: 'Reiki',
+    description:
+      'A gentle, non-invasive technique to release tension, rebalance your energy and return to a deep sense of calm. In person or remotely.',
+    href: '/reiki',
+    cta: 'Learn more',
+  },
+  {
+    number: '02',
+    title: 'ThetaHealing',
+    description:
+      'A meditative method that takes you into a state of deep relaxation to identify and transform limiting beliefs, fears and emotional blocks. In person or remotely.',
+    href: '/thetahealing',
+    cta: 'Learn more',
+  },
+] as const
+
+export const reikiOffers = [
+  {
+    number: '01',
     title: 'Individual session',
     description:
       'A gentle, non-invasive technique to release tension, rebalance your energy and return to a deep sense of calm. In person or remotely.',
@@ -476,6 +495,27 @@ export const legalPage = {
       ],
     },
   ],
+} as const
+
+export const reikiPage = {
+  label: 'Reiki',
+  title: 'Reiki, *in all its forms*',
+  intro:
+    'A gentle, non-invasive technique to release tension, rebalance your energy and return to a deep sense of calm. I offer three ways to experience Reiki: an individual session, a group initiation or a training course.',
+} as const
+
+export const thetaPage = {
+  label: 'ThetaHealing',
+  title: 'Transform what *holds you back*',
+  intro:
+    'ThetaHealing is a meditative method that helps you identify and transform the limiting beliefs, fears and emotional blocks that hold you back.',
+  whatTitle: 'What is *ThetaHealing*?',
+  what: 'Developed in the 1990s by Vianna Stibal, ThetaHealing draws on the “theta” state, a brainwave associated with deep relaxation, meditation and intuition. In this state, it becomes easier to reach the beliefs we carry, often since childhood or passed down through our family history, and to replace them with feelings that are truer and freer.',
+  howTitle: 'How a *session* unfolds',
+  how: 'The session begins with a conversation to understand what you would like to work on. I then guide you into a state of deep relaxation. Together, we explore the beliefs and emotions linked to your situation, then transform them step by step. The session ends with a moment to share what you felt.',
+  pratique:
+    'At the practice in Ornex or remotely, in French or English. Get in touch to find out more and book an appointment.',
+  avis: 'ThetaHealing is a complement to conventional medicine and never replaces medical advice or treatment.',
 } as const
 
 export const ui = {
