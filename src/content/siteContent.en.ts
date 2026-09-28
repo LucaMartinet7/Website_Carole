@@ -315,7 +315,7 @@ export const aboutStory = [
   'Very young, I also sensed the energies around us and the presence of a subtle world. Nourished by treatments, courses and initiations, this sensitivity is today at the heart of my practice. It is what allows me to welcome you with attentiveness and without judgement.',
   'I then spent twenty years abroad, in the United States, Ivory Coast and the United Kingdom. There I finished my studies, worked in fashion, then put it all on hold to take the time to raise my children. Years full of encounters and giving of myself, which taught me the value of staying grounded and truly listening.',
   'In 2010, I decided to make this calling my profession. I trained in Usui Reiki Ryoho, its traditional form, with the Japanese Master Tomoyo Nozaki, and became a Reiki Master in London in 2014. This journey transformed my practice as much as my life.',
-  'Today, my practice draws on other approaches too, such as emotional release techniques (TERET) and the Akashic Records — all of them tools to help you let go of what holds you back and move forward, at your own pace, towards what feels right for you.',
+  'My practice draws on other approaches too, such as emotional release techniques (TERET), ThetaHealing® and the Akashic Records — all of them tools to help you let go of what holds you back and move forward, at your own pace, towards what feels right for you.',
 ] as const
 
 export const expertise = {

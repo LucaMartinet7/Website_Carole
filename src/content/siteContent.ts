@@ -381,7 +381,7 @@ export const aboutStory = [
   'Très jeune, j’ai aussi ressenti les énergies qui nous entourent et la présence d’un monde subtil. Nourrie par des soins, des stages et des initiations, cette sensibilité est aujourd’hui au cœur de ma pratique. C’est elle qui me permet de vous accueillir avec écoute et sans jugement.',
   'J’ai ensuite vécu vingt ans à l’étranger, aux États-Unis, en Côte d’Ivoire et au Royaume-Uni. J’y ai terminé mes études, travaillé dans la mode, puis tout arrêté pour prendre le temps d’élever mes enfants. Des années riches de rencontres et de don de soi, qui m’ont appris la valeur de l’ancrage et de l’écoute.',
   'En 2010, j’ai décidé de faire de cette vocation mon métier. Je me suis formée au Reiki Usui Ryoho, sa forme traditionnelle, auprès de la Maître japonaise Tomoyo Nozaki, et je suis devenue Maître Reiki à Londres en 2014. Ce cheminement a transformé ma pratique autant que ma vie.',
-  'Aujourd’hui, ma pratique s’enrichit d’autres approches, comme les techniques de libération émotionnelle (TERET) et les Annales Akashiques. Autant d’outils pour vous aider à vous libérer de ce qui vous retient et à avancer, à votre rythme, vers ce qui est juste pour vous.',
+  'Ma pratique s’enrichit d’autres approches, comme les techniques de libération émotionnelle (TERET), le ThetaHealing® et les Annales Akashiques. Autant d’outils pour vous aider à vous libérer de ce qui vous retient et à avancer, à votre rythme, vers ce qui est juste pour vous.',
 ] as const
 
 export const expertise = {
