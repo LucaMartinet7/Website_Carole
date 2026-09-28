@@ -159,9 +159,9 @@ export const faq = [
       'Yes. Energy knows no boundaries: from the comfort of your home, you feel the same benefits as in person. It’s an ideal solution wherever you live.',
   },
   {
-    question: 'Do you have to believe in it for it to work?',
+    question: 'What is ThetaHealing®?',
     answer:
-      'No, there is nothing to believe. Reiki works whether you are convinced or simply curious. All you need is to be present to yourself and let yourself be received.',
+      'ThetaHealing® is a meditative method developed by Vianna Stibal. Guided into a state of deep relaxation, the “theta” state, you can more easily reach the beliefs you carry, often since childhood or passed down through your family history. Together, we identify the ones that limit you — fears, repeating patterns, lack of confidence — and transform them so you can find lightness and the freedom to move forward. Sessions take place at the practice or remotely.',
   },
   {
     question: 'How many sessions are needed?',
@@ -169,14 +169,9 @@ export const faq = [
       'Everyone is unique. A cycle of 3 sessions spaced 15 days apart is often recommended to spark real change, then one session a month if you wish.',
   },
   {
-    question: 'What happens during a first session?',
+    question: 'Do Reiki and ThetaHealing® replace medical treatment?',
     answer:
-      'It always begins with a conversation, to understand your needs together. You stay dressed, lying down comfortably, while I place my hands on you or work a few centimetres from the body. A session lasts about an hour.',
-  },
-  {
-    question: 'Does Reiki replace medical treatment?',
-    answer:
-      'No. Reiki is a complement to conventional medicine and never replaces medical advice or treatment.',
+      'No. Reiki and ThetaHealing® are complements to conventional medicine and never replace medical advice or treatment.',
   },
   {
     question: 'Where do the sessions take place?',

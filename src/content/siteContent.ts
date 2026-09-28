@@ -159,9 +159,9 @@ export const faq = [
       'Oui. L’énergie n’a pas de frontière : à distance, confortablement installé chez vous, vous ressentez les mêmes bienfaits qu’en présentiel. C’est une solution idéale où que vous viviez.',
   },
   {
-    question: 'Faut-il y croire pour que ça fonctionne ?',
+    question: 'Qu’est-ce que le ThetaHealing® ?',
     answer:
-      'Non, il n’y a rien à croire. Le Reiki agit que vous soyez convaincu ou simplement curieux. Il suffit d’être présent à vous-même et de vous laisser accueillir.',
+      'Le ThetaHealing® est une méthode méditative développée par Vianna Stibal. Guidé dans un état de relaxation profonde, l’état « thêta », vous accédez plus facilement aux croyances ancrées en vous, souvent depuis l’enfance ou héritées de votre histoire familiale. Ensemble, nous identifions celles qui vous limitent — peurs, schémas qui se répètent, manque de confiance — et nous les transformons pour que vous retrouviez légèreté et liberté d’avancer. Les séances se font en cabinet ou à distance.',
   },
   {
     question: 'Combien de séances sont nécessaires ?',
@@ -169,14 +169,9 @@ export const faq = [
       'Chaque personne est unique. Un cycle de 3 séances espacées de 15 jours est souvent conseillé pour amorcer un vrai changement, puis une séance par mois si vous le souhaitez.',
   },
   {
-    question: 'Comment se passe une première séance ?',
+    question: 'Le Reiki et le ThetaHealing® remplacent-ils un traitement médical ?',
     answer:
-      'Elle commence toujours par un échange, pour cerner ensemble vos besoins. Vous restez habillé, allongé confortablement, pendant que je pose les mains ou travaille à quelques centimètres du corps. Une séance dure environ une heure.',
-  },
-  {
-    question: 'Le Reiki remplace-t-il un traitement médical ?',
-    answer:
-      'Non. Le Reiki est un complément à la médecine traditionnelle et ne remplace en aucun cas un avis ou un traitement médical.',
+      'Non. Le Reiki et le ThetaHealing® sont des compléments à la médecine traditionnelle et ne remplacent en aucun cas un avis ou un traitement médical.',
   },
   {
     question: 'Où ont lieu les séances ?',
