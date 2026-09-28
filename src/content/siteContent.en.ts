@@ -373,7 +373,7 @@ export const trainingGroups = [
       {
         title: 'Advanced DNA ThetaHealing® Practitioner',
         date: 'September 2026',
-        detail: 'Basic DNA and Advanced DNA courses, taught by a certified instructor · ThetaHealing® method founded by Vianna Stibal',
+        detail: 'Basic DNA and Advanced DNA courses, taught by Bruno Vikelas, certified ThetaHealing® instructor (ThetaHealing® Institute of Knowledge) · ThetaHealing® method founded by Vianna Stibal',
       },
       {
         title: 'Akashic Records training',

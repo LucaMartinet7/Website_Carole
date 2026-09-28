@@ -439,7 +439,7 @@ export const trainingGroups = [
       {
         title: 'Praticienne ThetaHealing® ADN Avancé (Advanced DNA ThetaHealing® Practitioner)',
         date: 'Septembre 2026',
-        detail: 'Formation ADN de base et ADN avancé, dispensée par une instructrice certifiée · Méthode ThetaHealing® fondée par Vianna Stibal',
+        detail: 'Formation ADN de base et ADN avancé, dispensée par Bruno Vikelas, instructeur certifié ThetaHealing® (ThetaHealing® Institute of Knowledge) · Méthode ThetaHealing® fondée par Vianna Stibal',
       },
       {
         title: 'Formation Annales Akashiques',
