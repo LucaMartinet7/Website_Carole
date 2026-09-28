@@ -537,7 +537,7 @@ export const ui = {
     langLabel: 'Language',
   },
   hero: {
-    eyebrow: 'Energy Therapist · Reiki Master since 2014',
+    eyebrow: 'Reiki Master since 2014 · ThetaHealing™ Practitioner',
     title: 'Find your *balance* and move towards what is right for you',
     subtitle1: 'Reiki and ThetaHealing sessions, to release what holds you back.',
     subtitle2: 'In person or remotely, in French and English.',
@@ -556,7 +556,7 @@ export const ui = {
     label: 'What I offer',
     title: 'Release, discover, *learn*',
     description:
-      'Many people come to let go of deep-seated blocks, or simply to discover Reiki, often unsure where to begin. I meet you exactly where you are. Reiki training, meanwhile, is for those who want to become more independent and deepen their own practice, at every level.',
+      'Many people come to let go of deep-seated blocks, or simply to discover energy release, often unsure where to begin. With Reiki and ThetaHealing, I meet you exactly where you are.',
   },
   about: {
     label: 'About Carole',

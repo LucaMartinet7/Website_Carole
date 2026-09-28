@@ -509,7 +509,7 @@ export const ui = {
     langLabel: 'Langue',
   },
   hero: {
-    eyebrow: 'Thérapeute Énergétique · Maître Reiki depuis 2014',
+    eyebrow: 'Maître Reiki depuis 2014 · Praticienne ThetaHealing™',
     title: 'Retrouvez votre *équilibre* et avancez vers ce qui est juste pour vous',
     subtitle1: 'Séances de Reiki et de ThetaHealing, pour libérer ce qui vous freine.',
     subtitle2: 'En cabinet ou à distance, en français et en anglais.',
@@ -528,7 +528,7 @@ export const ui = {
     label: 'Ce que je propose',
     title: 'Se libérer, découvrir, *apprendre*',
     description:
-      'Beaucoup viennent pour se libérer de blocages profonds, ou simplement pour découvrir le Reiki, souvent sans savoir par où commencer. Je vous accueille là où vous en êtes. Les formations Reiki, elles, s’adressent à celles et ceux qui souhaitent gagner en autonomie et approfondir leur pratique du Reiki, à tous les niveaux.',
+      'Beaucoup viennent pour se libérer de blocages profonds, ou simplement pour découvrir la libération énergétique, souvent sans savoir par où commencer. Avec le Reiki et le ThetaHealing, je vous accueille là où vous en êtes.',
   },
   about: {
     label: 'À propos de Carole',
