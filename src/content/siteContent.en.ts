@@ -40,7 +40,7 @@ export const services = [
     number: '02',
     title: 'ThetaHealing',
     description:
-      'A meditative method that takes you into a state of deep relaxation to identify and transform limiting beliefs, fears and emotional blocks. In person or remotely.',
+      'What if your blocks came from beliefs you have carried for years? In a state of deep relaxation, ThetaHealing helps you identify these limiting beliefs and transform them, so you can regain confidence, lightness and the freedom to move forward. In person or remotely.',
     href: '/thetahealing',
     cta: 'Learn more',
   },
@@ -371,9 +371,9 @@ export const trainingGroups = [
     heading: 'Other training & personal development',
     items: [
       {
-        title: 'ThetaHealing',
-        date: 'Upcoming',
-        detail: 'Training in progress',
+        title: 'ThetaHealing® — Certified Practitioner (Basic DNA and Advanced DNA)',
+        date: 'September 2026',
+        detail: 'ThetaHealing® method developed by Vianna Stibal',
       },
       {
         title: 'Akashic Records training',
@@ -513,6 +513,17 @@ export const thetaPage = {
   what: 'Developed in the 1990s by Vianna Stibal, ThetaHealing draws on the “theta” state, a brainwave associated with deep relaxation, meditation and intuition. In this state, it becomes easier to reach the beliefs we carry, often since childhood or passed down through our family history, and to replace them with feelings that are truer and freer.',
   howTitle: 'How a *session* unfolds',
   how: 'The session begins with a conversation to understand what you would like to work on. I then guide you into a state of deep relaxation. Together, we explore the beliefs and emotions linked to your situation, then transform them step by step. The session ends with a moment to share what you felt.',
+  benefitsTitle: 'What ThetaHealing can *bring you*',
+  benefits: [
+    'Finally understand what is holding you back, often without your knowing',
+    'Release fears and patterns that keep repeating',
+    'Regain confidence in yourself and your choices',
+    'Lighten the emotions and memories that weigh on you',
+    'Feel freer, more aligned and more at peace',
+  ],
+  certification: 'Certified ThetaHealing® Practitioner — Basic DNA and Advanced DNA (September 2026).',
+  tarifTitle: 'Rate',
+  tarif: 'ThetaHealing session: €100 — in person in Ornex or remotely.',
   pratique:
     'At the practice in Ornex or remotely, in French or English. Get in touch to find out more and book an appointment.',
   avis: 'ThetaHealing is a complement to conventional medicine and never replaces medical advice or treatment.',

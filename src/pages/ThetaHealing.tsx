@@ -52,8 +52,33 @@ export function ThetaHealing() {
         </Reveal>
 
         <Reveal delayMs={200}>
+          <div className="mt-12">
+            <h3 className={h3}>
+              <Rich text={thetaPage.benefitsTitle} />
+            </h3>
+            <ul className="mt-5 flex flex-col gap-3">
+              {thetaPage.benefits.map((item) => (
+                <li key={item} className="flex items-start gap-3">
+                  <span className="mt-[0.5rem] h-[6px] w-[6px] shrink-0 rounded-full bg-[var(--gold)]" />
+                  <span className="text-[0.93rem] font-normal leading-[1.75] text-[var(--cream)]">
+                    {item}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-8 text-[0.85rem] font-medium tracking-[0.04em] text-[var(--gold2)]">
+              {thetaPage.certification}
+            </p>
+          </div>
+        </Reveal>
+
+        <Reveal delayMs={200}>
           <Divider className="mt-14" />
           <div className="mt-14">
+            <h3 className={h3}>
+              <Rich text={thetaPage.tarifTitle} />
+            </h3>
+            <p className={body}>{thetaPage.tarif}</p>
             <p className={body}>{thetaPage.pratique}</p>
             <div className="mt-6 flex flex-wrap gap-x-6 gap-y-3 text-[0.85rem] tracking-[0.06em] text-[var(--gold2)]">
               <a href={`tel:${contact.phone}`}>{contact.phoneDisplay}</a>

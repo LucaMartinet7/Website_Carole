@@ -40,7 +40,7 @@ export const services = [
     number: '02',
     title: 'ThetaHealing',
     description:
-      'Une méthode méditative qui vous amène dans un état de relaxation profonde pour identifier et transformer les croyances limitantes, les peurs et les blocages émotionnels. En présentiel ou à distance.',
+      'Et si vos blocages venaient de croyances ancrées en vous depuis longtemps ? En état de relaxation profonde, le ThetaHealing permet d’identifier ces croyances limitantes et de les transformer, pour retrouver confiance, légèreté et la liberté d’avancer. En présentiel ou à distance.',
     href: '/thetahealing',
     cta: 'En savoir plus',
   },
@@ -437,9 +437,9 @@ export const trainingGroups = [
     heading: 'Autres formations & développement personnel',
     items: [
       {
-        title: 'ThetaHealing',
-        date: 'À venir',
-        detail: 'Formation en cours',
+        title: 'ThetaHealing® — Praticienne certifiée (ADN de base et ADN avancé)',
+        date: 'Septembre 2026',
+        detail: 'Méthode ThetaHealing® développée par Vianna Stibal',
       },
       {
         title: 'Formation Annales Akashiques',
@@ -650,6 +650,17 @@ export const thetaPage = {
   what: 'Développé dans les années 1990 par Vianna Stibal, le ThetaHealing s’appuie sur l’état « thêta », une onde cérébrale associée à la relaxation profonde, à la méditation et à l’intuition. Dans cet état, il devient plus facile d’accéder aux croyances inscrites en nous, souvent depuis l’enfance ou héritées de notre histoire familiale, et de les remplacer par des ressentis plus justes et plus libres.',
   howTitle: 'Comment se déroule une *séance*',
   how: 'La séance commence par un échange pour cerner ce que vous souhaitez travailler. Je vous guide ensuite dans un état de détente profonde. Ensemble, nous explorons les croyances et les émotions liées à votre situation, puis nous les transformons pas à pas. La séance se termine par un temps de partage sur ce que vous avez ressenti.',
+  benefitsTitle: 'Ce que le ThetaHealing peut vous *apporter*',
+  benefits: [
+    'Comprendre enfin ce qui vous bloque, souvent sans le savoir',
+    'Libérer les peurs et les schémas qui se répètent',
+    'Retrouver confiance en vous et en vos choix',
+    'Alléger les émotions et les mémoires qui pèsent',
+    'Vous sentir plus libre, plus aligné(e) et plus serein(e)',
+  ],
+  certification: 'Praticienne ThetaHealing® certifiée — ADN de base et ADN avancé (septembre 2026).',
+  tarifTitle: 'Tarif',
+  tarif: 'Séance de ThetaHealing : 100 € — en présentiel à Ornex ou à distance.',
   pratique:
     'En cabinet à Ornex ou à distance, en français ou en anglais. Contactez-moi pour en savoir plus et convenir d’un rendez-vous.',
   avis: 'Le ThetaHealing est un complément à la médecine traditionnelle et ne remplace en aucun cas un avis ou un traitement médical.',
