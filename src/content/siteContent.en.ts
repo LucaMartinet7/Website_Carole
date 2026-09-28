@@ -159,14 +159,14 @@ export const faq = [
       'Yes. Energy knows no boundaries: from the comfort of your home, you feel the same benefits as in person. It’s an ideal solution wherever you live.',
   },
   {
+    question: 'How many Reiki sessions are needed?',
+    answer:
+      'Everyone is unique. A cycle of 3 sessions spaced 15 days apart is often recommended to spark real change, then one session a month if you wish.',
+  },
+  {
     question: 'What is ThetaHealing®?',
     answer:
       'ThetaHealing® is a meditative method developed by Vianna Stibal. Guided into a state of deep relaxation, the “theta” state, you can more easily reach the beliefs you carry, often since childhood or passed down through your family history. Together, we identify the ones that limit you — fears, repeating patterns, lack of confidence — and transform them so you can find lightness and the freedom to move forward. Sessions take place at the practice or remotely.',
-  },
-  {
-    question: 'How many sessions are needed?',
-    answer:
-      'Everyone is unique. A cycle of 3 sessions spaced 15 days apart is often recommended to spark real change, then one session a month if you wish.',
   },
   {
     question: 'Do Reiki and ThetaHealing® replace medical treatment?',

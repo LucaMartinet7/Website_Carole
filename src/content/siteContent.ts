@@ -159,14 +159,14 @@ export const faq = [
       'Oui. L’énergie n’a pas de frontière : à distance, confortablement installé chez vous, vous ressentez les mêmes bienfaits qu’en présentiel. C’est une solution idéale où que vous viviez.',
   },
   {
+    question: 'Combien de séances de Reiki sont nécessaires ?',
+    answer:
+      'Chaque personne est unique. Un cycle de 3 séances espacées de 15 jours est souvent conseillé pour amorcer un vrai changement, puis une séance par mois si vous le souhaitez.',
+  },
+  {
     question: 'Qu’est-ce que le ThetaHealing® ?',
     answer:
       'Le ThetaHealing® est une méthode méditative développée par Vianna Stibal. Guidé dans un état de relaxation profonde, l’état « thêta », vous accédez plus facilement aux croyances ancrées en vous, souvent depuis l’enfance ou héritées de votre histoire familiale. Ensemble, nous identifions celles qui vous limitent — peurs, schémas qui se répètent, manque de confiance — et nous les transformons pour que vous retrouviez légèreté et liberté d’avancer. Les séances se font en cabinet ou à distance.',
-  },
-  {
-    question: 'Combien de séances sont nécessaires ?',
-    answer:
-      'Chaque personne est unique. Un cycle de 3 séances espacées de 15 jours est souvent conseillé pour amorcer un vrai changement, puis une séance par mois si vous le souhaitez.',
   },
   {
     question: 'Le Reiki et le ThetaHealing® remplacent-ils un traitement médical ?',
