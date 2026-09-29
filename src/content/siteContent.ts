@@ -655,7 +655,7 @@ export const thetaPage = {
   ],
   certification: 'Advanced DNA ThetaHealing® Practitioner — Praticienne ThetaHealing® certifiée, niveaux ADN de base et ADN avancé (septembre 2026).',
   tarifTitle: 'Tarif',
-  tarif: 'Séance de ThetaHealing® : 100 € — en présentiel à Ornex ou à distance.',
+  tarif: 'Séance de ThetaHealing® (1 h à 1 h 15) : 100 € — en présentiel à Ornex ou à distance.',
   pratique:
     'En cabinet à Ornex ou à distance, en français ou en anglais. Contactez-moi pour en savoir plus et convenir d’un rendez-vous.',
   avis: 'Le ThetaHealing® est un complément à la médecine traditionnelle et ne remplace en aucun cas un avis ou un traitement médical.',
