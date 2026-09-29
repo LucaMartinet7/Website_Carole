@@ -159,6 +159,11 @@ export const faq = [
       'Yes. Energy knows no boundaries: from the comfort of your home, you feel the same benefits as in person. It’s an ideal solution wherever you live.',
   },
   {
+    question: 'How does a distance session work?',
+    answer:
+      'Everything takes place over WhatsApp, while you stay comfortably at home. We begin with a conversation to take stock of what you are going through and what you would like to work on.\n\nFor Reiki, you then settle somewhere quiet, close your eyes and simply let yourself be carried during the treatment.\n\nFor ThetaHealing®, the session takes the form of a conversation, eyes closed, in the theta state: I guide you step by step to identify and transform what is holding you back.',
+  },
+  {
     question: 'How many Reiki sessions are needed?',
     answer:
       'Everyone is unique. A cycle of 3 sessions spaced 15 days apart is often recommended to spark real change, then one session a month if you wish.',

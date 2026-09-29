@@ -159,6 +159,11 @@ export const faq = [
       'Oui. L’énergie n’a pas de frontière : à distance, confortablement installé chez vous, vous ressentez les mêmes bienfaits qu’en présentiel. C’est une solution idéale où que vous viviez.',
   },
   {
+    question: 'Comment se passe une séance à distance ?',
+    answer:
+      'Tout se fait par WhatsApp, confortablement installé chez vous. Nous commençons par un échange pour faire le point sur ce que vous vivez et ce que vous souhaitez travailler.\n\nPour le Reiki, vous vous installez ensuite au calme, les yeux fermés, et vous vous laissez simplement porter pendant le soin.\n\nPour le ThetaHealing®, la séance se déroule sous forme d’échange, les yeux fermés, en état thêta : je vous guide pas à pas pour identifier et transformer ce qui vous freine.',
+  },
+  {
     question: 'Combien de séances de Reiki sont nécessaires ?',
     answer:
       'Chaque personne est unique. Un cycle de 3 séances espacées de 15 jours est souvent conseillé pour amorcer un vrai changement, puis une séance par mois si vous le souhaitez.',
