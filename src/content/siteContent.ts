@@ -32,7 +32,7 @@ export const services = [
     number: '01',
     title: 'Reiki',
     description:
-      'Une technique douce et non invasive pour libérer les tensions, rééquilibrer votre énergie et retrouver un calme profond. En présentiel ou à distance.',
+      'Une technique douce et non invasive pour libérer les tensions, rééquilibrer votre énergie et retrouver un calme profond. À distance, où que vous soyez, ou en cabinet.',
     href: '/reiki',
     cta: 'En savoir plus',
   },
@@ -40,7 +40,7 @@ export const services = [
     number: '02',
     title: 'ThetaHealing®',
     description:
-      'Et si vos blocages venaient de croyances ancrées en vous depuis longtemps ? En état de relaxation profonde, le ThetaHealing® permet d’identifier ces croyances limitantes et de les transformer, pour retrouver confiance, légèreté et la liberté d’avancer. En présentiel ou à distance.',
+      'Et si vos blocages venaient de croyances ancrées en vous depuis longtemps ? En état de relaxation profonde, le ThetaHealing® permet d’identifier ces croyances limitantes et de les transformer, pour retrouver confiance, légèreté et la liberté d’avancer. À distance, où que vous soyez, ou en cabinet.',
     href: '/thetahealing',
     cta: 'En savoir plus',
   },
@@ -51,7 +51,7 @@ export const reikiOffers = [
     number: '01',
     title: 'Séance individuelle',
     description:
-      'Une technique douce et non invasive pour libérer les tensions, rééquilibrer votre énergie et retrouver un calme profond. En présentiel ou à distance.',
+      'Une technique douce et non invasive pour libérer les tensions, rééquilibrer votre énergie et retrouver un calme profond. À distance, où que vous soyez, ou en cabinet.',
     href: '/seance-individuelle',
     cta: 'En savoir plus',
   },
@@ -82,16 +82,16 @@ export const aboutBadges = [
 
 export const locations = [
   {
+    title: 'À distance',
+    detail: 'Partout dans le monde, depuis chez vous',
+  },
+  {
     title: 'Ornex, Ain (01)',
-    detail: 'Cabinet principal',
+    detail: 'Au cabinet',
   },
   {
     title: 'Genève',
-    detail: 'Centre Aliotis, quartier de Rive',
-  },
-  {
-    title: 'À distance',
-    detail: 'Partout dans le monde',
+    detail: 'Occasionnellement, Centre Aliotis',
   },
 ] as const
 
@@ -176,7 +176,7 @@ export const faq = [
   {
     question: 'Où ont lieu les séances ?',
     answer:
-      'En cabinet à Ornex (01) ou à Genève (Centre Aliotis, quartier de Rive), et à distance partout dans le monde, en français ou en anglais.',
+      'Toutes mes séances se font à distance, partout dans le monde, en français ou en anglais : vous restez confortablement chez vous. Je vous reçois aussi en cabinet à Ornex (01), et occasionnellement à Genève (Centre Aliotis, quartier de Rive).',
   },
 ] as const
 
@@ -294,15 +294,15 @@ export const seancePage = {
   tarifs: {
     intro: 'Chaque séance dure environ une heure.',
     lignes: [
-      { lieu: 'À Ornex (01)', prix: '70 €' },
-      { lieu: 'À Genève', prix: '120 CHF' },
       { lieu: 'À distance (téléphone ou WhatsApp)', prix: '70 €' },
+      { lieu: 'En cabinet à Ornex (01)', prix: '70 €' },
+      { lieu: 'À Genève (occasionnellement)', prix: '120 CHF' },
     ],
     note: 'Règlement en espèces au cabinet, ou par PayPal, Revolut ou virement.',
   },
   pratique: {
     lieux:
-      'En cabinet à Ornex (01) ou à Genève (Centre Aliotis, quartier de Rive). Et partout dans le monde en séance à distance, aussi puissante qu’en cabinet, sans bouger de chez vous.',
+      'Partout dans le monde en séance à distance, aussi puissante qu’en cabinet, sans bouger de chez vous. Je vous reçois aussi en cabinet à Ornex (01), et occasionnellement à Genève (Centre Aliotis, quartier de Rive).',
     recommandation:
       'Un cycle de 3 séances à 15 jours d’intervalle, puis une séance par mois si vous le souhaitez.',
   },
@@ -507,7 +507,7 @@ export const ui = {
     eyebrow: 'Maître Reiki depuis 2014 · Praticienne ThetaHealing®',
     title: 'Retrouvez votre *équilibre* et avancez vers ce qui est juste pour vous',
     subtitle1: 'Séances de Reiki et de ThetaHealing®, pour libérer ce qui vous freine.',
-    subtitle2: 'En cabinet ou à distance, en français et en anglais.',
+    subtitle2: 'À distance, où que vous soyez, ou en cabinet — en français et en anglais.',
     ctaEmail: 'Réserver par email',
     ctaServices: 'Découvrir les soins',
     scroll: 'Explorer',
@@ -655,9 +655,9 @@ export const thetaPage = {
   ],
   certification: 'Advanced DNA ThetaHealing® Practitioner — Praticienne ThetaHealing® certifiée, niveaux ADN de base et ADN avancé (septembre 2026).',
   tarifTitle: 'Tarif',
-  tarif: 'Séance de ThetaHealing® (1 h à 1 h 15) : 100 € — en présentiel à Ornex ou à distance.',
+  tarif: 'Séance de ThetaHealing® (1 h à 1 h 15) : 100 € — à distance ou en cabinet à Ornex.',
   pratique:
-    'En cabinet à Ornex ou à distance, en français ou en anglais. Contactez-moi pour en savoir plus et convenir d’un rendez-vous.',
+    'À distance, où que vous soyez, ou en cabinet à Ornex, en français ou en anglais. Contactez-moi pour en savoir plus et convenir d’un rendez-vous.',
   avis: 'Le ThetaHealing® est un complément à la médecine traditionnelle et ne remplace en aucun cas un avis ou un traitement médical.',
 } as const
 

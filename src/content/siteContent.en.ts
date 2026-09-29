@@ -32,7 +32,7 @@ export const services = [
     number: '01',
     title: 'Reiki',
     description:
-      'A gentle, non-invasive technique to release tension, rebalance your energy and return to a deep sense of calm. In person or remotely.',
+      'A gentle, non-invasive technique to release tension, rebalance your energy and return to a deep sense of calm. Remotely, wherever you are, or in person.',
     href: '/reiki',
     cta: 'Learn more',
   },
@@ -40,7 +40,7 @@ export const services = [
     number: '02',
     title: 'ThetaHealing®',
     description:
-      'What if your blocks came from beliefs you have carried for years? In a state of deep relaxation, ThetaHealing® helps you identify these limiting beliefs and transform them, so you can regain confidence, lightness and the freedom to move forward. In person or remotely.',
+      'What if your blocks came from beliefs you have carried for years? In a state of deep relaxation, ThetaHealing® helps you identify these limiting beliefs and transform them, so you can regain confidence, lightness and the freedom to move forward. Remotely, wherever you are, or in person.',
     href: '/thetahealing',
     cta: 'Learn more',
   },
@@ -51,7 +51,7 @@ export const reikiOffers = [
     number: '01',
     title: 'Individual session',
     description:
-      'A gentle, non-invasive technique to release tension, rebalance your energy and return to a deep sense of calm. In person or remotely.',
+      'A gentle, non-invasive technique to release tension, rebalance your energy and return to a deep sense of calm. Remotely, wherever you are, or in person.',
     href: '/seance-individuelle',
     cta: 'Learn more',
   },
@@ -82,16 +82,16 @@ export const aboutBadges = [
 
 export const locations = [
   {
+    title: 'Remote',
+    detail: 'Anywhere in the world, from home',
+  },
+  {
     title: 'Ornex, Ain (01)',
-    detail: 'Main practice',
+    detail: 'At the practice',
   },
   {
     title: 'Geneva',
-    detail: 'Aliotis Center, Rive district',
-  },
-  {
-    title: 'Remote',
-    detail: 'Anywhere in the world',
+    detail: 'Occasionally, Aliotis Center',
   },
 ] as const
 
@@ -176,7 +176,7 @@ export const faq = [
   {
     question: 'Where do the sessions take place?',
     answer:
-      'In the practice room in Ornex (01) or in Geneva (Aliotis Center, Rive district), and remotely anywhere in the world, in French or English.',
+      'All my sessions are available remotely, anywhere in the world, in French or English — you stay comfortably at home. I also see clients in person at my practice in Ornex (01), and occasionally in Geneva (Aliotis Center, Rive district).',
   },
 ] as const
 
@@ -291,15 +291,15 @@ export const seancePage = {
   tarifs: {
     intro: 'Each session lasts about an hour.',
     lignes: [
-      { lieu: 'In Ornex (01)', prix: '70 €' },
-      { lieu: 'In Geneva', prix: '120 CHF' },
       { lieu: 'Remote (phone or WhatsApp)', prix: '70 €' },
+      { lieu: 'At the practice in Ornex (01)', prix: '70 €' },
+      { lieu: 'In Geneva (occasionally)', prix: '120 CHF' },
     ],
     note: 'Payment in cash at the practice, or by PayPal, Revolut or bank transfer.',
   },
   pratique: {
     lieux:
-      'At the practice in Ornex (01) or in Geneva (Aliotis Center, Rive district). And anywhere in the world with a distance session, as powerful as in person, without leaving home.',
+      'Anywhere in the world with a distance session, as powerful as in person, without leaving home. I also see clients at my practice in Ornex (01), and occasionally in Geneva (Aliotis Center, Rive district).',
     recommandation: 'A cycle of 3 sessions 15 days apart, then one session a month if you wish.',
   },
   avis: 'Reiki is a complement to conventional medicine and in no way replaces medical treatment.',
@@ -518,9 +518,9 @@ export const thetaPage = {
   ],
   certification: 'Advanced DNA ThetaHealing® Practitioner — certified in Basic DNA and Advanced DNA (September 2026).',
   tarifTitle: 'Rate',
-  tarif: 'ThetaHealing® session (1 hour to 1 hour 15): €100 — in person in Ornex or remotely.',
+  tarif: 'ThetaHealing® session (1 hour to 1 hour 15): €100 — remotely or in person in Ornex.',
   pratique:
-    'At the practice in Ornex or remotely, in French or English. Get in touch to find out more and book an appointment.',
+    'Remotely, wherever you are, or at the practice in Ornex, in French or English. Get in touch to find out more and book an appointment.',
   avis: 'ThetaHealing® is a complement to conventional medicine and never replaces medical advice or treatment.',
 } as const
 
@@ -535,7 +535,7 @@ export const ui = {
     eyebrow: 'Reiki Master since 2014 · ThetaHealing® Practitioner',
     title: 'Find your *balance* and move towards what is right for you',
     subtitle1: 'Reiki and ThetaHealing® sessions, to release what holds you back.',
-    subtitle2: 'In person or remotely, in French and English.',
+    subtitle2: 'Remotely, wherever you are, or in person — in French and English.',
     ctaEmail: 'Book by email',
     ctaServices: 'Explore the treatments',
     scroll: 'Explore',
