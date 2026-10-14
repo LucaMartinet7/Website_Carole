@@ -106,7 +106,7 @@ export function SeanceIndividuelle() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-[0.78rem] font-light leading-[1.7] text-[rgba(168,159,150,0.75)]">
+            <p className="mt-6 text-[1.15rem] font-normal italic leading-[1.6] text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
               {seancePage.tarifs.note}
             </p>
           </div>
