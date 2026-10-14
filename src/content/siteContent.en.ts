@@ -300,7 +300,7 @@ export const seancePage = {
       { lieu: 'At the practice in Ornex (01)', prix: '70 €' },
       { lieu: 'In Geneva (occasionally)', prix: '120 CHF' },
     ],
-    note: 'Payment in cash at the practice, or by PayPal, Revolut or bank transfer.',
+    note: 'Payment in cash at the practice, or by PayPal, Wero or bank transfer.',
   },
   pratique: {
     lieux:

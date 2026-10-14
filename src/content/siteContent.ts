@@ -303,7 +303,7 @@ export const seancePage = {
       { lieu: 'En cabinet à Ornex (01)', prix: '70 €' },
       { lieu: 'À Genève (occasionnellement)', prix: '120 CHF' },
     ],
-    note: 'Règlement en espèces au cabinet, ou par PayPal, Revolut ou virement.',
+    note: 'Règlement en espèces au cabinet, ou par PayPal, Wero ou virement.',
   },
   pratique: {
     lieux:
