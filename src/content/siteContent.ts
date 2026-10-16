@@ -303,7 +303,7 @@ export const seancePage = {
       { lieu: 'En cabinet à Ornex (01)', prix: '70 €' },
       { lieu: 'À Genève (occasionnellement)', prix: '120 CHF' },
     ],
-    note: 'Règlement en espèces au cabinet, ou par PayPal, Wero ou virement.',
+    note: 'Règlement en espèces au cabinet, ou par PayPal, Wero ou Virement.',
   },
   pratique: {
     lieux:
@@ -661,6 +661,7 @@ export const thetaPage = {
   certification: 'Advanced DNA ThetaHealing® Practitioner — Praticienne ThetaHealing® certifiée, niveaux ADN de base et ADN avancé (septembre 2026).',
   tarifTitle: 'Tarif',
   tarif: 'Séance de ThetaHealing® (1 h à 1 h 15) : 100 € — à distance ou en cabinet à Ornex.',
+  reglement: 'Règlement en espèces au cabinet, ou par PayPal, Wero ou Virement.',
   pratique:
     'À distance, où que vous soyez, ou en cabinet à Ornex, en français ou en anglais. Contactez-moi pour en savoir plus et convenir d’un rendez-vous.',
   avis: 'Le ThetaHealing® est un complément à la médecine traditionnelle et ne remplace en aucun cas un avis ou un traitement médical.',

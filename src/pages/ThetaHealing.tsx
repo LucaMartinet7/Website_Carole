@@ -79,6 +79,9 @@ export function ThetaHealing() {
               <Rich text={thetaPage.tarifTitle} />
             </h3>
             <p className={body}>{thetaPage.tarif}</p>
+            <p className="mt-4 text-[1.15rem] font-normal italic leading-[1.6] text-[var(--cream)] [font-family:'Cormorant_Garamond',serif]">
+              {thetaPage.reglement}
+            </p>
             <p className={body}>{thetaPage.pratique}</p>
             <div className="mt-6 flex flex-wrap gap-x-6 gap-y-3 text-[0.85rem] tracking-[0.06em] text-[var(--gold2)]">
               <a href={`tel:${contact.phone}`}>{contact.phoneDisplay}</a>
