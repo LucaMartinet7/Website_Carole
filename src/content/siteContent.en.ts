@@ -300,7 +300,7 @@ export const seancePage = {
       { lieu: 'At the practice in Ornex (01)', prix: '70 €' },
       { lieu: 'In Geneva (occasionally)', prix: '120 CHF' },
     ],
-    note: 'Payment in cash at the practice, or by PayPal, Wero or bank transfer.',
+    note: 'Payment in cash at the practice, or by PayPal, Wero or Bank transfer.',
   },
   pratique: {
     lieux:
@@ -524,7 +524,7 @@ export const thetaPage = {
   certification: 'Advanced DNA ThetaHealing® Practitioner — certified in Basic DNA and Advanced DNA (September 2026).',
   tarifTitle: 'Rate',
   tarif: 'ThetaHealing® session (1 hour to 1 hour 15): €100 — remotely or in person in Ornex.',
-  reglement: 'Payment in cash at the practice, or by PayPal, Wero or bank transfer.',
+  reglement: 'Payment in cash at the practice, or by PayPal, Wero or Bank transfer.',
   pratique:
     'Remotely, wherever you are, or at the practice in Ornex, in French or English. Get in touch to find out more and book an appointment.',
   avis: 'ThetaHealing® is a complement to conventional medicine and never replaces medical advice or treatment.',
